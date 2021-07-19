@@ -1,6 +1,8 @@
 import 'dart:convert';
-import '../../bin/src/models/phone_metadata.dart';
-import '../../bin/src/models/light_phone_metadata.dart';
+// ignore: avoid_relative_lib_imports
+import '../../lib/src/models/phone_metadata.dart';
+// ignore: avoid_relative_lib_imports
+import '../../lib/src/models/light_phone_metadata.dart';
 
 String encodePhoneMetadata(PhoneMetadata metadata) {
   return '''PhoneMetadata(

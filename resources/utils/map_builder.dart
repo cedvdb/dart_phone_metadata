@@ -1,4 +1,5 @@
-import '../../bin/src/models/light_phone_metadata.dart';
+// ignore: avoid_relative_lib_imports
+import '../../lib/src/models/light_phone_metadata.dart';
 
 Map<String, List<String>> toDialCodeMap(
   Map<String, LightPhoneMetadata> allMetadatas,

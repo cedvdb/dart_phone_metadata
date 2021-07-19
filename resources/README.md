@@ -3,7 +3,7 @@
 # Generate files
 
 ```
-dart resources/generate_files.dart && dart format bin/src
+dart resources/generate_files.dart && dart format lib/src
 ```
 
 # Parse phone metadata
