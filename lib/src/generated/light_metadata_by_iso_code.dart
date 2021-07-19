@@ -1,11 +1,11 @@
-import '../models/light_phone_metadata.dart';
+import "../models/light_phone_metadata.dart";
 
 const lightMetadataByIsoCode = {
-  'AC': LightPhoneMetadata(
-    dialCode: r'247',
-    isoCode: r'AC',
+  "AC": LightPhoneMetadata(
+    dialCode: r"247",
+    isoCode: r"AC",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -20,11 +20,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AD': LightPhoneMetadata(
-    dialCode: r'376',
-    isoCode: r'AD',
+  "AD": LightPhoneMetadata(
+    dialCode: r"376",
+    isoCode: r"AD",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -39,12 +39,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AE': LightPhoneMetadata(
-    dialCode: r'971',
-    isoCode: r'AE',
+  "AE": LightPhoneMetadata(
+    dialCode: r"971",
+    isoCode: r"AE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -58,12 +58,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AF': LightPhoneMetadata(
-    dialCode: r'93',
-    isoCode: r'AF',
+  "AF": LightPhoneMetadata(
+    dialCode: r"93",
+    isoCode: r"AF",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -77,12 +77,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AG': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'AG',
-    leadingDigits: r'268',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "AG": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"AG",
+    leadingDigits: r"268",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -96,12 +96,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AI': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'AI',
-    leadingDigits: r'264',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "AI": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"AI",
+    leadingDigits: r"264",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -115,12 +115,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AL': LightPhoneMetadata(
-    dialCode: r'355',
-    isoCode: r'AL',
+  "AL": LightPhoneMetadata(
+    dialCode: r"355",
+    isoCode: r"AL",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -134,12 +134,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AM': LightPhoneMetadata(
-    dialCode: r'374',
-    isoCode: r'AM',
+  "AM": LightPhoneMetadata(
+    dialCode: r"374",
+    isoCode: r"AM",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -153,11 +153,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AO': LightPhoneMetadata(
-    dialCode: r'244',
-    isoCode: r'AO',
+  "AO": LightPhoneMetadata(
+    dialCode: r"244",
+    isoCode: r"AO",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -172,12 +172,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AR': LightPhoneMetadata(
-    dialCode: r'54',
-    isoCode: r'AR',
+  "AR": LightPhoneMetadata(
+    dialCode: r"54",
+    isoCode: r"AR",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -191,12 +191,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AS': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'AS',
-    leadingDigits: r'684',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "AS": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"AS",
+    leadingDigits: r"684",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -210,12 +210,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AT': LightPhoneMetadata(
-    dialCode: r'43',
-    isoCode: r'AT',
+  "AT": LightPhoneMetadata(
+    dialCode: r"43",
+    isoCode: r"AT",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -229,12 +229,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AU': LightPhoneMetadata(
-    dialCode: r'61',
-    isoCode: r'AU',
+  "AU": LightPhoneMetadata(
+    dialCode: r"61",
+    isoCode: r"AU",
     leadingDigits: null,
-    internationalPrefix: r'001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011',
-    nationalPrefix: r'0',
+    internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -248,11 +248,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AW': LightPhoneMetadata(
-    dialCode: r'297',
-    isoCode: r'AW',
+  "AW": LightPhoneMetadata(
+    dialCode: r"297",
+    isoCode: r"AW",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -267,12 +267,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AX': LightPhoneMetadata(
-    dialCode: r'358',
-    isoCode: r'AX',
-    leadingDigits: r'18',
-    internationalPrefix: r'00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))',
-    nationalPrefix: r'0',
+  "AX": LightPhoneMetadata(
+    dialCode: r"358",
+    isoCode: r"AX",
+    leadingDigits: r"18",
+    internationalPrefix: r"00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -286,12 +286,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'AZ': LightPhoneMetadata(
-    dialCode: r'994',
-    isoCode: r'AZ',
+  "AZ": LightPhoneMetadata(
+    dialCode: r"994",
+    isoCode: r"AZ",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -305,12 +305,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BA': LightPhoneMetadata(
-    dialCode: r'387',
-    isoCode: r'BA',
+  "BA": LightPhoneMetadata(
+    dialCode: r"387",
+    isoCode: r"BA",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -324,12 +324,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BB': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'BB',
-    leadingDigits: r'246',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "BB": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"BB",
+    leadingDigits: r"246",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -343,12 +343,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BD': LightPhoneMetadata(
-    dialCode: r'880',
-    isoCode: r'BD',
+  "BD": LightPhoneMetadata(
+    dialCode: r"880",
+    isoCode: r"BD",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -362,12 +362,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BE': LightPhoneMetadata(
-    dialCode: r'32',
-    isoCode: r'BE',
+  "BE": LightPhoneMetadata(
+    dialCode: r"32",
+    isoCode: r"BE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -381,11 +381,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BF': LightPhoneMetadata(
-    dialCode: r'226',
-    isoCode: r'BF',
+  "BF": LightPhoneMetadata(
+    dialCode: r"226",
+    isoCode: r"BF",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -400,12 +400,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BG': LightPhoneMetadata(
-    dialCode: r'359',
-    isoCode: r'BG',
+  "BG": LightPhoneMetadata(
+    dialCode: r"359",
+    isoCode: r"BG",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -419,11 +419,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BH': LightPhoneMetadata(
-    dialCode: r'973',
-    isoCode: r'BH',
+  "BH": LightPhoneMetadata(
+    dialCode: r"973",
+    isoCode: r"BH",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -438,11 +438,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BI': LightPhoneMetadata(
-    dialCode: r'257',
-    isoCode: r'BI',
+  "BI": LightPhoneMetadata(
+    dialCode: r"257",
+    isoCode: r"BI",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -457,11 +457,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BJ': LightPhoneMetadata(
-    dialCode: r'229',
-    isoCode: r'BJ',
+  "BJ": LightPhoneMetadata(
+    dialCode: r"229",
+    isoCode: r"BJ",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -476,12 +476,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BL': LightPhoneMetadata(
-    dialCode: r'590',
-    isoCode: r'BL',
+  "BL": LightPhoneMetadata(
+    dialCode: r"590",
+    isoCode: r"BL",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -495,12 +495,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BM': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'BM',
-    leadingDigits: r'441',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "BM": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"BM",
+    leadingDigits: r"441",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -514,11 +514,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BN': LightPhoneMetadata(
-    dialCode: r'673',
-    isoCode: r'BN',
+  "BN": LightPhoneMetadata(
+    dialCode: r"673",
+    isoCode: r"BN",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -533,12 +533,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BO': LightPhoneMetadata(
-    dialCode: r'591',
-    isoCode: r'BO',
+  "BO": LightPhoneMetadata(
+    dialCode: r"591",
+    isoCode: r"BO",
     leadingDigits: null,
-    internationalPrefix: r'00(?:1\d)?',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00(?:1\d)?",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -552,11 +552,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BQ': LightPhoneMetadata(
-    dialCode: r'599',
-    isoCode: r'BQ',
-    leadingDigits: r'[347]',
-    internationalPrefix: r'00',
+  "BQ": LightPhoneMetadata(
+    dialCode: r"599",
+    isoCode: r"BQ",
+    leadingDigits: r"[347]",
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -571,12 +571,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BR': LightPhoneMetadata(
-    dialCode: r'55',
-    isoCode: r'BR',
+  "BR": LightPhoneMetadata(
+    dialCode: r"55",
+    isoCode: r"BR",
     leadingDigits: null,
-    internationalPrefix: r'00(?:1[245]|2[1-35]|31|4[13]|[56]5|99)',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00(?:1[245]|2[1-35]|31|4[13]|[56]5|99)",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -590,12 +590,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BS': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'BS',
-    leadingDigits: r'242',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "BS": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"BS",
+    leadingDigits: r"242",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -609,11 +609,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BT': LightPhoneMetadata(
-    dialCode: r'975',
-    isoCode: r'BT',
+  "BT": LightPhoneMetadata(
+    dialCode: r"975",
+    isoCode: r"BT",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -628,11 +628,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BW': LightPhoneMetadata(
-    dialCode: r'267',
-    isoCode: r'BW',
+  "BW": LightPhoneMetadata(
+    dialCode: r"267",
+    isoCode: r"BW",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -647,12 +647,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BY': LightPhoneMetadata(
-    dialCode: r'375',
-    isoCode: r'BY',
+  "BY": LightPhoneMetadata(
+    dialCode: r"375",
+    isoCode: r"BY",
     leadingDigits: null,
-    internationalPrefix: r'810',
-    nationalPrefix: r'8',
+    internationalPrefix: r"810",
+    nationalPrefix: r"8",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -666,11 +666,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'BZ': LightPhoneMetadata(
-    dialCode: r'501',
-    isoCode: r'BZ',
+  "BZ": LightPhoneMetadata(
+    dialCode: r"501",
+    isoCode: r"BZ",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -685,12 +685,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CA': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'CA',
+  "CA": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"CA",
     leadingDigits: null,
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -704,12 +704,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CC': LightPhoneMetadata(
-    dialCode: r'61',
-    isoCode: r'CC',
+  "CC": LightPhoneMetadata(
+    dialCode: r"61",
+    isoCode: r"CC",
     leadingDigits: null,
-    internationalPrefix: r'001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011',
-    nationalPrefix: r'0',
+    internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -723,12 +723,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CD': LightPhoneMetadata(
-    dialCode: r'243',
-    isoCode: r'CD',
+  "CD": LightPhoneMetadata(
+    dialCode: r"243",
+    isoCode: r"CD",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -742,11 +742,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CF': LightPhoneMetadata(
-    dialCode: r'236',
-    isoCode: r'CF',
+  "CF": LightPhoneMetadata(
+    dialCode: r"236",
+    isoCode: r"CF",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -761,11 +761,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CG': LightPhoneMetadata(
-    dialCode: r'242',
-    isoCode: r'CG',
+  "CG": LightPhoneMetadata(
+    dialCode: r"242",
+    isoCode: r"CG",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -780,12 +780,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CH': LightPhoneMetadata(
-    dialCode: r'41',
-    isoCode: r'CH',
+  "CH": LightPhoneMetadata(
+    dialCode: r"41",
+    isoCode: r"CH",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -799,11 +799,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CI': LightPhoneMetadata(
-    dialCode: r'225',
-    isoCode: r'CI',
+  "CI": LightPhoneMetadata(
+    dialCode: r"225",
+    isoCode: r"CI",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -818,11 +818,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CK': LightPhoneMetadata(
-    dialCode: r'682',
-    isoCode: r'CK',
+  "CK": LightPhoneMetadata(
+    dialCode: r"682",
+    isoCode: r"CK",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -837,12 +837,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CL': LightPhoneMetadata(
-    dialCode: r'56',
-    isoCode: r'CL',
+  "CL": LightPhoneMetadata(
+    dialCode: r"56",
+    isoCode: r"CL",
     leadingDigits: null,
     internationalPrefix:
-        r'(?:0|1(?:1[0-69]|2[02-5]|5[13-58]|69|7[0167]|8[018]))0',
+        r"(?:0|1(?:1[0-69]|2[02-5]|5[13-58]|69|7[0167]|8[018]))0",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -857,11 +857,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CM': LightPhoneMetadata(
-    dialCode: r'237',
-    isoCode: r'CM',
+  "CM": LightPhoneMetadata(
+    dialCode: r"237",
+    isoCode: r"CM",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -876,12 +876,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CN': LightPhoneMetadata(
-    dialCode: r'86',
-    isoCode: r'CN',
+  "CN": LightPhoneMetadata(
+    dialCode: r"86",
+    isoCode: r"CN",
     leadingDigits: null,
-    internationalPrefix: r'00|1(?:[12]\d|79)\d\d00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00|1(?:[12]\d|79)\d\d00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -895,12 +895,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CO': LightPhoneMetadata(
-    dialCode: r'57',
-    isoCode: r'CO',
+  "CO": LightPhoneMetadata(
+    dialCode: r"57",
+    isoCode: r"CO",
     leadingDigits: null,
-    internationalPrefix: r'00(?:4(?:[14]4|56)|[579])',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00(?:4(?:[14]4|56)|[579])",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -914,11 +914,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CR': LightPhoneMetadata(
-    dialCode: r'506',
-    isoCode: r'CR',
+  "CR": LightPhoneMetadata(
+    dialCode: r"506",
+    isoCode: r"CR",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -933,12 +933,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CU': LightPhoneMetadata(
-    dialCode: r'53',
-    isoCode: r'CU',
+  "CU": LightPhoneMetadata(
+    dialCode: r"53",
+    isoCode: r"CU",
     leadingDigits: null,
-    internationalPrefix: r'119',
-    nationalPrefix: r'0',
+    internationalPrefix: r"119",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -952,11 +952,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CV': LightPhoneMetadata(
-    dialCode: r'238',
-    isoCode: r'CV',
+  "CV": LightPhoneMetadata(
+    dialCode: r"238",
+    isoCode: r"CV",
     leadingDigits: null,
-    internationalPrefix: r'0',
+    internationalPrefix: r"0",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -971,11 +971,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CW': LightPhoneMetadata(
-    dialCode: r'599',
-    isoCode: r'CW',
-    leadingDigits: r'[69]',
-    internationalPrefix: r'00',
+  "CW": LightPhoneMetadata(
+    dialCode: r"599",
+    isoCode: r"CW",
+    leadingDigits: r"[69]",
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -990,12 +990,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CX': LightPhoneMetadata(
-    dialCode: r'61',
-    isoCode: r'CX',
+  "CX": LightPhoneMetadata(
+    dialCode: r"61",
+    isoCode: r"CX",
     leadingDigits: null,
-    internationalPrefix: r'001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011',
-    nationalPrefix: r'0',
+    internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1009,11 +1009,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CY': LightPhoneMetadata(
-    dialCode: r'357',
-    isoCode: r'CY',
+  "CY": LightPhoneMetadata(
+    dialCode: r"357",
+    isoCode: r"CY",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1028,11 +1028,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'CZ': LightPhoneMetadata(
-    dialCode: r'420',
-    isoCode: r'CZ',
+  "CZ": LightPhoneMetadata(
+    dialCode: r"420",
+    isoCode: r"CZ",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1047,12 +1047,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'DE': LightPhoneMetadata(
-    dialCode: r'49',
-    isoCode: r'DE',
+  "DE": LightPhoneMetadata(
+    dialCode: r"49",
+    isoCode: r"DE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1066,11 +1066,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'DJ': LightPhoneMetadata(
-    dialCode: r'253',
-    isoCode: r'DJ',
+  "DJ": LightPhoneMetadata(
+    dialCode: r"253",
+    isoCode: r"DJ",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1085,11 +1085,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'DK': LightPhoneMetadata(
-    dialCode: r'45',
-    isoCode: r'DK',
+  "DK": LightPhoneMetadata(
+    dialCode: r"45",
+    isoCode: r"DK",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1104,12 +1104,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'DM': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'DM',
-    leadingDigits: r'767',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "DM": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"DM",
+    leadingDigits: r"767",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1123,12 +1123,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'DO': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'DO',
-    leadingDigits: r'8001|8[024]9',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "DO": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"DO",
+    leadingDigits: r"8001|8[024]9",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1142,12 +1142,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'DZ': LightPhoneMetadata(
-    dialCode: r'213',
-    isoCode: r'DZ',
+  "DZ": LightPhoneMetadata(
+    dialCode: r"213",
+    isoCode: r"DZ",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1161,12 +1161,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'EC': LightPhoneMetadata(
-    dialCode: r'593',
-    isoCode: r'EC',
+  "EC": LightPhoneMetadata(
+    dialCode: r"593",
+    isoCode: r"EC",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1180,11 +1180,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'EE': LightPhoneMetadata(
-    dialCode: r'372',
-    isoCode: r'EE',
+  "EE": LightPhoneMetadata(
+    dialCode: r"372",
+    isoCode: r"EE",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1199,12 +1199,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'EG': LightPhoneMetadata(
-    dialCode: r'20',
-    isoCode: r'EG',
+  "EG": LightPhoneMetadata(
+    dialCode: r"20",
+    isoCode: r"EG",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1218,12 +1218,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'EH': LightPhoneMetadata(
-    dialCode: r'212',
-    isoCode: r'EH',
-    leadingDigits: r'528[89]',
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+  "EH": LightPhoneMetadata(
+    dialCode: r"212",
+    isoCode: r"EH",
+    leadingDigits: r"528[89]",
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1237,12 +1237,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ER': LightPhoneMetadata(
-    dialCode: r'291',
-    isoCode: r'ER',
+  "ER": LightPhoneMetadata(
+    dialCode: r"291",
+    isoCode: r"ER",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1256,11 +1256,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ES': LightPhoneMetadata(
-    dialCode: r'34',
-    isoCode: r'ES',
+  "ES": LightPhoneMetadata(
+    dialCode: r"34",
+    isoCode: r"ES",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1275,12 +1275,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ET': LightPhoneMetadata(
-    dialCode: r'251',
-    isoCode: r'ET',
+  "ET": LightPhoneMetadata(
+    dialCode: r"251",
+    isoCode: r"ET",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1294,12 +1294,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'FI': LightPhoneMetadata(
-    dialCode: r'358',
-    isoCode: r'FI',
-    leadingDigits: r'1[03-79]|[2-9]',
-    internationalPrefix: r'00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))',
-    nationalPrefix: r'0',
+  "FI": LightPhoneMetadata(
+    dialCode: r"358",
+    isoCode: r"FI",
+    leadingDigits: r"1[03-79]|[2-9]",
+    internationalPrefix: r"00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1313,11 +1313,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'FJ': LightPhoneMetadata(
-    dialCode: r'679',
-    isoCode: r'FJ',
+  "FJ": LightPhoneMetadata(
+    dialCode: r"679",
+    isoCode: r"FJ",
     leadingDigits: null,
-    internationalPrefix: r'0(?:0|52)',
+    internationalPrefix: r"0(?:0|52)",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1332,11 +1332,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'FK': LightPhoneMetadata(
-    dialCode: r'500',
-    isoCode: r'FK',
+  "FK": LightPhoneMetadata(
+    dialCode: r"500",
+    isoCode: r"FK",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1351,11 +1351,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'FM': LightPhoneMetadata(
-    dialCode: r'691',
-    isoCode: r'FM',
+  "FM": LightPhoneMetadata(
+    dialCode: r"691",
+    isoCode: r"FM",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1370,11 +1370,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'FO': LightPhoneMetadata(
-    dialCode: r'298',
-    isoCode: r'FO',
+  "FO": LightPhoneMetadata(
+    dialCode: r"298",
+    isoCode: r"FO",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1389,12 +1389,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'FR': LightPhoneMetadata(
-    dialCode: r'33',
-    isoCode: r'FR',
+  "FR": LightPhoneMetadata(
+    dialCode: r"33",
+    isoCode: r"FR",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1408,11 +1408,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GA': LightPhoneMetadata(
-    dialCode: r'241',
-    isoCode: r'GA',
+  "GA": LightPhoneMetadata(
+    dialCode: r"241",
+    isoCode: r"GA",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1427,12 +1427,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GB': LightPhoneMetadata(
-    dialCode: r'44',
-    isoCode: r'GB',
+  "GB": LightPhoneMetadata(
+    dialCode: r"44",
+    isoCode: r"GB",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1446,12 +1446,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GD': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'GD',
-    leadingDigits: r'473',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "GD": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"GD",
+    leadingDigits: r"473",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1465,12 +1465,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GE': LightPhoneMetadata(
-    dialCode: r'995',
-    isoCode: r'GE',
+  "GE": LightPhoneMetadata(
+    dialCode: r"995",
+    isoCode: r"GE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1484,12 +1484,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GF': LightPhoneMetadata(
-    dialCode: r'594',
-    isoCode: r'GF',
+  "GF": LightPhoneMetadata(
+    dialCode: r"594",
+    isoCode: r"GF",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1503,12 +1503,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GG': LightPhoneMetadata(
-    dialCode: r'44',
-    isoCode: r'GG',
+  "GG": LightPhoneMetadata(
+    dialCode: r"44",
+    isoCode: r"GG",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1522,12 +1522,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GH': LightPhoneMetadata(
-    dialCode: r'233',
-    isoCode: r'GH',
+  "GH": LightPhoneMetadata(
+    dialCode: r"233",
+    isoCode: r"GH",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1541,11 +1541,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GI': LightPhoneMetadata(
-    dialCode: r'350',
-    isoCode: r'GI',
+  "GI": LightPhoneMetadata(
+    dialCode: r"350",
+    isoCode: r"GI",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1560,11 +1560,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GL': LightPhoneMetadata(
-    dialCode: r'299',
-    isoCode: r'GL',
+  "GL": LightPhoneMetadata(
+    dialCode: r"299",
+    isoCode: r"GL",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1579,11 +1579,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GM': LightPhoneMetadata(
-    dialCode: r'220',
-    isoCode: r'GM',
+  "GM": LightPhoneMetadata(
+    dialCode: r"220",
+    isoCode: r"GM",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1598,11 +1598,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GN': LightPhoneMetadata(
-    dialCode: r'224',
-    isoCode: r'GN',
+  "GN": LightPhoneMetadata(
+    dialCode: r"224",
+    isoCode: r"GN",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1617,12 +1617,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GP': LightPhoneMetadata(
-    dialCode: r'590',
-    isoCode: r'GP',
+  "GP": LightPhoneMetadata(
+    dialCode: r"590",
+    isoCode: r"GP",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1636,11 +1636,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GQ': LightPhoneMetadata(
-    dialCode: r'240',
-    isoCode: r'GQ',
+  "GQ": LightPhoneMetadata(
+    dialCode: r"240",
+    isoCode: r"GQ",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1655,11 +1655,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GR': LightPhoneMetadata(
-    dialCode: r'30',
-    isoCode: r'GR',
+  "GR": LightPhoneMetadata(
+    dialCode: r"30",
+    isoCode: r"GR",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1674,11 +1674,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GT': LightPhoneMetadata(
-    dialCode: r'502',
-    isoCode: r'GT',
+  "GT": LightPhoneMetadata(
+    dialCode: r"502",
+    isoCode: r"GT",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1693,12 +1693,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GU': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'GU',
-    leadingDigits: r'671',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "GU": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"GU",
+    leadingDigits: r"671",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1712,11 +1712,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GW': LightPhoneMetadata(
-    dialCode: r'245',
-    isoCode: r'GW',
+  "GW": LightPhoneMetadata(
+    dialCode: r"245",
+    isoCode: r"GW",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1731,11 +1731,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'GY': LightPhoneMetadata(
-    dialCode: r'592',
-    isoCode: r'GY',
+  "GY": LightPhoneMetadata(
+    dialCode: r"592",
+    isoCode: r"GY",
     leadingDigits: null,
-    internationalPrefix: r'001',
+    internationalPrefix: r"001",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1750,11 +1750,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'HK': LightPhoneMetadata(
-    dialCode: r'852',
-    isoCode: r'HK',
+  "HK": LightPhoneMetadata(
+    dialCode: r"852",
+    isoCode: r"HK",
     leadingDigits: null,
-    internationalPrefix: r'00(?:30|5[09]|[126-9]?)',
+    internationalPrefix: r"00(?:30|5[09]|[126-9]?)",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1769,11 +1769,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'HN': LightPhoneMetadata(
-    dialCode: r'504',
-    isoCode: r'HN',
+  "HN": LightPhoneMetadata(
+    dialCode: r"504",
+    isoCode: r"HN",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1788,12 +1788,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'HR': LightPhoneMetadata(
-    dialCode: r'385',
-    isoCode: r'HR',
+  "HR": LightPhoneMetadata(
+    dialCode: r"385",
+    isoCode: r"HR",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1807,11 +1807,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'HT': LightPhoneMetadata(
-    dialCode: r'509',
-    isoCode: r'HT',
+  "HT": LightPhoneMetadata(
+    dialCode: r"509",
+    isoCode: r"HT",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1826,12 +1826,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'HU': LightPhoneMetadata(
-    dialCode: r'36',
-    isoCode: r'HU',
+  "HU": LightPhoneMetadata(
+    dialCode: r"36",
+    isoCode: r"HU",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'06',
+    internationalPrefix: r"00",
+    nationalPrefix: r"06",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1845,12 +1845,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ID': LightPhoneMetadata(
-    dialCode: r'62',
-    isoCode: r'ID',
+  "ID": LightPhoneMetadata(
+    dialCode: r"62",
+    isoCode: r"ID",
     leadingDigits: null,
-    internationalPrefix: r'00[89]',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00[89]",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1864,12 +1864,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IE': LightPhoneMetadata(
-    dialCode: r'353',
-    isoCode: r'IE',
+  "IE": LightPhoneMetadata(
+    dialCode: r"353",
+    isoCode: r"IE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1883,12 +1883,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IL': LightPhoneMetadata(
-    dialCode: r'972',
-    isoCode: r'IL',
+  "IL": LightPhoneMetadata(
+    dialCode: r"972",
+    isoCode: r"IL",
     leadingDigits: null,
-    internationalPrefix: r'0(?:0|1[2-9])',
-    nationalPrefix: r'0',
+    internationalPrefix: r"0(?:0|1[2-9])",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1902,12 +1902,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IM': LightPhoneMetadata(
-    dialCode: r'44',
-    isoCode: r'IM',
-    leadingDigits: r'74576|(?:16|7[56])24',
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+  "IM": LightPhoneMetadata(
+    dialCode: r"44",
+    isoCode: r"IM",
+    leadingDigits: r"74576|(?:16|7[56])24",
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1921,12 +1921,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IN': LightPhoneMetadata(
-    dialCode: r'91',
-    isoCode: r'IN',
+  "IN": LightPhoneMetadata(
+    dialCode: r"91",
+    isoCode: r"IN",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1940,11 +1940,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IO': LightPhoneMetadata(
-    dialCode: r'246',
-    isoCode: r'IO',
+  "IO": LightPhoneMetadata(
+    dialCode: r"246",
+    isoCode: r"IO",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -1959,12 +1959,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IQ': LightPhoneMetadata(
-    dialCode: r'964',
-    isoCode: r'IQ',
+  "IQ": LightPhoneMetadata(
+    dialCode: r"964",
+    isoCode: r"IQ",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1978,12 +1978,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IR': LightPhoneMetadata(
-    dialCode: r'98',
-    isoCode: r'IR',
+  "IR": LightPhoneMetadata(
+    dialCode: r"98",
+    isoCode: r"IR",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -1997,11 +1997,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IS': LightPhoneMetadata(
-    dialCode: r'354',
-    isoCode: r'IS',
+  "IS": LightPhoneMetadata(
+    dialCode: r"354",
+    isoCode: r"IS",
     leadingDigits: null,
-    internationalPrefix: r'00|1(?:0(?:01|[12]0)|100)',
+    internationalPrefix: r"00|1(?:0(?:01|[12]0)|100)",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2016,11 +2016,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'IT': LightPhoneMetadata(
-    dialCode: r'39',
-    isoCode: r'IT',
+  "IT": LightPhoneMetadata(
+    dialCode: r"39",
+    isoCode: r"IT",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2035,12 +2035,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'JE': LightPhoneMetadata(
-    dialCode: r'44',
-    isoCode: r'JE',
+  "JE": LightPhoneMetadata(
+    dialCode: r"44",
+    isoCode: r"JE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2054,12 +2054,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'JM': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'JM',
-    leadingDigits: r'658|876',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "JM": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"JM",
+    leadingDigits: r"658|876",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2073,12 +2073,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'JO': LightPhoneMetadata(
-    dialCode: r'962',
-    isoCode: r'JO',
+  "JO": LightPhoneMetadata(
+    dialCode: r"962",
+    isoCode: r"JO",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2092,12 +2092,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'JP': LightPhoneMetadata(
-    dialCode: r'81',
-    isoCode: r'JP',
+  "JP": LightPhoneMetadata(
+    dialCode: r"81",
+    isoCode: r"JP",
     leadingDigits: null,
-    internationalPrefix: r'010',
-    nationalPrefix: r'0',
+    internationalPrefix: r"010",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2111,12 +2111,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KE': LightPhoneMetadata(
-    dialCode: r'254',
-    isoCode: r'KE',
+  "KE": LightPhoneMetadata(
+    dialCode: r"254",
+    isoCode: r"KE",
     leadingDigits: null,
-    internationalPrefix: r'000',
-    nationalPrefix: r'0',
+    internationalPrefix: r"000",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2130,12 +2130,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KG': LightPhoneMetadata(
-    dialCode: r'996',
-    isoCode: r'KG',
+  "KG": LightPhoneMetadata(
+    dialCode: r"996",
+    isoCode: r"KG",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2149,12 +2149,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KH': LightPhoneMetadata(
-    dialCode: r'855',
-    isoCode: r'KH',
+  "KH": LightPhoneMetadata(
+    dialCode: r"855",
+    isoCode: r"KH",
     leadingDigits: null,
-    internationalPrefix: r'00[14-9]',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00[14-9]",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2168,12 +2168,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KI': LightPhoneMetadata(
-    dialCode: r'686',
-    isoCode: r'KI',
+  "KI": LightPhoneMetadata(
+    dialCode: r"686",
+    isoCode: r"KI",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2187,11 +2187,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KM': LightPhoneMetadata(
-    dialCode: r'269',
-    isoCode: r'KM',
+  "KM": LightPhoneMetadata(
+    dialCode: r"269",
+    isoCode: r"KM",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2206,12 +2206,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KN': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'KN',
-    leadingDigits: r'869',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "KN": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"KN",
+    leadingDigits: r"869",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2225,12 +2225,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KP': LightPhoneMetadata(
-    dialCode: r'850',
-    isoCode: r'KP',
+  "KP": LightPhoneMetadata(
+    dialCode: r"850",
+    isoCode: r"KP",
     leadingDigits: null,
-    internationalPrefix: r'00|99',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00|99",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2244,12 +2244,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KR': LightPhoneMetadata(
-    dialCode: r'82',
-    isoCode: r'KR',
+  "KR": LightPhoneMetadata(
+    dialCode: r"82",
+    isoCode: r"KR",
     leadingDigits: null,
-    internationalPrefix: r'00(?:[125689]|3(?:[46]5|91)|7(?:00|27|3|55|6[126]))',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00(?:[125689]|3(?:[46]5|91)|7(?:00|27|3|55|6[126]))",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2263,11 +2263,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KW': LightPhoneMetadata(
-    dialCode: r'965',
-    isoCode: r'KW',
+  "KW": LightPhoneMetadata(
+    dialCode: r"965",
+    isoCode: r"KW",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2282,12 +2282,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KY': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'KY',
-    leadingDigits: r'345',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "KY": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"KY",
+    leadingDigits: r"345",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2301,12 +2301,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'KZ': LightPhoneMetadata(
-    dialCode: r'7',
-    isoCode: r'KZ',
-    leadingDigits: r'33|7',
-    internationalPrefix: r'810',
-    nationalPrefix: r'8',
+  "KZ": LightPhoneMetadata(
+    dialCode: r"7",
+    isoCode: r"KZ",
+    leadingDigits: r"33|7",
+    internationalPrefix: r"810",
+    nationalPrefix: r"8",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2320,12 +2320,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LA': LightPhoneMetadata(
-    dialCode: r'856',
-    isoCode: r'LA',
+  "LA": LightPhoneMetadata(
+    dialCode: r"856",
+    isoCode: r"LA",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2339,12 +2339,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LB': LightPhoneMetadata(
-    dialCode: r'961',
-    isoCode: r'LB',
+  "LB": LightPhoneMetadata(
+    dialCode: r"961",
+    isoCode: r"LB",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2358,12 +2358,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LC': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'LC',
-    leadingDigits: r'758',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "LC": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"LC",
+    leadingDigits: r"758",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2377,12 +2377,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LI': LightPhoneMetadata(
-    dialCode: r'423',
-    isoCode: r'LI',
+  "LI": LightPhoneMetadata(
+    dialCode: r"423",
+    isoCode: r"LI",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2396,12 +2396,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LK': LightPhoneMetadata(
-    dialCode: r'94',
-    isoCode: r'LK',
+  "LK": LightPhoneMetadata(
+    dialCode: r"94",
+    isoCode: r"LK",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2415,12 +2415,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LR': LightPhoneMetadata(
-    dialCode: r'231',
-    isoCode: r'LR',
+  "LR": LightPhoneMetadata(
+    dialCode: r"231",
+    isoCode: r"LR",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2434,11 +2434,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LS': LightPhoneMetadata(
-    dialCode: r'266',
-    isoCode: r'LS',
+  "LS": LightPhoneMetadata(
+    dialCode: r"266",
+    isoCode: r"LS",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2453,12 +2453,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LT': LightPhoneMetadata(
-    dialCode: r'370',
-    isoCode: r'LT',
+  "LT": LightPhoneMetadata(
+    dialCode: r"370",
+    isoCode: r"LT",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'8',
+    internationalPrefix: r"00",
+    nationalPrefix: r"8",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2472,11 +2472,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LU': LightPhoneMetadata(
-    dialCode: r'352',
-    isoCode: r'LU',
+  "LU": LightPhoneMetadata(
+    dialCode: r"352",
+    isoCode: r"LU",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2491,11 +2491,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LV': LightPhoneMetadata(
-    dialCode: r'371',
-    isoCode: r'LV',
+  "LV": LightPhoneMetadata(
+    dialCode: r"371",
+    isoCode: r"LV",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2510,12 +2510,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'LY': LightPhoneMetadata(
-    dialCode: r'218',
-    isoCode: r'LY',
+  "LY": LightPhoneMetadata(
+    dialCode: r"218",
+    isoCode: r"LY",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2529,12 +2529,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MA': LightPhoneMetadata(
-    dialCode: r'212',
-    isoCode: r'MA',
+  "MA": LightPhoneMetadata(
+    dialCode: r"212",
+    isoCode: r"MA",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2548,12 +2548,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MC': LightPhoneMetadata(
-    dialCode: r'377',
-    isoCode: r'MC',
+  "MC": LightPhoneMetadata(
+    dialCode: r"377",
+    isoCode: r"MC",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2567,12 +2567,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MD': LightPhoneMetadata(
-    dialCode: r'373',
-    isoCode: r'MD',
+  "MD": LightPhoneMetadata(
+    dialCode: r"373",
+    isoCode: r"MD",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2586,12 +2586,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ME': LightPhoneMetadata(
-    dialCode: r'382',
-    isoCode: r'ME',
+  "ME": LightPhoneMetadata(
+    dialCode: r"382",
+    isoCode: r"ME",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2605,12 +2605,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MF': LightPhoneMetadata(
-    dialCode: r'590',
-    isoCode: r'MF',
+  "MF": LightPhoneMetadata(
+    dialCode: r"590",
+    isoCode: r"MF",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2624,12 +2624,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MG': LightPhoneMetadata(
-    dialCode: r'261',
-    isoCode: r'MG',
+  "MG": LightPhoneMetadata(
+    dialCode: r"261",
+    isoCode: r"MG",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2643,12 +2643,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MH': LightPhoneMetadata(
-    dialCode: r'692',
-    isoCode: r'MH',
+  "MH": LightPhoneMetadata(
+    dialCode: r"692",
+    isoCode: r"MH",
     leadingDigits: null,
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2662,12 +2662,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MK': LightPhoneMetadata(
-    dialCode: r'389',
-    isoCode: r'MK',
+  "MK": LightPhoneMetadata(
+    dialCode: r"389",
+    isoCode: r"MK",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2681,11 +2681,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ML': LightPhoneMetadata(
-    dialCode: r'223',
-    isoCode: r'ML',
+  "ML": LightPhoneMetadata(
+    dialCode: r"223",
+    isoCode: r"ML",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2700,12 +2700,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MM': LightPhoneMetadata(
-    dialCode: r'95',
-    isoCode: r'MM',
+  "MM": LightPhoneMetadata(
+    dialCode: r"95",
+    isoCode: r"MM",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2719,12 +2719,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MN': LightPhoneMetadata(
-    dialCode: r'976',
-    isoCode: r'MN',
+  "MN": LightPhoneMetadata(
+    dialCode: r"976",
+    isoCode: r"MN",
     leadingDigits: null,
-    internationalPrefix: r'001',
-    nationalPrefix: r'0',
+    internationalPrefix: r"001",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2738,11 +2738,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MO': LightPhoneMetadata(
-    dialCode: r'853',
-    isoCode: r'MO',
+  "MO": LightPhoneMetadata(
+    dialCode: r"853",
+    isoCode: r"MO",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2757,12 +2757,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MP': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'MP',
-    leadingDigits: r'670',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "MP": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"MP",
+    leadingDigits: r"670",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2776,12 +2776,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MQ': LightPhoneMetadata(
-    dialCode: r'596',
-    isoCode: r'MQ',
+  "MQ": LightPhoneMetadata(
+    dialCode: r"596",
+    isoCode: r"MQ",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2795,11 +2795,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MR': LightPhoneMetadata(
-    dialCode: r'222',
-    isoCode: r'MR',
+  "MR": LightPhoneMetadata(
+    dialCode: r"222",
+    isoCode: r"MR",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2814,12 +2814,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MS': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'MS',
-    leadingDigits: r'664',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "MS": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"MS",
+    leadingDigits: r"664",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2833,11 +2833,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MT': LightPhoneMetadata(
-    dialCode: r'356',
-    isoCode: r'MT',
+  "MT": LightPhoneMetadata(
+    dialCode: r"356",
+    isoCode: r"MT",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2852,11 +2852,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MU': LightPhoneMetadata(
-    dialCode: r'230',
-    isoCode: r'MU',
+  "MU": LightPhoneMetadata(
+    dialCode: r"230",
+    isoCode: r"MU",
     leadingDigits: null,
-    internationalPrefix: r'0(?:0|[24-7]0|3[03])',
+    internationalPrefix: r"0(?:0|[24-7]0|3[03])",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2871,11 +2871,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MV': LightPhoneMetadata(
-    dialCode: r'960',
-    isoCode: r'MV',
+  "MV": LightPhoneMetadata(
+    dialCode: r"960",
+    isoCode: r"MV",
     leadingDigits: null,
-    internationalPrefix: r'0(?:0|19)',
+    internationalPrefix: r"0(?:0|19)",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2890,12 +2890,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MW': LightPhoneMetadata(
-    dialCode: r'265',
-    isoCode: r'MW',
+  "MW": LightPhoneMetadata(
+    dialCode: r"265",
+    isoCode: r"MW",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2909,12 +2909,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MX': LightPhoneMetadata(
-    dialCode: r'52',
-    isoCode: r'MX',
+  "MX": LightPhoneMetadata(
+    dialCode: r"52",
+    isoCode: r"MX",
     leadingDigits: null,
-    internationalPrefix: r'0[09]',
-    nationalPrefix: r'01',
+    internationalPrefix: r"0[09]",
+    nationalPrefix: r"01",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2928,12 +2928,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MY': LightPhoneMetadata(
-    dialCode: r'60',
-    isoCode: r'MY',
+  "MY": LightPhoneMetadata(
+    dialCode: r"60",
+    isoCode: r"MY",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2947,11 +2947,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'MZ': LightPhoneMetadata(
-    dialCode: r'258',
-    isoCode: r'MZ',
+  "MZ": LightPhoneMetadata(
+    dialCode: r"258",
+    isoCode: r"MZ",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -2966,12 +2966,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NA': LightPhoneMetadata(
-    dialCode: r'264',
-    isoCode: r'NA',
+  "NA": LightPhoneMetadata(
+    dialCode: r"264",
+    isoCode: r"NA",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -2985,11 +2985,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NC': LightPhoneMetadata(
-    dialCode: r'687',
-    isoCode: r'NC',
+  "NC": LightPhoneMetadata(
+    dialCode: r"687",
+    isoCode: r"NC",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3004,11 +3004,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NE': LightPhoneMetadata(
-    dialCode: r'227',
-    isoCode: r'NE',
+  "NE": LightPhoneMetadata(
+    dialCode: r"227",
+    isoCode: r"NE",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3023,11 +3023,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NF': LightPhoneMetadata(
-    dialCode: r'672',
-    isoCode: r'NF',
+  "NF": LightPhoneMetadata(
+    dialCode: r"672",
+    isoCode: r"NF",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3042,12 +3042,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NG': LightPhoneMetadata(
-    dialCode: r'234',
-    isoCode: r'NG',
+  "NG": LightPhoneMetadata(
+    dialCode: r"234",
+    isoCode: r"NG",
     leadingDigits: null,
-    internationalPrefix: r'009',
-    nationalPrefix: r'0',
+    internationalPrefix: r"009",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3061,11 +3061,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NI': LightPhoneMetadata(
-    dialCode: r'505',
-    isoCode: r'NI',
+  "NI": LightPhoneMetadata(
+    dialCode: r"505",
+    isoCode: r"NI",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3080,12 +3080,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NL': LightPhoneMetadata(
-    dialCode: r'31',
-    isoCode: r'NL',
+  "NL": LightPhoneMetadata(
+    dialCode: r"31",
+    isoCode: r"NL",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3099,11 +3099,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NO': LightPhoneMetadata(
-    dialCode: r'47',
-    isoCode: r'NO',
-    leadingDigits: r'[02-689]|7[0-8]',
-    internationalPrefix: r'00',
+  "NO": LightPhoneMetadata(
+    dialCode: r"47",
+    isoCode: r"NO",
+    leadingDigits: r"[02-689]|7[0-8]",
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3118,12 +3118,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NP': LightPhoneMetadata(
-    dialCode: r'977',
-    isoCode: r'NP',
+  "NP": LightPhoneMetadata(
+    dialCode: r"977",
+    isoCode: r"NP",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3137,11 +3137,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NR': LightPhoneMetadata(
-    dialCode: r'674',
-    isoCode: r'NR',
+  "NR": LightPhoneMetadata(
+    dialCode: r"674",
+    isoCode: r"NR",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3156,11 +3156,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NU': LightPhoneMetadata(
-    dialCode: r'683',
-    isoCode: r'NU',
+  "NU": LightPhoneMetadata(
+    dialCode: r"683",
+    isoCode: r"NU",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3175,12 +3175,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'NZ': LightPhoneMetadata(
-    dialCode: r'64',
-    isoCode: r'NZ',
+  "NZ": LightPhoneMetadata(
+    dialCode: r"64",
+    isoCode: r"NZ",
     leadingDigits: null,
-    internationalPrefix: r'0(?:0|161)',
-    nationalPrefix: r'0',
+    internationalPrefix: r"0(?:0|161)",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3194,11 +3194,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'OM': LightPhoneMetadata(
-    dialCode: r'968',
-    isoCode: r'OM',
+  "OM": LightPhoneMetadata(
+    dialCode: r"968",
+    isoCode: r"OM",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3213,11 +3213,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PA': LightPhoneMetadata(
-    dialCode: r'507',
-    isoCode: r'PA',
+  "PA": LightPhoneMetadata(
+    dialCode: r"507",
+    isoCode: r"PA",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3232,12 +3232,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PE': LightPhoneMetadata(
-    dialCode: r'51',
-    isoCode: r'PE',
+  "PE": LightPhoneMetadata(
+    dialCode: r"51",
+    isoCode: r"PE",
     leadingDigits: null,
-    internationalPrefix: r'19(?:1[124]|77|90)00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"19(?:1[124]|77|90)00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3251,11 +3251,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PF': LightPhoneMetadata(
-    dialCode: r'689',
-    isoCode: r'PF',
+  "PF": LightPhoneMetadata(
+    dialCode: r"689",
+    isoCode: r"PF",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3270,11 +3270,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PG': LightPhoneMetadata(
-    dialCode: r'675',
-    isoCode: r'PG',
+  "PG": LightPhoneMetadata(
+    dialCode: r"675",
+    isoCode: r"PG",
     leadingDigits: null,
-    internationalPrefix: r'00|140[1-3]',
+    internationalPrefix: r"00|140[1-3]",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3289,12 +3289,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PH': LightPhoneMetadata(
-    dialCode: r'63',
-    isoCode: r'PH',
+  "PH": LightPhoneMetadata(
+    dialCode: r"63",
+    isoCode: r"PH",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3308,12 +3308,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PK': LightPhoneMetadata(
-    dialCode: r'92',
-    isoCode: r'PK',
+  "PK": LightPhoneMetadata(
+    dialCode: r"92",
+    isoCode: r"PK",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3327,11 +3327,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PL': LightPhoneMetadata(
-    dialCode: r'48',
-    isoCode: r'PL',
+  "PL": LightPhoneMetadata(
+    dialCode: r"48",
+    isoCode: r"PL",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3346,12 +3346,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PM': LightPhoneMetadata(
-    dialCode: r'508',
-    isoCode: r'PM',
+  "PM": LightPhoneMetadata(
+    dialCode: r"508",
+    isoCode: r"PM",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3365,12 +3365,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PR': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'PR',
-    leadingDigits: r'787|939',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "PR": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"PR",
+    leadingDigits: r"787|939",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3384,12 +3384,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PS': LightPhoneMetadata(
-    dialCode: r'970',
-    isoCode: r'PS',
+  "PS": LightPhoneMetadata(
+    dialCode: r"970",
+    isoCode: r"PS",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3403,11 +3403,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PT': LightPhoneMetadata(
-    dialCode: r'351',
-    isoCode: r'PT',
+  "PT": LightPhoneMetadata(
+    dialCode: r"351",
+    isoCode: r"PT",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3422,11 +3422,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PW': LightPhoneMetadata(
-    dialCode: r'680',
-    isoCode: r'PW',
+  "PW": LightPhoneMetadata(
+    dialCode: r"680",
+    isoCode: r"PW",
     leadingDigits: null,
-    internationalPrefix: r'01[12]',
+    internationalPrefix: r"01[12]",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3441,12 +3441,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'PY': LightPhoneMetadata(
-    dialCode: r'595',
-    isoCode: r'PY',
+  "PY": LightPhoneMetadata(
+    dialCode: r"595",
+    isoCode: r"PY",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3460,11 +3460,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'QA': LightPhoneMetadata(
-    dialCode: r'974',
-    isoCode: r'QA',
+  "QA": LightPhoneMetadata(
+    dialCode: r"974",
+    isoCode: r"QA",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3479,12 +3479,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'RE': LightPhoneMetadata(
-    dialCode: r'262',
-    isoCode: r'RE',
-    leadingDigits: r'26[23]|69|[89]',
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+  "RE": LightPhoneMetadata(
+    dialCode: r"262",
+    isoCode: r"RE",
+    leadingDigits: r"26[23]|69|[89]",
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3498,12 +3498,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'RO': LightPhoneMetadata(
-    dialCode: r'40',
-    isoCode: r'RO',
+  "RO": LightPhoneMetadata(
+    dialCode: r"40",
+    isoCode: r"RO",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3517,12 +3517,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'RS': LightPhoneMetadata(
-    dialCode: r'381',
-    isoCode: r'RS',
+  "RS": LightPhoneMetadata(
+    dialCode: r"381",
+    isoCode: r"RS",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3536,12 +3536,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'RU': LightPhoneMetadata(
-    dialCode: r'7',
-    isoCode: r'RU',
-    leadingDigits: r'3[04-689]|[489]',
-    internationalPrefix: r'810',
-    nationalPrefix: r'8',
+  "RU": LightPhoneMetadata(
+    dialCode: r"7",
+    isoCode: r"RU",
+    leadingDigits: r"3[04-689]|[489]",
+    internationalPrefix: r"810",
+    nationalPrefix: r"8",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3555,12 +3555,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'RW': LightPhoneMetadata(
-    dialCode: r'250',
-    isoCode: r'RW',
+  "RW": LightPhoneMetadata(
+    dialCode: r"250",
+    isoCode: r"RW",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3574,12 +3574,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SA': LightPhoneMetadata(
-    dialCode: r'966',
-    isoCode: r'SA',
+  "SA": LightPhoneMetadata(
+    dialCode: r"966",
+    isoCode: r"SA",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3593,11 +3593,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SB': LightPhoneMetadata(
-    dialCode: r'677',
-    isoCode: r'SB',
+  "SB": LightPhoneMetadata(
+    dialCode: r"677",
+    isoCode: r"SB",
     leadingDigits: null,
-    internationalPrefix: r'0[01]',
+    internationalPrefix: r"0[01]",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3612,11 +3612,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SC': LightPhoneMetadata(
-    dialCode: r'248',
-    isoCode: r'SC',
+  "SC": LightPhoneMetadata(
+    dialCode: r"248",
+    isoCode: r"SC",
     leadingDigits: null,
-    internationalPrefix: r'010|0[0-2]',
+    internationalPrefix: r"010|0[0-2]",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3631,12 +3631,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SD': LightPhoneMetadata(
-    dialCode: r'249',
-    isoCode: r'SD',
+  "SD": LightPhoneMetadata(
+    dialCode: r"249",
+    isoCode: r"SD",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3650,12 +3650,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SE': LightPhoneMetadata(
-    dialCode: r'46',
-    isoCode: r'SE',
+  "SE": LightPhoneMetadata(
+    dialCode: r"46",
+    isoCode: r"SE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3669,11 +3669,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SG': LightPhoneMetadata(
-    dialCode: r'65',
-    isoCode: r'SG',
+  "SG": LightPhoneMetadata(
+    dialCode: r"65",
+    isoCode: r"SG",
     leadingDigits: null,
-    internationalPrefix: r'0[0-3]\d',
+    internationalPrefix: r"0[0-3]\d",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3688,11 +3688,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SH': LightPhoneMetadata(
-    dialCode: r'290',
-    isoCode: r'SH',
-    leadingDigits: r'[256]',
-    internationalPrefix: r'00',
+  "SH": LightPhoneMetadata(
+    dialCode: r"290",
+    isoCode: r"SH",
+    leadingDigits: r"[256]",
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3707,12 +3707,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SI': LightPhoneMetadata(
-    dialCode: r'386',
-    isoCode: r'SI',
+  "SI": LightPhoneMetadata(
+    dialCode: r"386",
+    isoCode: r"SI",
     leadingDigits: null,
-    internationalPrefix: r'00|10(?:22|66|88|99)',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00|10(?:22|66|88|99)",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3726,11 +3726,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SJ': LightPhoneMetadata(
-    dialCode: r'47',
-    isoCode: r'SJ',
-    leadingDigits: r'79',
-    internationalPrefix: r'00',
+  "SJ": LightPhoneMetadata(
+    dialCode: r"47",
+    isoCode: r"SJ",
+    leadingDigits: r"79",
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3745,12 +3745,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SK': LightPhoneMetadata(
-    dialCode: r'421',
-    isoCode: r'SK',
+  "SK": LightPhoneMetadata(
+    dialCode: r"421",
+    isoCode: r"SK",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3764,12 +3764,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SL': LightPhoneMetadata(
-    dialCode: r'232',
-    isoCode: r'SL',
+  "SL": LightPhoneMetadata(
+    dialCode: r"232",
+    isoCode: r"SL",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3783,11 +3783,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SM': LightPhoneMetadata(
-    dialCode: r'378',
-    isoCode: r'SM',
+  "SM": LightPhoneMetadata(
+    dialCode: r"378",
+    isoCode: r"SM",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3802,11 +3802,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SN': LightPhoneMetadata(
-    dialCode: r'221',
-    isoCode: r'SN',
+  "SN": LightPhoneMetadata(
+    dialCode: r"221",
+    isoCode: r"SN",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3821,12 +3821,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SO': LightPhoneMetadata(
-    dialCode: r'252',
-    isoCode: r'SO',
+  "SO": LightPhoneMetadata(
+    dialCode: r"252",
+    isoCode: r"SO",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3840,11 +3840,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SR': LightPhoneMetadata(
-    dialCode: r'597',
-    isoCode: r'SR',
+  "SR": LightPhoneMetadata(
+    dialCode: r"597",
+    isoCode: r"SR",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3859,12 +3859,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SS': LightPhoneMetadata(
-    dialCode: r'211',
-    isoCode: r'SS',
+  "SS": LightPhoneMetadata(
+    dialCode: r"211",
+    isoCode: r"SS",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3878,11 +3878,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ST': LightPhoneMetadata(
-    dialCode: r'239',
-    isoCode: r'ST',
+  "ST": LightPhoneMetadata(
+    dialCode: r"239",
+    isoCode: r"ST",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3897,11 +3897,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SV': LightPhoneMetadata(
-    dialCode: r'503',
-    isoCode: r'SV',
+  "SV": LightPhoneMetadata(
+    dialCode: r"503",
+    isoCode: r"SV",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3916,12 +3916,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SX': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'SX',
-    leadingDigits: r'721',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "SX": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"SX",
+    leadingDigits: r"721",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3935,12 +3935,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SY': LightPhoneMetadata(
-    dialCode: r'963',
-    isoCode: r'SY',
+  "SY": LightPhoneMetadata(
+    dialCode: r"963",
+    isoCode: r"SY",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -3954,11 +3954,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'SZ': LightPhoneMetadata(
-    dialCode: r'268',
-    isoCode: r'SZ',
+  "SZ": LightPhoneMetadata(
+    dialCode: r"268",
+    isoCode: r"SZ",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3973,11 +3973,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TA': LightPhoneMetadata(
-    dialCode: r'290',
-    isoCode: r'TA',
-    leadingDigits: r'8',
-    internationalPrefix: r'00',
+  "TA": LightPhoneMetadata(
+    dialCode: r"290",
+    isoCode: r"TA",
+    leadingDigits: r"8",
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -3992,12 +3992,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TC': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'TC',
-    leadingDigits: r'649',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "TC": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"TC",
+    leadingDigits: r"649",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4011,11 +4011,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TD': LightPhoneMetadata(
-    dialCode: r'235',
-    isoCode: r'TD',
+  "TD": LightPhoneMetadata(
+    dialCode: r"235",
+    isoCode: r"TD",
     leadingDigits: null,
-    internationalPrefix: r'00|16',
+    internationalPrefix: r"00|16",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4030,11 +4030,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TG': LightPhoneMetadata(
-    dialCode: r'228',
-    isoCode: r'TG',
+  "TG": LightPhoneMetadata(
+    dialCode: r"228",
+    isoCode: r"TG",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4049,12 +4049,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TH': LightPhoneMetadata(
-    dialCode: r'66',
-    isoCode: r'TH',
+  "TH": LightPhoneMetadata(
+    dialCode: r"66",
+    isoCode: r"TH",
     leadingDigits: null,
-    internationalPrefix: r'00[1-9]',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00[1-9]",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4068,12 +4068,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TJ': LightPhoneMetadata(
-    dialCode: r'992',
-    isoCode: r'TJ',
+  "TJ": LightPhoneMetadata(
+    dialCode: r"992",
+    isoCode: r"TJ",
     leadingDigits: null,
-    internationalPrefix: r'810',
-    nationalPrefix: r'8',
+    internationalPrefix: r"810",
+    nationalPrefix: r"8",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4087,11 +4087,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TK': LightPhoneMetadata(
-    dialCode: r'690',
-    isoCode: r'TK',
+  "TK": LightPhoneMetadata(
+    dialCode: r"690",
+    isoCode: r"TK",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4106,11 +4106,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TL': LightPhoneMetadata(
-    dialCode: r'670',
-    isoCode: r'TL',
+  "TL": LightPhoneMetadata(
+    dialCode: r"670",
+    isoCode: r"TL",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4125,12 +4125,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TM': LightPhoneMetadata(
-    dialCode: r'993',
-    isoCode: r'TM',
+  "TM": LightPhoneMetadata(
+    dialCode: r"993",
+    isoCode: r"TM",
     leadingDigits: null,
-    internationalPrefix: r'810',
-    nationalPrefix: r'8',
+    internationalPrefix: r"810",
+    nationalPrefix: r"8",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4144,11 +4144,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TN': LightPhoneMetadata(
-    dialCode: r'216',
-    isoCode: r'TN',
+  "TN": LightPhoneMetadata(
+    dialCode: r"216",
+    isoCode: r"TN",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4163,11 +4163,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TO': LightPhoneMetadata(
-    dialCode: r'676',
-    isoCode: r'TO',
+  "TO": LightPhoneMetadata(
+    dialCode: r"676",
+    isoCode: r"TO",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4182,12 +4182,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TR': LightPhoneMetadata(
-    dialCode: r'90',
-    isoCode: r'TR',
+  "TR": LightPhoneMetadata(
+    dialCode: r"90",
+    isoCode: r"TR",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4201,12 +4201,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TT': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'TT',
-    leadingDigits: r'868',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "TT": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"TT",
+    leadingDigits: r"868",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4220,11 +4220,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TV': LightPhoneMetadata(
-    dialCode: r'688',
-    isoCode: r'TV',
+  "TV": LightPhoneMetadata(
+    dialCode: r"688",
+    isoCode: r"TV",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4239,12 +4239,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TW': LightPhoneMetadata(
-    dialCode: r'886',
-    isoCode: r'TW',
+  "TW": LightPhoneMetadata(
+    dialCode: r"886",
+    isoCode: r"TW",
     leadingDigits: null,
-    internationalPrefix: r'0(?:0[25-79]|19)',
-    nationalPrefix: r'0',
+    internationalPrefix: r"0(?:0[25-79]|19)",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4258,12 +4258,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'TZ': LightPhoneMetadata(
-    dialCode: r'255',
-    isoCode: r'TZ',
+  "TZ": LightPhoneMetadata(
+    dialCode: r"255",
+    isoCode: r"TZ",
     leadingDigits: null,
-    internationalPrefix: r'00[056]',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00[056]",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4277,12 +4277,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'UA': LightPhoneMetadata(
-    dialCode: r'380',
-    isoCode: r'UA',
+  "UA": LightPhoneMetadata(
+    dialCode: r"380",
+    isoCode: r"UA",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4296,12 +4296,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'UG': LightPhoneMetadata(
-    dialCode: r'256',
-    isoCode: r'UG',
+  "UG": LightPhoneMetadata(
+    dialCode: r"256",
+    isoCode: r"UG",
     leadingDigits: null,
-    internationalPrefix: r'00[057]',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00[057]",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4315,12 +4315,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'US': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'US',
+  "US": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"US",
     leadingDigits: null,
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4334,12 +4334,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'UY': LightPhoneMetadata(
-    dialCode: r'598',
-    isoCode: r'UY',
+  "UY": LightPhoneMetadata(
+    dialCode: r"598",
+    isoCode: r"UY",
     leadingDigits: null,
-    internationalPrefix: r'0(?:0|1[3-9]\d)',
-    nationalPrefix: r'0',
+    internationalPrefix: r"0(?:0|1[3-9]\d)",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4353,12 +4353,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'UZ': LightPhoneMetadata(
-    dialCode: r'998',
-    isoCode: r'UZ',
+  "UZ": LightPhoneMetadata(
+    dialCode: r"998",
+    isoCode: r"UZ",
     leadingDigits: null,
-    internationalPrefix: r'810',
-    nationalPrefix: r'8',
+    internationalPrefix: r"810",
+    nationalPrefix: r"8",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4372,11 +4372,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'VA': LightPhoneMetadata(
-    dialCode: r'39',
-    isoCode: r'VA',
-    leadingDigits: r'06698',
-    internationalPrefix: r'00',
+  "VA": LightPhoneMetadata(
+    dialCode: r"39",
+    isoCode: r"VA",
+    leadingDigits: r"06698",
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4391,12 +4391,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'VC': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'VC',
-    leadingDigits: r'784',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "VC": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"VC",
+    leadingDigits: r"784",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4410,12 +4410,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'VE': LightPhoneMetadata(
-    dialCode: r'58',
-    isoCode: r'VE',
+  "VE": LightPhoneMetadata(
+    dialCode: r"58",
+    isoCode: r"VE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4429,12 +4429,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'VG': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'VG',
-    leadingDigits: r'284',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "VG": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"VG",
+    leadingDigits: r"284",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4448,12 +4448,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'VI': LightPhoneMetadata(
-    dialCode: r'1',
-    isoCode: r'VI',
-    leadingDigits: r'340',
-    internationalPrefix: r'011',
-    nationalPrefix: r'1',
+  "VI": LightPhoneMetadata(
+    dialCode: r"1",
+    isoCode: r"VI",
+    leadingDigits: r"340",
+    internationalPrefix: r"011",
+    nationalPrefix: r"1",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4467,12 +4467,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'VN': LightPhoneMetadata(
-    dialCode: r'84',
-    isoCode: r'VN',
+  "VN": LightPhoneMetadata(
+    dialCode: r"84",
+    isoCode: r"VN",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4486,11 +4486,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'VU': LightPhoneMetadata(
-    dialCode: r'678',
-    isoCode: r'VU',
+  "VU": LightPhoneMetadata(
+    dialCode: r"678",
+    isoCode: r"VU",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4505,11 +4505,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'WF': LightPhoneMetadata(
-    dialCode: r'681',
-    isoCode: r'WF',
+  "WF": LightPhoneMetadata(
+    dialCode: r"681",
+    isoCode: r"WF",
     leadingDigits: null,
-    internationalPrefix: r'00',
+    internationalPrefix: r"00",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4524,11 +4524,11 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'WS': LightPhoneMetadata(
-    dialCode: r'685',
-    isoCode: r'WS',
+  "WS": LightPhoneMetadata(
+    dialCode: r"685",
+    isoCode: r"WS",
     leadingDigits: null,
-    internationalPrefix: r'0',
+    internationalPrefix: r"0",
     nationalPrefix: null,
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
@@ -4543,12 +4543,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'XK': LightPhoneMetadata(
-    dialCode: r'383',
-    isoCode: r'XK',
+  "XK": LightPhoneMetadata(
+    dialCode: r"383",
+    isoCode: r"XK",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4562,12 +4562,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'YE': LightPhoneMetadata(
-    dialCode: r'967',
-    isoCode: r'YE',
+  "YE": LightPhoneMetadata(
+    dialCode: r"967",
+    isoCode: r"YE",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4581,12 +4581,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'YT': LightPhoneMetadata(
-    dialCode: r'262',
-    isoCode: r'YT',
-    leadingDigits: r'269|63',
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+  "YT": LightPhoneMetadata(
+    dialCode: r"262",
+    isoCode: r"YT",
+    leadingDigits: r"269|63",
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4600,12 +4600,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ZA': LightPhoneMetadata(
-    dialCode: r'27',
-    isoCode: r'ZA',
+  "ZA": LightPhoneMetadata(
+    dialCode: r"27",
+    isoCode: r"ZA",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4619,12 +4619,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ZM': LightPhoneMetadata(
-    dialCode: r'260',
-    isoCode: r'ZM',
+  "ZM": LightPhoneMetadata(
+    dialCode: r"260",
+    isoCode: r"ZM",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
@@ -4638,12 +4638,12 @@ const lightMetadataByIsoCode = {
       ),
     ),
   ),
-  'ZW': LightPhoneMetadata(
-    dialCode: r'263',
-    isoCode: r'ZW',
+  "ZW": LightPhoneMetadata(
+    dialCode: r"263",
+    isoCode: r"ZW",
     leadingDigits: null,
-    internationalPrefix: r'00',
-    nationalPrefix: r'0',
+    internationalPrefix: r"00",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: null,
     validation: LightPhoneValidation(
       general: LightPhoneValidationRules(
