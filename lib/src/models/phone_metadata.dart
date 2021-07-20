@@ -1,45 +1,34 @@
 import 'dart:convert';
 
-import 'light_phone_metadata.dart';
-
-class PhoneMetadata extends LightPhoneMetadata {
-  final String? nationalPrefixForParsing;
-  final String? nationalPrefixTransformRule;
+/// phone metadata that does not include patterns
+class PhoneMetadata {
+  final String dialCode;
+  final String isoCode;
+  final String internationalPrefix;
+  final String? nationalPrefix;
+  final String? leadingDigits;
 
   /// there can be more than 1 country for the same dialCode
-  @override
+  final bool? isMainCountryForDialCode;
   final PhoneValidation validation;
 
   const PhoneMetadata({
-    required String dialCode,
-    required String isoCode,
-    required String? leadingDigits,
-    required String internationalPrefix,
-    required String? nationalPrefix,
-    required this.nationalPrefixForParsing,
-    required this.nationalPrefixTransformRule,
-    required bool? isMainCountryForDialCode,
+    required this.dialCode,
+    required this.isoCode,
+    required this.internationalPrefix,
+    required this.nationalPrefix,
+    required this.leadingDigits,
+    required this.isMainCountryForDialCode,
     required this.validation,
-  }) : super(
-          isoCode: isoCode,
-          dialCode: dialCode,
-          isMainCountryForDialCode: isMainCountryForDialCode,
-          internationalPrefix: internationalPrefix,
-          nationalPrefix: nationalPrefix,
-          leadingDigits: leadingDigits,
-          validation: validation,
-        );
+  });
 
-  @override
   Map<String, dynamic> toMap() {
     return {
       'dialCode': dialCode,
       'isoCode': isoCode,
       'internationalPrefix': internationalPrefix,
-      'leadingDigits': leadingDigits,
       'nationalPrefix': nationalPrefix,
-      'nationalPrefixForParsing': nationalPrefixForParsing,
-      'nationalPrefixTransformRule': nationalPrefixTransformRule,
+      'leadingDigits': leadingDigits,
       'isMainCountryForDialCode': isMainCountryForDialCode,
       'validation': validation.toMap(),
     };
@@ -50,16 +39,13 @@ class PhoneMetadata extends LightPhoneMetadata {
       dialCode: map['dialCode'],
       isoCode: map['isoCode'],
       internationalPrefix: map['internationalPrefix'],
-      leadingDigits: map['leadingDigits'],
       nationalPrefix: map['nationalPrefix'],
-      nationalPrefixForParsing: map['nationalPrefixForParsing'],
-      nationalPrefixTransformRule: map['nationalPrefixTransformRule'],
+      leadingDigits: map['leadingDigits'],
       isMainCountryForDialCode: map['isMainCountryForDialCode'],
       validation: PhoneValidation.fromMap(map['validation']),
     );
   }
 
-  @override
   String toJson() => json.encode(toMap());
 
   factory PhoneMetadata.fromJson(String source) =>
@@ -67,29 +53,25 @@ class PhoneMetadata extends LightPhoneMetadata {
 
   @override
   String toString() {
-    return 'PhoneMetadata(dialCode: $dialCode, isoCode: $isoCode, internationalPrefix: $internationalPrefix, leadingDigits: $leadingDigits, nationalPrefix: $nationalPrefix, nationalPrefixForParsing: $nationalPrefixForParsing, nationalPrefixTransformRule: $nationalPrefixTransformRule, isMainCountryForDialCode: $isMainCountryForDialCode, validation: $validation)';
+    return 'PhoneMetadata(dialCode: $dialCode, isoCode: $isoCode, internationalPrefix: $internationalPrefix, nationalPrefix: $nationalPrefix, leadingDigits: $leadingDigits, isMainCountryForDialCode: $isMainCountryForDialCode, validation: $validation)';
   }
 }
 
-class PhoneValidation extends LightPhoneValidation {
-  @override
+class PhoneValidation {
   final PhoneValidationRules general;
-  @override
   final PhoneValidationRules mobile;
-  @override
   final PhoneValidationRules fixedLine;
 
   const PhoneValidation({
     required this.general,
     required this.mobile,
     required this.fixedLine,
-  }) : super(general: general, mobile: mobile, fixedLine: fixedLine);
+  });
 
   @override
   String toString() =>
       'PhoneValidation(general: $general, mobile: $mobile, fixedLine: $fixedLine)';
 
-  @override
   Map<String, dynamic> toMap() {
     return {
       'general': general.toMap(),
@@ -107,30 +89,30 @@ class PhoneValidation extends LightPhoneValidation {
   }
 }
 
-class PhoneValidationRules extends LightPhoneValidationRules {
-  final String pattern;
+class PhoneValidationRules {
+  final List<int> lengths;
 
   const PhoneValidationRules({
-    required List<int> lengths,
-    required this.pattern,
-  }) : super(lengths: lengths);
+    required this.lengths,
+  });
 
-  @override
-  String toString() =>
-      'PhoneValidationRules(lengths: $lengths, pattern: $pattern)';
-
-  @override
   Map<String, dynamic> toMap() {
     return {
       'lengths': lengths,
-      'pattern': pattern,
     };
   }
 
   factory PhoneValidationRules.fromMap(Map<String, dynamic> map) {
     return PhoneValidationRules(
-      lengths: List<int>.from(map['lengths'] ?? []),
-      pattern: map['pattern'],
+      lengths: List<int>.from(map['lengths']),
     );
   }
+
+  String toJson() => json.encode(toMap());
+
+  factory PhoneValidationRules.fromJson(String source) =>
+      PhoneValidationRules.fromMap(json.decode(source));
+
+  @override
+  String toString() => 'PhoneValidationRules(lengths: $lengths)';
 }

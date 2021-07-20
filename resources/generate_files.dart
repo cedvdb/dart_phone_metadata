@@ -5,41 +5,42 @@ import 'utils/map_builder.dart';
 // ignore: avoid_relative_lib_imports
 import '../lib/src/models/phone_metadata.dart';
 // ignore: avoid_relative_lib_imports
-import '../lib/src/models/light_phone_metadata.dart';
+import '../lib/src/models/phone_metadata_extended.dart';
 import 'utils/phone_metadata_encoder.dart';
 
 void main() async {
-  final metadatas = await getMetadatas();
-  final lightMetadatas = await getLightMetadata();
+  final metadatas = await getMetadatasExtended();
+  final lightMetadatas = await getMetadataLight();
   final dialCodeMap = toDialCodeMap(metadatas);
 
   await Future.wait([
-    writeMetadataMapFile(metadatas),
+    writeExtendedMetadataMapFile(metadatas),
     writeLightMetadataMapFile(lightMetadatas),
     writeDialCodeMap(dialCodeMap),
   ]);
 }
 
-Future writeMetadataMapFile(Map<String, PhoneMetadata> metadata) async {
-  var content = 'import "../models/phone_metadata.dart";'
-      'const metadataByIsoCode = {%%};';
+Future writeExtendedMetadataMapFile(
+    Map<String, PhoneMetadataExtended> metadata) async {
+  var content = 'import "../models/phone_metadata_extended.dart";'
+      'const extendedMetadataByIsoCode = {%%};';
   var body = '';
   metadata.forEach((key, value) {
-    body += '"$key": ${encodePhoneMetadata(value)},';
+    body += '"$key": ${encodePhoneMetadataExtended(value)},';
   });
   content = content.replaceFirst('%%', body);
-  final file = await File('lib/src/generated/metadata_by_iso_code.dart')
-      .create(recursive: true);
+  final file =
+      await File('lib/src/generated/extended_metadata_by_iso_code.dart')
+          .create(recursive: true);
   await file.writeAsString(content);
 }
 
-Future writeLightMetadataMapFile(
-    Map<String, LightPhoneMetadata> metadata) async {
-  var content = 'import "../models/light_phone_metadata.dart";'
+Future writeLightMetadataMapFile(Map<String, PhoneMetadata> metadata) async {
+  var content = 'import "../models/phone_metadata.dart";'
       'const lightMetadataByIsoCode = {%%};';
   var body = '';
   metadata.forEach((key, value) {
-    body += '"$key": ${encodeLightPhoneMetadata(value)},';
+    body += '"$key": ${encodePhoneMetadataLight(value)},';
   });
   content = content.replaceFirst('%%', body);
   final file = await File('lib/src/generated/light_metadata_by_iso_code.dart')

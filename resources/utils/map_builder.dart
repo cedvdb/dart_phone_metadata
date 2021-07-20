@@ -1,8 +1,8 @@
 // ignore: avoid_relative_lib_imports
-import '../../lib/src/models/light_phone_metadata.dart';
+import '../../lib/src/models/phone_metadata.dart';
 
 Map<String, List<String>> toDialCodeMap(
-  Map<String, LightPhoneMetadata> allMetadatas,
+  Map<String, PhoneMetadata> allMetadatas,
 ) {
   final map = <String, List<String>>{};
   allMetadatas.values.forEach((m) {
