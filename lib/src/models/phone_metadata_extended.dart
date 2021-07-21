@@ -17,9 +17,9 @@ class PhoneMetadataExtended extends PhoneMetadata {
     required String? leadingDigits,
     required String internationalPrefix,
     required String? nationalPrefix,
+    required bool isMainCountryForDialCode,
     required this.nationalPrefixForParsing,
     required this.nationalPrefixTransformRule,
-    required bool? isMainCountryForDialCode,
     required this.validation,
   }) : super(
           isoCode: isoCode,

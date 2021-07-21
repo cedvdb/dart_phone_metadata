@@ -9,7 +9,7 @@ class PhoneMetadata {
   final String? leadingDigits;
 
   /// there can be more than 1 country for the same dialCode
-  final bool? isMainCountryForDialCode;
+  final bool isMainCountryForDialCode;
   final PhoneValidation validation;
 
   const PhoneMetadata({
