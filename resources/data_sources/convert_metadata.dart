@@ -32,7 +32,7 @@ Map convertTerritory(Map<String, dynamic> territory) {
     'nationalPrefixForParsing': territory['nationalPrefixForParsing'],
     'nationalPrefixTransformRule': territory['nationalPrefixTransformRule'],
     'leadingDigits': territory['leadingDigits'],
-    'isMainCountryForDialCode': territory['mainCountryForCode'] == true,
+    'isMainCountryForDialCode': territory['mainCountryForCode'] == 'true',
     'validation': {
       'general': convertValidation(territory['generalDesc']),
       'fixedLine': convertValidation(territory['fixedLine']),
