@@ -1,6 +1,8 @@
 import 'dart:convert';
 
-/// phone metadata that does not include patterns
+/// phone metadata
+///
+/// it does not include pattern and lengths, to access those use the maps
 class PhoneMetadata {
   final String dialCode;
   final String isoCode;
@@ -10,7 +12,6 @@ class PhoneMetadata {
 
   /// there can be more than 1 country for the same dialCode
   final bool isMainCountryForDialCode;
-  final PhoneValidation validation;
 
   const PhoneMetadata({
     required this.dialCode,
@@ -19,7 +20,6 @@ class PhoneMetadata {
     required this.nationalPrefix,
     required this.leadingDigits,
     required this.isMainCountryForDialCode,
-    required this.validation,
   });
 
   Map<String, dynamic> toMap() {
@@ -30,7 +30,6 @@ class PhoneMetadata {
       'nationalPrefix': nationalPrefix,
       'leadingDigits': leadingDigits,
       'isMainCountryForDialCode': isMainCountryForDialCode,
-      'validation': validation.toMap(),
     };
   }
 
@@ -42,7 +41,6 @@ class PhoneMetadata {
       nationalPrefix: map['nationalPrefix'],
       leadingDigits: map['leadingDigits'],
       isMainCountryForDialCode: map['isMainCountryForDialCode'],
-      validation: PhoneValidation.fromMap(map['validation']),
     );
   }
 
@@ -53,66 +51,6 @@ class PhoneMetadata {
 
   @override
   String toString() {
-    return 'PhoneMetadata(dialCode: $dialCode, isoCode: $isoCode, internationalPrefix: $internationalPrefix, nationalPrefix: $nationalPrefix, leadingDigits: $leadingDigits, isMainCountryForDialCode: $isMainCountryForDialCode, validation: $validation)';
+    return 'PhoneMetadata(dialCode: $dialCode, isoCode: $isoCode, internationalPrefix: $internationalPrefix, nationalPrefix: $nationalPrefix, leadingDigits: $leadingDigits, isMainCountryForDialCode: $isMainCountryForDialCode)';
   }
-}
-
-class PhoneValidation {
-  final PhoneValidationRules general;
-  final PhoneValidationRules mobile;
-  final PhoneValidationRules fixedLine;
-
-  const PhoneValidation({
-    required this.general,
-    required this.mobile,
-    required this.fixedLine,
-  });
-
-  @override
-  String toString() =>
-      'PhoneValidation(general: $general, mobile: $mobile, fixedLine: $fixedLine)';
-
-  Map<String, dynamic> toMap() {
-    return {
-      'general': general.toMap(),
-      'mobile': mobile.toMap(),
-      'fixedLine': fixedLine.toMap(),
-    };
-  }
-
-  factory PhoneValidation.fromMap(Map<String, dynamic> map) {
-    return PhoneValidation(
-      general: PhoneValidationRules.fromMap(map['general']),
-      mobile: PhoneValidationRules.fromMap(map['mobile']),
-      fixedLine: PhoneValidationRules.fromMap(map['fixedLine']),
-    );
-  }
-}
-
-class PhoneValidationRules {
-  final List<int> lengths;
-
-  const PhoneValidationRules({
-    required this.lengths,
-  });
-
-  Map<String, dynamic> toMap() {
-    return {
-      'lengths': lengths,
-    };
-  }
-
-  factory PhoneValidationRules.fromMap(Map<String, dynamic> map) {
-    return PhoneValidationRules(
-      lengths: List<int>.from(map['lengths']),
-    );
-  }
-
-  String toJson() => json.encode(toMap());
-
-  factory PhoneValidationRules.fromJson(String source) =>
-      PhoneValidationRules.fromMap(json.decode(source));
-
-  @override
-  String toString() => 'PhoneValidationRules(lengths: $lengths)';
 }

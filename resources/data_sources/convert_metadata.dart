@@ -8,7 +8,8 @@ void main() async {
 /// reads the phone number metadata from the ios library phoneNumberKit
 /// and applies some changes to it to make it fit the naming here
 Future convertPhoneNumberMetadata() async {
-  final inputFile = 'resources/data_sources/phone_number_metadata.json';
+  final inputFile =
+      'resources/data_sources/original_phone_number_metadata.json';
   final outputFile = 'resources/data_sources/parsed_phone_number_metadata.json';
   final jsonString = await File(inputFile).readAsString();
   Map<String, dynamic> metadata = jsonDecode(jsonString);
@@ -29,29 +30,36 @@ Map convertTerritory(Map<String, dynamic> territory) {
     'dialCode': territory['countryCode'],
     'internationalPrefix': territory['internationalPrefix'],
     'nationalPrefix': territory['nationalPrefix'],
-    'nationalPrefixForParsing': territory['nationalPrefixForParsing'],
-    'nationalPrefixTransformRule': territory['nationalPrefixTransformRule'],
     'leadingDigits': territory['leadingDigits'],
     'isMainCountryForDialCode': territory['mainCountryForCode'] == 'true',
-    'validation': {
-      'general': convertValidation(territory['generalDesc']),
-      'fixedLine': convertValidation(territory['fixedLine']),
+    'lengths': {
+      'general': getPossibleLengths(territory['generalDesc']),
+      'fixedLine': getPossibleLengths(territory['fixedLine']),
       // there is one island with 800 people on it that does not have mobile phones,
       // fixedLine is used for that island. It is called Tristan de Cuhan. They are worth
       // a read on wikipedia
       'mobile':
-          convertValidation(territory['mobile'] ?? territory['fixedLine']),
+          getPossibleLengths(territory['mobile'] ?? territory['fixedLine']),
+    },
+    'patterns': {
+      'nationalPrefixForParsing': territory['nationalPrefixForParsing'],
+      'nationalPrefixTransformRule': territory['nationalPrefixTransformRule'],
+      'general': getPattern(territory['generalDesc']),
+      'fixedLine': getPattern(territory['fixedLine']),
+      // see comments on lengths
+      'mobile': getPattern(territory['mobile'] ?? territory['fixedLine']),
     }
   };
 }
 
-Map convertValidation(Map<String, dynamic> validation) {
+List<int> getPossibleLengths(Map<String, dynamic> validation) {
   var lengths = validation['possibleLengths'];
   lengths = lengths?['national'];
-  return {
-    'lengths': _parsePossibleLengths(lengths),
-    'pattern': validation['nationalNumberPattern'],
-  };
+  return _parsePossibleLengths(lengths);
+}
+
+String getPattern(Map<String, dynamic> validation) {
+  return validation['nationalNumberPattern'];
 }
 
 /// Parse lengths string into array of Int, e.g. "6,[8-10]" becomes [6,8,9,10]

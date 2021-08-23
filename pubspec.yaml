@@ -1,7 +1,7 @@
 name: phone_number_metadata
 description: A simple command-line application.
-version: 1.0.0
-# homepage: https://www.example.com
+version: 2.0.0
+homepage: https://github.com/cedvdb/dart_phone_metadata
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
