@@ -1,3 +1,7 @@
+## 2.1.0
+
+- Added formats
+
 ## 2.0.1
 
 - Correctly export pattern and lengths
