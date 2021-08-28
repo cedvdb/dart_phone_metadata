@@ -2,6 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 // ignore: avoid_relative_lib_imports
+import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
+
 import '../../lib/src/models/phone_metadata.dart';
 // ignore: avoid_relative_lib_imports
 import '../../lib/src/models/phone_metadata_patterns.dart';
@@ -24,6 +26,18 @@ Future<Map<String, PhoneMetadataLengths>> getMetadataLengths() async {
   final info = await readMetadataJson();
   return info.map((key, value) =>
       MapEntry(key, PhoneMetadataLengths.fromMap(value['lengths'])));
+}
+
+Future<Map<String, PhoneMetadataFormats>> getMetadataFormats() async {
+  final info = await readMetadataJson();
+  return info.map((key, value) {
+    PhoneMetadataFormats converted;
+    converted = (value['formats'] as List)
+        .map((v) => PhoneMetadataFormat.fromMap(v))
+        .toList();
+
+    return MapEntry(key, converted);
+  });
 }
 
 Future<Map<String, dynamic>> readMetadataJson() async {

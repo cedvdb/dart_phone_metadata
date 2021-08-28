@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
+
 import 'data_sources/read_metadata.dart';
 import 'utils/map_builder.dart';
 // ignore: avoid_relative_lib_imports
@@ -15,6 +17,7 @@ void main() async {
   final metadatas = await getMetadata();
   final patterns = await getMetadataPatterns();
   final lengths = await getMetadataLengths();
+  final formats = await getMetadataFormats();
 
   final dialCodeMap = toDialCodeMap(metadatas);
 
@@ -22,6 +25,7 @@ void main() async {
     writeMetadataMapFile(metadatas),
     writePatternsMapFile(patterns),
     writeLenghtsMapFile(lengths),
+    writeFormatsMapFile(formats),
     writeDialCodeMap(dialCodeMap),
   ]);
 }
@@ -74,6 +78,20 @@ Future writeLenghtsMapFile(Map<String, PhoneMetadataLengths> metadata) async {
   });
   content = content.replaceFirst('%%', body);
   final file = await File('lib/src/generated/metadata_lengths_by_iso_code.dart')
+      .create(recursive: true);
+  await file.writeAsString(content);
+}
+
+Future writeFormatsMapFile(Map<String, PhoneMetadataFormats> metadata) async {
+  var content = 'import "../models/phone_metadata_formats.dart";'
+      'const metadataFormatsByIsoCode = {%%};';
+  var body = '';
+  metadata.forEach((key, value) {
+    body +=
+        '"$key": [${(value).map((f) => 'const ${encodeFormats(f)}').join(',')}],';
+  });
+  content = content.replaceFirst('%%', body);
+  final file = await File('lib/src/generated/metadata_formats_by_iso_code.dart')
       .create(recursive: true);
   await file.writeAsString(content);
 }

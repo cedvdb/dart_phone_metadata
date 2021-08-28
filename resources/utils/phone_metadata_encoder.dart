@@ -1,6 +1,8 @@
 import 'dart:convert';
 
 // ignore: avoid_relative_lib_imports
+import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
+
 import '../../lib/src/models/phone_metadata.dart';
 // ignore: avoid_relative_lib_imports
 import '../../lib/src/models/phone_metadata_patterns.dart';
@@ -28,11 +30,21 @@ String encodePatterns(PhoneMetadataPatterns metadata) {
     )''';
 }
 
-String encodeLengths(PhoneMetadataLengths metadata) {
+String encodeLengths(PhoneMetadataLengths lengths) {
   return '''PhoneMetadataLengths(
-      general: ${_enc(metadata.general)}, 
-      mobile: ${_enc(metadata.mobile)}, 
-      fixedLine: ${_enc(metadata.fixedLine)}, 
+      general: ${_enc(lengths.general)}, 
+      mobile: ${_enc(lengths.mobile)}, 
+      fixedLine: ${_enc(lengths.fixedLine)}, 
+    )''';
+}
+
+String encodeFormats(PhoneMetadataFormat formats) {
+  return '''PhoneMetadataFormat(
+      pattern: ${_enc(formats.pattern)},
+      nationalPrefixFormattingRule: ${_enc(formats.nationalPrefixFormattingRule)},
+      leadingDigits: ${_enc(formats.leadingDigits)},
+      format: ${_enc(formats.format)},
+      intlFormat: ${_enc(formats.intlFormat)},
     )''';
 }
 

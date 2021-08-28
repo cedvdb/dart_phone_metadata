@@ -48,7 +48,8 @@ Map convertTerritory(Map<String, dynamic> territory) {
       'fixedLine': getPattern(territory['fixedLine']),
       // see comments on lengths
       'mobile': getPattern(territory['mobile'] ?? territory['fixedLine']),
-    }
+    },
+    'formats': getFormats(territory['availableFormats']?['numberFormat']),
   };
 }
 
@@ -60,6 +61,25 @@ List<int> getPossibleLengths(Map<String, dynamic> validation) {
 
 String getPattern(Map<String, dynamic> validation) {
   return validation['nationalNumberPattern'];
+}
+
+/// fixes a few inconsistencies in format
+List getFormats(dynamic formats) {
+  List asArray;
+  if (formats is Map) {
+    asArray = [formats];
+  } else if (formats == null) {
+    asArray = [];
+  } else {
+    asArray = formats;
+  }
+
+  asArray.forEach((element) {
+    if (element['leadingDigits'] is! List) {
+      element['leadingDigits'] = [element['leadingDigits']];
+    }
+  });
+  return asArray;
 }
 
 /// Parse lengths string into array of Int, e.g. "6,[8-10]" becomes [6,8,9,10]
