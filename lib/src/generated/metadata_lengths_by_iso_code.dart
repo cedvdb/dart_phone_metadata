@@ -1,1227 +1,1227 @@
-import "../models/phone_metadata_lengths.dart";
+import '../models/phone_metadata_lengths.dart';
 
 const metadataLenghtsByIsoCode = {
-  "AC": PhoneMetadataLengths(
+  'AC': PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [5],
   ),
-  "AD": PhoneMetadataLengths(
+  'AD': PhoneMetadataLengths(
     general: [],
     mobile: [6, 9],
     fixedLine: [6],
   ),
-  "AE": PhoneMetadataLengths(
+  'AE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "AF": PhoneMetadataLengths(
+  'AF': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "AG": PhoneMetadataLengths(
+  'AG': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "AI": PhoneMetadataLengths(
+  'AI': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "AL": PhoneMetadataLengths(
+  'AL': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "AM": PhoneMetadataLengths(
+  'AM': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "AO": PhoneMetadataLengths(
+  'AO': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "AR": PhoneMetadataLengths(
+  'AR': PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [10],
   ),
-  "AS": PhoneMetadataLengths(
+  'AS': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "AT": PhoneMetadataLengths(
+  'AT': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8, 9, 10, 11, 12, 13],
     fixedLine: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
   ),
-  "AU": PhoneMetadataLengths(
+  'AU': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "AW": PhoneMetadataLengths(
+  'AW': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "AX": PhoneMetadataLengths(
+  'AX': PhoneMetadataLengths(
     general: [],
     mobile: [6, 7, 8, 9, 10],
     fixedLine: [6, 7, 8, 9],
   ),
-  "AZ": PhoneMetadataLengths(
+  'AZ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "BA": PhoneMetadataLengths(
+  'BA': PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8],
   ),
-  "BB": PhoneMetadataLengths(
+  'BB': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "BD": PhoneMetadataLengths(
+  'BD': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [6, 7, 8, 9, 10],
   ),
-  "BE": PhoneMetadataLengths(
+  'BE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "BF": PhoneMetadataLengths(
+  'BF': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "BG": PhoneMetadataLengths(
+  'BG': PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [6, 7, 8],
   ),
-  "BH": PhoneMetadataLengths(
+  'BH': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "BI": PhoneMetadataLengths(
+  'BI': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "BJ": PhoneMetadataLengths(
+  'BJ': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "BL": PhoneMetadataLengths(
+  'BL': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "BM": PhoneMetadataLengths(
+  'BM': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "BN": PhoneMetadataLengths(
+  'BN': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "BO": PhoneMetadataLengths(
+  'BO': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "BQ": PhoneMetadataLengths(
+  'BQ': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "BR": PhoneMetadataLengths(
+  'BR': PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [10],
   ),
-  "BS": PhoneMetadataLengths(
+  'BS': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "BT": PhoneMetadataLengths(
+  'BT': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7],
   ),
-  "BW": PhoneMetadataLengths(
+  'BW': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7],
   ),
-  "BY": PhoneMetadataLengths(
+  'BY': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "BZ": PhoneMetadataLengths(
+  'BZ': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "CA": PhoneMetadataLengths(
+  'CA': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "CC": PhoneMetadataLengths(
+  'CC': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "CD": PhoneMetadataLengths(
+  'CD': PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [7, 9],
   ),
-  "CF": PhoneMetadataLengths(
+  'CF': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "CG": PhoneMetadataLengths(
+  'CG': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "CH": PhoneMetadataLengths(
+  'CH': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "CI": PhoneMetadataLengths(
+  'CI': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "CK": PhoneMetadataLengths(
+  'CK': PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [5],
   ),
-  "CL": PhoneMetadataLengths(
+  'CL': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "CM": PhoneMetadataLengths(
+  'CM': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "CN": PhoneMetadataLengths(
+  'CN': PhoneMetadataLengths(
     general: [],
     mobile: [11],
     fixedLine: [7, 8, 9, 10, 11],
   ),
-  "CO": PhoneMetadataLengths(
+  'CO': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8],
   ),
-  "CR": PhoneMetadataLengths(
+  'CR': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "CU": PhoneMetadataLengths(
+  'CU': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [6, 7, 8, 10],
   ),
-  "CV": PhoneMetadataLengths(
+  'CV': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "CW": PhoneMetadataLengths(
+  'CW': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7, 8],
   ),
-  "CX": PhoneMetadataLengths(
+  'CX': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "CY": PhoneMetadataLengths(
+  'CY': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "CZ": PhoneMetadataLengths(
+  'CZ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "DE": PhoneMetadataLengths(
+  'DE': PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
   ),
-  "DJ": PhoneMetadataLengths(
+  'DJ': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "DK": PhoneMetadataLengths(
+  'DK': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "DM": PhoneMetadataLengths(
+  'DM': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "DO": PhoneMetadataLengths(
+  'DO': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "DZ": PhoneMetadataLengths(
+  'DZ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  "EC": PhoneMetadataLengths(
+  'EC': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "EE": PhoneMetadataLengths(
+  'EE': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7],
   ),
-  "EG": PhoneMetadataLengths(
+  'EG': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8, 9],
   ),
-  "EH": PhoneMetadataLengths(
+  'EH': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "ER": PhoneMetadataLengths(
+  'ER': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "ES": PhoneMetadataLengths(
+  'ES': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "ET": PhoneMetadataLengths(
+  'ET': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "FI": PhoneMetadataLengths(
+  'FI': PhoneMetadataLengths(
     general: [],
     mobile: [6, 7, 8, 9, 10],
     fixedLine: [5, 6, 7, 8, 9],
   ),
-  "FJ": PhoneMetadataLengths(
+  'FJ': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "FK": PhoneMetadataLengths(
+  'FK': PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [5],
   ),
-  "FM": PhoneMetadataLengths(
+  'FM': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "FO": PhoneMetadataLengths(
+  'FO': PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  "FR": PhoneMetadataLengths(
+  'FR': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "GA": PhoneMetadataLengths(
+  'GA': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [8],
   ),
-  "GB": PhoneMetadataLengths(
+  'GB': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [9, 10],
   ),
-  "GD": PhoneMetadataLengths(
+  'GD': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "GE": PhoneMetadataLengths(
+  'GE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "GF": PhoneMetadataLengths(
+  'GF': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "GG": PhoneMetadataLengths(
+  'GG': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "GH": PhoneMetadataLengths(
+  'GH': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "GI": PhoneMetadataLengths(
+  'GI': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "GL": PhoneMetadataLengths(
+  'GL': PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  "GM": PhoneMetadataLengths(
+  'GM': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "GN": PhoneMetadataLengths(
+  'GN': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "GP": PhoneMetadataLengths(
+  'GP': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "GQ": PhoneMetadataLengths(
+  'GQ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "GR": PhoneMetadataLengths(
+  'GR': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "GT": PhoneMetadataLengths(
+  'GT': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "GU": PhoneMetadataLengths(
+  'GU': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "GW": PhoneMetadataLengths(
+  'GW': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "GY": PhoneMetadataLengths(
+  'GY': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "HK": PhoneMetadataLengths(
+  'HK': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "HN": PhoneMetadataLengths(
+  'HN': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "HR": PhoneMetadataLengths(
+  'HR': PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8, 9],
   ),
-  "HT": PhoneMetadataLengths(
+  'HT': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "HU": PhoneMetadataLengths(
+  'HU': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "ID": PhoneMetadataLengths(
+  'ID': PhoneMetadataLengths(
     general: [],
     mobile: [9, 10, 11, 12],
     fixedLine: [7, 8, 9, 10, 11],
   ),
-  "IE": PhoneMetadataLengths(
+  'IE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9, 10],
   ),
-  "IL": PhoneMetadataLengths(
+  'IL': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 11, 12],
   ),
-  "IM": PhoneMetadataLengths(
+  'IM': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "IN": PhoneMetadataLengths(
+  'IN': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "IO": PhoneMetadataLengths(
+  'IO': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "IQ": PhoneMetadataLengths(
+  'IQ': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8, 9],
   ),
-  "IR": PhoneMetadataLengths(
+  'IR': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [6, 7, 10],
   ),
-  "IS": PhoneMetadataLengths(
+  'IS': PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [7],
   ),
-  "IT": PhoneMetadataLengths(
+  'IT': PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [6, 7, 8, 9, 10, 11],
   ),
-  "JE": PhoneMetadataLengths(
+  'JE': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "JM": PhoneMetadataLengths(
+  'JM': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "JO": PhoneMetadataLengths(
+  'JO': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "JP": PhoneMetadataLengths(
+  'JP': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [9],
   ),
-  "KE": PhoneMetadataLengths(
+  'KE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9],
   ),
-  "KG": PhoneMetadataLengths(
+  'KG': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "KH": PhoneMetadataLengths(
+  'KH': PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8, 9],
   ),
-  "KI": PhoneMetadataLengths(
+  'KI': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [5, 8],
   ),
-  "KM": PhoneMetadataLengths(
+  'KM': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "KN": PhoneMetadataLengths(
+  'KN': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "KP": PhoneMetadataLengths(
+  'KP': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8, 10],
   ),
-  "KR": PhoneMetadataLengths(
+  'KR': PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [5, 6, 8, 9, 10],
   ),
-  "KW": PhoneMetadataLengths(
+  'KW': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "KY": PhoneMetadataLengths(
+  'KY': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "KZ": PhoneMetadataLengths(
+  'KZ': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "LA": PhoneMetadataLengths(
+  'LA': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8],
   ),
-  "LB": PhoneMetadataLengths(
+  'LB': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7],
   ),
-  "LC": PhoneMetadataLengths(
+  'LC': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "LI": PhoneMetadataLengths(
+  'LI': PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [7],
   ),
-  "LK": PhoneMetadataLengths(
+  'LK': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "LR": PhoneMetadataLengths(
+  'LR': PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [8, 9],
   ),
-  "LS": PhoneMetadataLengths(
+  'LS': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "LT": PhoneMetadataLengths(
+  'LT': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "LU": PhoneMetadataLengths(
+  'LU': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [4, 5, 6, 7, 8, 9, 10, 11],
   ),
-  "LV": PhoneMetadataLengths(
+  'LV': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "LY": PhoneMetadataLengths(
+  'LY': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "MA": PhoneMetadataLengths(
+  'MA': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "MC": PhoneMetadataLengths(
+  'MC': PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8],
   ),
-  "MD": PhoneMetadataLengths(
+  'MD': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "ME": PhoneMetadataLengths(
+  'ME': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "MF": PhoneMetadataLengths(
+  'MF': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "MG": PhoneMetadataLengths(
+  'MG': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "MH": PhoneMetadataLengths(
+  'MH': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "MK": PhoneMetadataLengths(
+  'MK': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "ML": PhoneMetadataLengths(
+  'ML': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "MM": PhoneMetadataLengths(
+  'MM': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8, 9, 10],
     fixedLine: [6, 7, 8, 9],
   ),
-  "MN": PhoneMetadataLengths(
+  'MN': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8, 9, 10],
   ),
-  "MO": PhoneMetadataLengths(
+  'MO': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "MP": PhoneMetadataLengths(
+  'MP': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "MQ": PhoneMetadataLengths(
+  'MQ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "MR": PhoneMetadataLengths(
+  'MR': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "MS": PhoneMetadataLengths(
+  'MS': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "MT": PhoneMetadataLengths(
+  'MT': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "MU": PhoneMetadataLengths(
+  'MU': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7, 8],
   ),
-  "MV": PhoneMetadataLengths(
+  'MV': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "MW": PhoneMetadataLengths(
+  'MW': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 9],
   ),
-  "MX": PhoneMetadataLengths(
+  'MX': PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [10],
   ),
-  "MY": PhoneMetadataLengths(
+  'MY': PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [8, 9],
   ),
-  "MZ": PhoneMetadataLengths(
+  'MZ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "NA": PhoneMetadataLengths(
+  'NA': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  "NC": PhoneMetadataLengths(
+  'NC': PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  "NE": PhoneMetadataLengths(
+  'NE': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "NF": PhoneMetadataLengths(
+  'NF': PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  "NG": PhoneMetadataLengths(
+  'NG': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [7, 8],
   ),
-  "NI": PhoneMetadataLengths(
+  'NI': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "NL": PhoneMetadataLengths(
+  'NL': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "NO": PhoneMetadataLengths(
+  'NO': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "NP": PhoneMetadataLengths(
+  'NP': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8],
   ),
-  "NR": PhoneMetadataLengths(
+  'NR': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "NU": PhoneMetadataLengths(
+  'NU': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [4],
   ),
-  "NZ": PhoneMetadataLengths(
+  'NZ': PhoneMetadataLengths(
     general: [],
     mobile: [8, 9, 10],
     fixedLine: [8],
   ),
-  "OM": PhoneMetadataLengths(
+  'OM': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "PA": PhoneMetadataLengths(
+  'PA': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7],
   ),
-  "PE": PhoneMetadataLengths(
+  'PE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "PF": PhoneMetadataLengths(
+  'PF': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "PG": PhoneMetadataLengths(
+  'PG': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7, 8],
   ),
-  "PH": PhoneMetadataLengths(
+  'PH': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [6, 8, 9, 10],
   ),
-  "PK": PhoneMetadataLengths(
+  'PK': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [9, 10],
   ),
-  "PL": PhoneMetadataLengths(
+  'PL': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 9],
   ),
-  "PM": PhoneMetadataLengths(
+  'PM': PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  "PR": PhoneMetadataLengths(
+  'PR': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "PS": PhoneMetadataLengths(
+  'PS': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "PT": PhoneMetadataLengths(
+  'PT': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "PW": PhoneMetadataLengths(
+  'PW': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "PY": PhoneMetadataLengths(
+  'PY': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9],
   ),
-  "QA": PhoneMetadataLengths(
+  'QA': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "RE": PhoneMetadataLengths(
+  'RE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "RO": PhoneMetadataLengths(
+  'RO': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [6, 9],
   ),
-  "RS": PhoneMetadataLengths(
+  'RS': PhoneMetadataLengths(
     general: [],
     mobile: [8, 9, 10],
     fixedLine: [7, 8, 9, 10, 11, 12],
   ),
-  "RU": PhoneMetadataLengths(
+  'RU': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "RW": PhoneMetadataLengths(
+  'RW': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  "SA": PhoneMetadataLengths(
+  'SA': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "SB": PhoneMetadataLengths(
+  'SB': PhoneMetadataLengths(
     general: [],
     mobile: [5, 7],
     fixedLine: [5],
   ),
-  "SC": PhoneMetadataLengths(
+  'SC': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "SD": PhoneMetadataLengths(
+  'SD': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "SE": PhoneMetadataLengths(
+  'SE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9],
   ),
-  "SG": PhoneMetadataLengths(
+  'SG': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "SH": PhoneMetadataLengths(
+  'SH': PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [4, 5],
   ),
-  "SI": PhoneMetadataLengths(
+  'SI': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "SJ": PhoneMetadataLengths(
+  'SJ': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "SK": PhoneMetadataLengths(
+  'SK': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [6, 7, 9],
   ),
-  "SL": PhoneMetadataLengths(
+  'SL': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "SM": PhoneMetadataLengths(
+  'SM': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [10],
   ),
-  "SN": PhoneMetadataLengths(
+  'SN': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "SO": PhoneMetadataLengths(
+  'SO': PhoneMetadataLengths(
     general: [],
     mobile: [7, 8, 9],
     fixedLine: [6, 7],
   ),
-  "SR": PhoneMetadataLengths(
+  'SR': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [6, 7],
   ),
-  "SS": PhoneMetadataLengths(
+  'SS': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "ST": PhoneMetadataLengths(
+  'ST': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  "SV": PhoneMetadataLengths(
+  'SV': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "SX": PhoneMetadataLengths(
+  'SX': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "SY": PhoneMetadataLengths(
+  'SY': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  "SZ": PhoneMetadataLengths(
+  'SZ': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "TA": PhoneMetadataLengths(
+  'TA': PhoneMetadataLengths(
     general: [],
     mobile: [4],
     fixedLine: [4],
   ),
-  "TC": PhoneMetadataLengths(
+  'TC': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "TD": PhoneMetadataLengths(
+  'TD': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "TG": PhoneMetadataLengths(
+  'TG': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "TH": PhoneMetadataLengths(
+  'TH': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  "TJ": PhoneMetadataLengths(
+  'TJ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "TK": PhoneMetadataLengths(
+  'TK': PhoneMetadataLengths(
     general: [],
     mobile: [4, 5, 6, 7],
     fixedLine: [4, 5, 6, 7],
   ),
-  "TL": PhoneMetadataLengths(
+  'TL': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7],
   ),
-  "TM": PhoneMetadataLengths(
+  'TM': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "TN": PhoneMetadataLengths(
+  'TN': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "TO": PhoneMetadataLengths(
+  'TO': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [5],
   ),
-  "TR": PhoneMetadataLengths(
+  'TR': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "TT": PhoneMetadataLengths(
+  'TT': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "TV": PhoneMetadataLengths(
+  'TV': PhoneMetadataLengths(
     general: [],
     mobile: [6, 7],
     fixedLine: [5],
   ),
-  "TW": PhoneMetadataLengths(
+  'TW': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  "TZ": PhoneMetadataLengths(
+  'TZ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "UA": PhoneMetadataLengths(
+  'UA': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "UG": PhoneMetadataLengths(
+  'UG': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "US": PhoneMetadataLengths(
+  'US': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "UY": PhoneMetadataLengths(
+  'UY': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  "UZ": PhoneMetadataLengths(
+  'UZ': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "VA": PhoneMetadataLengths(
+  'VA': PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [6, 7, 8, 9, 10, 11],
   ),
-  "VC": PhoneMetadataLengths(
+  'VC': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "VE": PhoneMetadataLengths(
+  'VE': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "VG": PhoneMetadataLengths(
+  'VG': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "VI": PhoneMetadataLengths(
+  'VI': PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  "VN": PhoneMetadataLengths(
+  'VN': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [10],
   ),
-  "VU": PhoneMetadataLengths(
+  'VU': PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [5],
   ),
-  "WF": PhoneMetadataLengths(
+  'WF': PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  "WS": PhoneMetadataLengths(
+  'WS': PhoneMetadataLengths(
     general: [],
     mobile: [7, 10],
     fixedLine: [5, 6],
   ),
-  "XK": PhoneMetadataLengths(
+  'XK': PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8, 9],
   ),
-  "YE": PhoneMetadataLengths(
+  'YE': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8],
   ),
-  "YT": PhoneMetadataLengths(
+  'YT': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "ZA": PhoneMetadataLengths(
+  'ZA': PhoneMetadataLengths(
     general: [],
     mobile: [5, 6, 7, 8, 9],
     fixedLine: [9],
   ),
-  "ZM": PhoneMetadataLengths(
+  'ZM': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  "ZW": PhoneMetadataLengths(
+  'ZW': PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [5, 6, 7, 8, 9, 10],

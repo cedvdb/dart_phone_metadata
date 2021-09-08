@@ -1,8 +1,7 @@
 import 'dart:convert';
 
-// ignore: avoid_relative_lib_imports
 import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
-
+// ignore: avoid_relative_lib_imports
 import '../../lib/src/models/phone_metadata.dart';
 // ignore: avoid_relative_lib_imports
 import '../../lib/src/models/phone_metadata_patterns.dart';
@@ -11,7 +10,7 @@ import '../../lib/src/models/phone_metadata_lengths.dart';
 
 String encodePhoneMetadata(PhoneMetadata metadata) {
   return '''PhoneMetadata(
-      dialCode: ${_enc(metadata.dialCode)}, 
+      countryCallingCode: ${_enc(metadata.countryCallingCode)}, 
       isoCode: ${_enc(metadata.isoCode)},
       leadingDigits: ${_enc(metadata.leadingDigits)},
       internationalPrefix: ${_enc(metadata.internationalPrefix)}, 

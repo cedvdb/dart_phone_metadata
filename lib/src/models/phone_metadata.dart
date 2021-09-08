@@ -4,7 +4,7 @@ import 'dart:convert';
 ///
 /// it does not include pattern and lengths, to access those use the maps
 class PhoneMetadata {
-  final String countryCode;
+  final String countryCallingCode;
   final String isoCode;
   final String internationalPrefix;
   final String? nationalPrefix;
@@ -14,7 +14,7 @@ class PhoneMetadata {
   final bool isMainCountryForDialCode;
 
   const PhoneMetadata({
-    required this.countryCode,
+    required this.countryCallingCode,
     required this.isoCode,
     required this.internationalPrefix,
     required this.nationalPrefix,
@@ -24,7 +24,7 @@ class PhoneMetadata {
 
   Map<String, dynamic> toMap() {
     return {
-      'dialCode': countryCode,
+      'countryCallingCode': countryCallingCode,
       'isoCode': isoCode,
       'internationalPrefix': internationalPrefix,
       'nationalPrefix': nationalPrefix,
@@ -35,7 +35,7 @@ class PhoneMetadata {
 
   factory PhoneMetadata.fromMap(Map<String, dynamic> map) {
     return PhoneMetadata(
-      countryCode: map['dialCode'],
+      countryCallingCode: map['countryCallingCode'],
       isoCode: map['isoCode'],
       internationalPrefix: map['internationalPrefix'],
       nationalPrefix: map['nationalPrefix'],
@@ -51,6 +51,6 @@ class PhoneMetadata {
 
   @override
   String toString() {
-    return 'PhoneMetadata(dialCode: $countryCode, isoCode: $isoCode, internationalPrefix: $internationalPrefix, nationalPrefix: $nationalPrefix, leadingDigits: $leadingDigits, isMainCountryForDialCode: $isMainCountryForDialCode)';
+    return 'PhoneMetadata(countryCallingCode: $countryCallingCode, isoCode: $isoCode, internationalPrefix: $internationalPrefix, nationalPrefix: $nationalPrefix, leadingDigits: $leadingDigits, isMainCountryForDialCode: $isMainCountryForDialCode)';
   }
 }

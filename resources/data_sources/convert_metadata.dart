@@ -27,7 +27,7 @@ Future convertPhoneNumberMetadata() async {
 Map convertTerritory(Map<String, dynamic> territory) {
   return {
     'isoCode': territory['id'],
-    'countryCode': territory['countryCode'],
+    'countryCallingCode': territory['countryCode'],
     'internationalPrefix': territory['internationalPrefix'],
     'nationalPrefix': territory['nationalPrefix'],
     'leadingDigits': territory['leadingDigits'],

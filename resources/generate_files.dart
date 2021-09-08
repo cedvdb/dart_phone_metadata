@@ -19,26 +19,27 @@ void main() async {
   final lengths = await getMetadataLengths();
   final formats = await getMetadataFormats();
 
-  final dialCodeMap = toCountryCodeMap(metadatas);
+  final countryCallingCodeMap = toCountryCodeMap(metadatas);
 
   await Future.wait([
     writeMetadataMapFile(metadatas),
     writePatternsMapFile(patterns),
     writeLenghtsMapFile(lengths),
     writeFormatsMapFile(formats),
-    writeDialCodeMap(dialCodeMap),
+    writeCountryCallingCodeMap(countryCallingCodeMap),
   ]);
 }
 
-Future writeDialCodeMap(Map<String, List<String>> dialCodeMap) async {
-  var content = 'const dialCodeToIsoCode = {%%};';
+Future writeCountryCallingCodeMap(Map<String, List<String>> dialCodeMap) async {
+  var content = 'const countryCallingCodeToIsoCode = {%%};';
   var body = '';
   dialCodeMap.forEach((key, value) {
     body += "'$key': [${value.map((v) => "'$v'").join(',')}],";
   });
   content = content.replaceFirst('%%', body);
-  final file = await File('lib/src/generated/dial_code_to_iso_code.dart')
-      .create(recursive: true);
+  final file =
+      await File('lib/src/generated/country_calling_code_to_iso_code.dart')
+          .create(recursive: true);
   await file.writeAsString(content);
 }
 
@@ -87,8 +88,7 @@ Future writeFormatsMapFile(Map<String, PhoneMetadataFormats> metadata) async {
       'const metadataFormatsByIsoCode = {%%};';
   var body = '';
   metadata.forEach((key, value) {
-    body +=
-        '"$key": [${(value).map((f) => 'const ${encodeFormats(f)}').join(',')}],';
+    body += '"$key": [${(value).map((f) => '${encodeFormats(f)}').join(',')}],';
   });
   content = content.replaceFirst('%%', body);
   final file = await File('lib/src/generated/metadata_formats_by_iso_code.dart')

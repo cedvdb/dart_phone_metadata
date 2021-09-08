@@ -1,4 +1,4 @@
-export 'src/generated/dial_code_to_iso_code.dart';
+export 'src/generated/country_calling_code_to_iso_code.dart';
 export 'src/generated/metadata_by_iso_code.dart';
 export 'src/generated/metadata_lengths_by_iso_code.dart';
 export 'src/generated/metadata_patterns_by_iso_code.dart';

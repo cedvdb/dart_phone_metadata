@@ -1,3 +1,7 @@
+## 3.0.0
+
+- rename dialCode to countryCallingCode
+
 ## 2.1.0
 
 - Added formats
