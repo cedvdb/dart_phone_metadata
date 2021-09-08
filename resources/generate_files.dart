@@ -19,7 +19,7 @@ void main() async {
   final lengths = await getMetadataLengths();
   final formats = await getMetadataFormats();
 
-  final dialCodeMap = toDialCodeMap(metadatas);
+  final dialCodeMap = toCountryCodeMap(metadatas);
 
   await Future.wait([
     writeMetadataMapFile(metadatas),

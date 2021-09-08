@@ -2,7 +2,7 @@ import "../models/phone_metadata.dart";
 
 const metadataByIsoCode = {
   "AC": PhoneMetadata(
-    dialCode: r"247",
+    countryCode: r"247",
     isoCode: r"AC",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -10,7 +10,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AD": PhoneMetadata(
-    dialCode: r"376",
+    countryCode: r"376",
     isoCode: r"AD",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -18,7 +18,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AE": PhoneMetadata(
-    dialCode: r"971",
+    countryCode: r"971",
     isoCode: r"AE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -26,7 +26,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AF": PhoneMetadata(
-    dialCode: r"93",
+    countryCode: r"93",
     isoCode: r"AF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -34,7 +34,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AG": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"AG",
     leadingDigits: r"268",
     internationalPrefix: r"011",
@@ -42,7 +42,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AI": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"AI",
     leadingDigits: r"264",
     internationalPrefix: r"011",
@@ -50,7 +50,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AL": PhoneMetadata(
-    dialCode: r"355",
+    countryCode: r"355",
     isoCode: r"AL",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -58,7 +58,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AM": PhoneMetadata(
-    dialCode: r"374",
+    countryCode: r"374",
     isoCode: r"AM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -66,7 +66,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AO": PhoneMetadata(
-    dialCode: r"244",
+    countryCode: r"244",
     isoCode: r"AO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -74,7 +74,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AR": PhoneMetadata(
-    dialCode: r"54",
+    countryCode: r"54",
     isoCode: r"AR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -82,7 +82,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AS": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"AS",
     leadingDigits: r"684",
     internationalPrefix: r"011",
@@ -90,7 +90,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AT": PhoneMetadata(
-    dialCode: r"43",
+    countryCode: r"43",
     isoCode: r"AT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -98,7 +98,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AU": PhoneMetadata(
-    dialCode: r"61",
+    countryCode: r"61",
     isoCode: r"AU",
     leadingDigits: null,
     internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
@@ -106,7 +106,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "AW": PhoneMetadata(
-    dialCode: r"297",
+    countryCode: r"297",
     isoCode: r"AW",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -114,7 +114,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AX": PhoneMetadata(
-    dialCode: r"358",
+    countryCode: r"358",
     isoCode: r"AX",
     leadingDigits: r"18",
     internationalPrefix: r"00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
@@ -122,7 +122,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "AZ": PhoneMetadata(
-    dialCode: r"994",
+    countryCode: r"994",
     isoCode: r"AZ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -130,7 +130,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BA": PhoneMetadata(
-    dialCode: r"387",
+    countryCode: r"387",
     isoCode: r"BA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -138,7 +138,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BB": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"BB",
     leadingDigits: r"246",
     internationalPrefix: r"011",
@@ -146,7 +146,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BD": PhoneMetadata(
-    dialCode: r"880",
+    countryCode: r"880",
     isoCode: r"BD",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -154,7 +154,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BE": PhoneMetadata(
-    dialCode: r"32",
+    countryCode: r"32",
     isoCode: r"BE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -162,7 +162,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BF": PhoneMetadata(
-    dialCode: r"226",
+    countryCode: r"226",
     isoCode: r"BF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -170,7 +170,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BG": PhoneMetadata(
-    dialCode: r"359",
+    countryCode: r"359",
     isoCode: r"BG",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -178,7 +178,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BH": PhoneMetadata(
-    dialCode: r"973",
+    countryCode: r"973",
     isoCode: r"BH",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -186,7 +186,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BI": PhoneMetadata(
-    dialCode: r"257",
+    countryCode: r"257",
     isoCode: r"BI",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -194,7 +194,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BJ": PhoneMetadata(
-    dialCode: r"229",
+    countryCode: r"229",
     isoCode: r"BJ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -202,7 +202,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BL": PhoneMetadata(
-    dialCode: r"590",
+    countryCode: r"590",
     isoCode: r"BL",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -210,7 +210,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BM": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"BM",
     leadingDigits: r"441",
     internationalPrefix: r"011",
@@ -218,7 +218,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BN": PhoneMetadata(
-    dialCode: r"673",
+    countryCode: r"673",
     isoCode: r"BN",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -226,7 +226,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BO": PhoneMetadata(
-    dialCode: r"591",
+    countryCode: r"591",
     isoCode: r"BO",
     leadingDigits: null,
     internationalPrefix: r"00(?:1\d)?",
@@ -234,7 +234,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BQ": PhoneMetadata(
-    dialCode: r"599",
+    countryCode: r"599",
     isoCode: r"BQ",
     leadingDigits: r"[347]",
     internationalPrefix: r"00",
@@ -242,7 +242,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BR": PhoneMetadata(
-    dialCode: r"55",
+    countryCode: r"55",
     isoCode: r"BR",
     leadingDigits: null,
     internationalPrefix: r"00(?:1[245]|2[1-35]|31|4[13]|[56]5|99)",
@@ -250,7 +250,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BS": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"BS",
     leadingDigits: r"242",
     internationalPrefix: r"011",
@@ -258,7 +258,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BT": PhoneMetadata(
-    dialCode: r"975",
+    countryCode: r"975",
     isoCode: r"BT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -266,7 +266,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BW": PhoneMetadata(
-    dialCode: r"267",
+    countryCode: r"267",
     isoCode: r"BW",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -274,7 +274,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BY": PhoneMetadata(
-    dialCode: r"375",
+    countryCode: r"375",
     isoCode: r"BY",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -282,7 +282,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "BZ": PhoneMetadata(
-    dialCode: r"501",
+    countryCode: r"501",
     isoCode: r"BZ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -290,7 +290,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CA": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"CA",
     leadingDigits: null,
     internationalPrefix: r"011",
@@ -298,7 +298,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CC": PhoneMetadata(
-    dialCode: r"61",
+    countryCode: r"61",
     isoCode: r"CC",
     leadingDigits: null,
     internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
@@ -306,7 +306,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CD": PhoneMetadata(
-    dialCode: r"243",
+    countryCode: r"243",
     isoCode: r"CD",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -314,7 +314,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CF": PhoneMetadata(
-    dialCode: r"236",
+    countryCode: r"236",
     isoCode: r"CF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -322,7 +322,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CG": PhoneMetadata(
-    dialCode: r"242",
+    countryCode: r"242",
     isoCode: r"CG",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -330,7 +330,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CH": PhoneMetadata(
-    dialCode: r"41",
+    countryCode: r"41",
     isoCode: r"CH",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -338,7 +338,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CI": PhoneMetadata(
-    dialCode: r"225",
+    countryCode: r"225",
     isoCode: r"CI",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -346,7 +346,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CK": PhoneMetadata(
-    dialCode: r"682",
+    countryCode: r"682",
     isoCode: r"CK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -354,7 +354,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CL": PhoneMetadata(
-    dialCode: r"56",
+    countryCode: r"56",
     isoCode: r"CL",
     leadingDigits: null,
     internationalPrefix:
@@ -363,7 +363,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CM": PhoneMetadata(
-    dialCode: r"237",
+    countryCode: r"237",
     isoCode: r"CM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -371,7 +371,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CN": PhoneMetadata(
-    dialCode: r"86",
+    countryCode: r"86",
     isoCode: r"CN",
     leadingDigits: null,
     internationalPrefix: r"00|1(?:[12]\d|79)\d\d00",
@@ -379,7 +379,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CO": PhoneMetadata(
-    dialCode: r"57",
+    countryCode: r"57",
     isoCode: r"CO",
     leadingDigits: null,
     internationalPrefix: r"00(?:4(?:[14]4|56)|[579])",
@@ -387,7 +387,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CR": PhoneMetadata(
-    dialCode: r"506",
+    countryCode: r"506",
     isoCode: r"CR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -395,7 +395,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CU": PhoneMetadata(
-    dialCode: r"53",
+    countryCode: r"53",
     isoCode: r"CU",
     leadingDigits: null,
     internationalPrefix: r"119",
@@ -403,7 +403,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CV": PhoneMetadata(
-    dialCode: r"238",
+    countryCode: r"238",
     isoCode: r"CV",
     leadingDigits: null,
     internationalPrefix: r"0",
@@ -411,7 +411,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CW": PhoneMetadata(
-    dialCode: r"599",
+    countryCode: r"599",
     isoCode: r"CW",
     leadingDigits: r"[69]",
     internationalPrefix: r"00",
@@ -419,7 +419,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "CX": PhoneMetadata(
-    dialCode: r"61",
+    countryCode: r"61",
     isoCode: r"CX",
     leadingDigits: null,
     internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
@@ -427,7 +427,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CY": PhoneMetadata(
-    dialCode: r"357",
+    countryCode: r"357",
     isoCode: r"CY",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -435,7 +435,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "CZ": PhoneMetadata(
-    dialCode: r"420",
+    countryCode: r"420",
     isoCode: r"CZ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -443,7 +443,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "DE": PhoneMetadata(
-    dialCode: r"49",
+    countryCode: r"49",
     isoCode: r"DE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -451,7 +451,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "DJ": PhoneMetadata(
-    dialCode: r"253",
+    countryCode: r"253",
     isoCode: r"DJ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -459,7 +459,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "DK": PhoneMetadata(
-    dialCode: r"45",
+    countryCode: r"45",
     isoCode: r"DK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -467,7 +467,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "DM": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"DM",
     leadingDigits: r"767",
     internationalPrefix: r"011",
@@ -475,7 +475,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "DO": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"DO",
     leadingDigits: r"8001|8[024]9",
     internationalPrefix: r"011",
@@ -483,7 +483,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "DZ": PhoneMetadata(
-    dialCode: r"213",
+    countryCode: r"213",
     isoCode: r"DZ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -491,7 +491,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "EC": PhoneMetadata(
-    dialCode: r"593",
+    countryCode: r"593",
     isoCode: r"EC",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -499,7 +499,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "EE": PhoneMetadata(
-    dialCode: r"372",
+    countryCode: r"372",
     isoCode: r"EE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -507,7 +507,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "EG": PhoneMetadata(
-    dialCode: r"20",
+    countryCode: r"20",
     isoCode: r"EG",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -515,7 +515,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "EH": PhoneMetadata(
-    dialCode: r"212",
+    countryCode: r"212",
     isoCode: r"EH",
     leadingDigits: r"528[89]",
     internationalPrefix: r"00",
@@ -523,7 +523,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ER": PhoneMetadata(
-    dialCode: r"291",
+    countryCode: r"291",
     isoCode: r"ER",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -531,7 +531,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ES": PhoneMetadata(
-    dialCode: r"34",
+    countryCode: r"34",
     isoCode: r"ES",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -539,7 +539,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ET": PhoneMetadata(
-    dialCode: r"251",
+    countryCode: r"251",
     isoCode: r"ET",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -547,7 +547,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "FI": PhoneMetadata(
-    dialCode: r"358",
+    countryCode: r"358",
     isoCode: r"FI",
     leadingDigits: r"1[03-79]|[2-9]",
     internationalPrefix: r"00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
@@ -555,7 +555,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "FJ": PhoneMetadata(
-    dialCode: r"679",
+    countryCode: r"679",
     isoCode: r"FJ",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|52)",
@@ -563,7 +563,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "FK": PhoneMetadata(
-    dialCode: r"500",
+    countryCode: r"500",
     isoCode: r"FK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -571,7 +571,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "FM": PhoneMetadata(
-    dialCode: r"691",
+    countryCode: r"691",
     isoCode: r"FM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -579,7 +579,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "FO": PhoneMetadata(
-    dialCode: r"298",
+    countryCode: r"298",
     isoCode: r"FO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -587,7 +587,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "FR": PhoneMetadata(
-    dialCode: r"33",
+    countryCode: r"33",
     isoCode: r"FR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -595,7 +595,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GA": PhoneMetadata(
-    dialCode: r"241",
+    countryCode: r"241",
     isoCode: r"GA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -603,7 +603,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GB": PhoneMetadata(
-    dialCode: r"44",
+    countryCode: r"44",
     isoCode: r"GB",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -611,7 +611,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "GD": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"GD",
     leadingDigits: r"473",
     internationalPrefix: r"011",
@@ -619,7 +619,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GE": PhoneMetadata(
-    dialCode: r"995",
+    countryCode: r"995",
     isoCode: r"GE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -627,7 +627,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GF": PhoneMetadata(
-    dialCode: r"594",
+    countryCode: r"594",
     isoCode: r"GF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -635,7 +635,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GG": PhoneMetadata(
-    dialCode: r"44",
+    countryCode: r"44",
     isoCode: r"GG",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -643,7 +643,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GH": PhoneMetadata(
-    dialCode: r"233",
+    countryCode: r"233",
     isoCode: r"GH",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -651,7 +651,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GI": PhoneMetadata(
-    dialCode: r"350",
+    countryCode: r"350",
     isoCode: r"GI",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -659,7 +659,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GL": PhoneMetadata(
-    dialCode: r"299",
+    countryCode: r"299",
     isoCode: r"GL",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -667,7 +667,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GM": PhoneMetadata(
-    dialCode: r"220",
+    countryCode: r"220",
     isoCode: r"GM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -675,7 +675,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GN": PhoneMetadata(
-    dialCode: r"224",
+    countryCode: r"224",
     isoCode: r"GN",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -683,7 +683,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GP": PhoneMetadata(
-    dialCode: r"590",
+    countryCode: r"590",
     isoCode: r"GP",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -691,7 +691,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "GQ": PhoneMetadata(
-    dialCode: r"240",
+    countryCode: r"240",
     isoCode: r"GQ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -699,7 +699,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GR": PhoneMetadata(
-    dialCode: r"30",
+    countryCode: r"30",
     isoCode: r"GR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -707,7 +707,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GT": PhoneMetadata(
-    dialCode: r"502",
+    countryCode: r"502",
     isoCode: r"GT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -715,7 +715,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GU": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"GU",
     leadingDigits: r"671",
     internationalPrefix: r"011",
@@ -723,7 +723,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GW": PhoneMetadata(
-    dialCode: r"245",
+    countryCode: r"245",
     isoCode: r"GW",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -731,7 +731,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "GY": PhoneMetadata(
-    dialCode: r"592",
+    countryCode: r"592",
     isoCode: r"GY",
     leadingDigits: null,
     internationalPrefix: r"001",
@@ -739,7 +739,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "HK": PhoneMetadata(
-    dialCode: r"852",
+    countryCode: r"852",
     isoCode: r"HK",
     leadingDigits: null,
     internationalPrefix: r"00(?:30|5[09]|[126-9]?)",
@@ -747,7 +747,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "HN": PhoneMetadata(
-    dialCode: r"504",
+    countryCode: r"504",
     isoCode: r"HN",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -755,7 +755,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "HR": PhoneMetadata(
-    dialCode: r"385",
+    countryCode: r"385",
     isoCode: r"HR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -763,7 +763,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "HT": PhoneMetadata(
-    dialCode: r"509",
+    countryCode: r"509",
     isoCode: r"HT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -771,7 +771,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "HU": PhoneMetadata(
-    dialCode: r"36",
+    countryCode: r"36",
     isoCode: r"HU",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -779,7 +779,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ID": PhoneMetadata(
-    dialCode: r"62",
+    countryCode: r"62",
     isoCode: r"ID",
     leadingDigits: null,
     internationalPrefix: r"00[89]",
@@ -787,7 +787,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IE": PhoneMetadata(
-    dialCode: r"353",
+    countryCode: r"353",
     isoCode: r"IE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -795,7 +795,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IL": PhoneMetadata(
-    dialCode: r"972",
+    countryCode: r"972",
     isoCode: r"IL",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|1[2-9])",
@@ -803,7 +803,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IM": PhoneMetadata(
-    dialCode: r"44",
+    countryCode: r"44",
     isoCode: r"IM",
     leadingDigits: r"74576|(?:16|7[56])24",
     internationalPrefix: r"00",
@@ -811,7 +811,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IN": PhoneMetadata(
-    dialCode: r"91",
+    countryCode: r"91",
     isoCode: r"IN",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -819,7 +819,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IO": PhoneMetadata(
-    dialCode: r"246",
+    countryCode: r"246",
     isoCode: r"IO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -827,7 +827,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IQ": PhoneMetadata(
-    dialCode: r"964",
+    countryCode: r"964",
     isoCode: r"IQ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -835,7 +835,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IR": PhoneMetadata(
-    dialCode: r"98",
+    countryCode: r"98",
     isoCode: r"IR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -843,7 +843,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IS": PhoneMetadata(
-    dialCode: r"354",
+    countryCode: r"354",
     isoCode: r"IS",
     leadingDigits: null,
     internationalPrefix: r"00|1(?:0(?:01|[12]0)|100)",
@@ -851,7 +851,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "IT": PhoneMetadata(
-    dialCode: r"39",
+    countryCode: r"39",
     isoCode: r"IT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -859,7 +859,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "JE": PhoneMetadata(
-    dialCode: r"44",
+    countryCode: r"44",
     isoCode: r"JE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -867,7 +867,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "JM": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"JM",
     leadingDigits: r"658|876",
     internationalPrefix: r"011",
@@ -875,7 +875,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "JO": PhoneMetadata(
-    dialCode: r"962",
+    countryCode: r"962",
     isoCode: r"JO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -883,7 +883,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "JP": PhoneMetadata(
-    dialCode: r"81",
+    countryCode: r"81",
     isoCode: r"JP",
     leadingDigits: null,
     internationalPrefix: r"010",
@@ -891,7 +891,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KE": PhoneMetadata(
-    dialCode: r"254",
+    countryCode: r"254",
     isoCode: r"KE",
     leadingDigits: null,
     internationalPrefix: r"000",
@@ -899,7 +899,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KG": PhoneMetadata(
-    dialCode: r"996",
+    countryCode: r"996",
     isoCode: r"KG",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -907,7 +907,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KH": PhoneMetadata(
-    dialCode: r"855",
+    countryCode: r"855",
     isoCode: r"KH",
     leadingDigits: null,
     internationalPrefix: r"00[14-9]",
@@ -915,7 +915,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KI": PhoneMetadata(
-    dialCode: r"686",
+    countryCode: r"686",
     isoCode: r"KI",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -923,7 +923,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KM": PhoneMetadata(
-    dialCode: r"269",
+    countryCode: r"269",
     isoCode: r"KM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -931,7 +931,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KN": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"KN",
     leadingDigits: r"869",
     internationalPrefix: r"011",
@@ -939,7 +939,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KP": PhoneMetadata(
-    dialCode: r"850",
+    countryCode: r"850",
     isoCode: r"KP",
     leadingDigits: null,
     internationalPrefix: r"00|99",
@@ -947,7 +947,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KR": PhoneMetadata(
-    dialCode: r"82",
+    countryCode: r"82",
     isoCode: r"KR",
     leadingDigits: null,
     internationalPrefix: r"00(?:[125689]|3(?:[46]5|91)|7(?:00|27|3|55|6[126]))",
@@ -955,7 +955,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KW": PhoneMetadata(
-    dialCode: r"965",
+    countryCode: r"965",
     isoCode: r"KW",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -963,7 +963,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KY": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"KY",
     leadingDigits: r"345",
     internationalPrefix: r"011",
@@ -971,7 +971,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "KZ": PhoneMetadata(
-    dialCode: r"7",
+    countryCode: r"7",
     isoCode: r"KZ",
     leadingDigits: r"33|7",
     internationalPrefix: r"810",
@@ -979,7 +979,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LA": PhoneMetadata(
-    dialCode: r"856",
+    countryCode: r"856",
     isoCode: r"LA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -987,7 +987,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LB": PhoneMetadata(
-    dialCode: r"961",
+    countryCode: r"961",
     isoCode: r"LB",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -995,7 +995,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LC": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"LC",
     leadingDigits: r"758",
     internationalPrefix: r"011",
@@ -1003,7 +1003,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LI": PhoneMetadata(
-    dialCode: r"423",
+    countryCode: r"423",
     isoCode: r"LI",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1011,7 +1011,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LK": PhoneMetadata(
-    dialCode: r"94",
+    countryCode: r"94",
     isoCode: r"LK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1019,7 +1019,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LR": PhoneMetadata(
-    dialCode: r"231",
+    countryCode: r"231",
     isoCode: r"LR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1027,7 +1027,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LS": PhoneMetadata(
-    dialCode: r"266",
+    countryCode: r"266",
     isoCode: r"LS",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1035,7 +1035,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LT": PhoneMetadata(
-    dialCode: r"370",
+    countryCode: r"370",
     isoCode: r"LT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1043,7 +1043,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LU": PhoneMetadata(
-    dialCode: r"352",
+    countryCode: r"352",
     isoCode: r"LU",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1051,7 +1051,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LV": PhoneMetadata(
-    dialCode: r"371",
+    countryCode: r"371",
     isoCode: r"LV",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1059,7 +1059,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "LY": PhoneMetadata(
-    dialCode: r"218",
+    countryCode: r"218",
     isoCode: r"LY",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1067,7 +1067,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MA": PhoneMetadata(
-    dialCode: r"212",
+    countryCode: r"212",
     isoCode: r"MA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1075,7 +1075,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "MC": PhoneMetadata(
-    dialCode: r"377",
+    countryCode: r"377",
     isoCode: r"MC",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1083,7 +1083,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MD": PhoneMetadata(
-    dialCode: r"373",
+    countryCode: r"373",
     isoCode: r"MD",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1091,7 +1091,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ME": PhoneMetadata(
-    dialCode: r"382",
+    countryCode: r"382",
     isoCode: r"ME",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1099,7 +1099,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MF": PhoneMetadata(
-    dialCode: r"590",
+    countryCode: r"590",
     isoCode: r"MF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1107,7 +1107,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MG": PhoneMetadata(
-    dialCode: r"261",
+    countryCode: r"261",
     isoCode: r"MG",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1115,7 +1115,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MH": PhoneMetadata(
-    dialCode: r"692",
+    countryCode: r"692",
     isoCode: r"MH",
     leadingDigits: null,
     internationalPrefix: r"011",
@@ -1123,7 +1123,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MK": PhoneMetadata(
-    dialCode: r"389",
+    countryCode: r"389",
     isoCode: r"MK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1131,7 +1131,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ML": PhoneMetadata(
-    dialCode: r"223",
+    countryCode: r"223",
     isoCode: r"ML",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1139,7 +1139,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MM": PhoneMetadata(
-    dialCode: r"95",
+    countryCode: r"95",
     isoCode: r"MM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1147,7 +1147,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MN": PhoneMetadata(
-    dialCode: r"976",
+    countryCode: r"976",
     isoCode: r"MN",
     leadingDigits: null,
     internationalPrefix: r"001",
@@ -1155,7 +1155,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MO": PhoneMetadata(
-    dialCode: r"853",
+    countryCode: r"853",
     isoCode: r"MO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1163,7 +1163,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MP": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"MP",
     leadingDigits: r"670",
     internationalPrefix: r"011",
@@ -1171,7 +1171,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MQ": PhoneMetadata(
-    dialCode: r"596",
+    countryCode: r"596",
     isoCode: r"MQ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1179,7 +1179,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MR": PhoneMetadata(
-    dialCode: r"222",
+    countryCode: r"222",
     isoCode: r"MR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1187,7 +1187,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MS": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"MS",
     leadingDigits: r"664",
     internationalPrefix: r"011",
@@ -1195,7 +1195,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MT": PhoneMetadata(
-    dialCode: r"356",
+    countryCode: r"356",
     isoCode: r"MT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1203,7 +1203,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MU": PhoneMetadata(
-    dialCode: r"230",
+    countryCode: r"230",
     isoCode: r"MU",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|[24-7]0|3[03])",
@@ -1211,7 +1211,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MV": PhoneMetadata(
-    dialCode: r"960",
+    countryCode: r"960",
     isoCode: r"MV",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|19)",
@@ -1219,7 +1219,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MW": PhoneMetadata(
-    dialCode: r"265",
+    countryCode: r"265",
     isoCode: r"MW",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1227,7 +1227,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MX": PhoneMetadata(
-    dialCode: r"52",
+    countryCode: r"52",
     isoCode: r"MX",
     leadingDigits: null,
     internationalPrefix: r"0[09]",
@@ -1235,7 +1235,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MY": PhoneMetadata(
-    dialCode: r"60",
+    countryCode: r"60",
     isoCode: r"MY",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1243,7 +1243,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "MZ": PhoneMetadata(
-    dialCode: r"258",
+    countryCode: r"258",
     isoCode: r"MZ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1251,7 +1251,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NA": PhoneMetadata(
-    dialCode: r"264",
+    countryCode: r"264",
     isoCode: r"NA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1259,7 +1259,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NC": PhoneMetadata(
-    dialCode: r"687",
+    countryCode: r"687",
     isoCode: r"NC",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1267,7 +1267,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NE": PhoneMetadata(
-    dialCode: r"227",
+    countryCode: r"227",
     isoCode: r"NE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1275,7 +1275,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NF": PhoneMetadata(
-    dialCode: r"672",
+    countryCode: r"672",
     isoCode: r"NF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1283,7 +1283,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NG": PhoneMetadata(
-    dialCode: r"234",
+    countryCode: r"234",
     isoCode: r"NG",
     leadingDigits: null,
     internationalPrefix: r"009",
@@ -1291,7 +1291,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NI": PhoneMetadata(
-    dialCode: r"505",
+    countryCode: r"505",
     isoCode: r"NI",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1299,7 +1299,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NL": PhoneMetadata(
-    dialCode: r"31",
+    countryCode: r"31",
     isoCode: r"NL",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1307,7 +1307,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NO": PhoneMetadata(
-    dialCode: r"47",
+    countryCode: r"47",
     isoCode: r"NO",
     leadingDigits: r"[02-689]|7[0-8]",
     internationalPrefix: r"00",
@@ -1315,7 +1315,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "NP": PhoneMetadata(
-    dialCode: r"977",
+    countryCode: r"977",
     isoCode: r"NP",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1323,7 +1323,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NR": PhoneMetadata(
-    dialCode: r"674",
+    countryCode: r"674",
     isoCode: r"NR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1331,7 +1331,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NU": PhoneMetadata(
-    dialCode: r"683",
+    countryCode: r"683",
     isoCode: r"NU",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1339,7 +1339,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "NZ": PhoneMetadata(
-    dialCode: r"64",
+    countryCode: r"64",
     isoCode: r"NZ",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|161)",
@@ -1347,7 +1347,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "OM": PhoneMetadata(
-    dialCode: r"968",
+    countryCode: r"968",
     isoCode: r"OM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1355,7 +1355,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PA": PhoneMetadata(
-    dialCode: r"507",
+    countryCode: r"507",
     isoCode: r"PA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1363,7 +1363,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PE": PhoneMetadata(
-    dialCode: r"51",
+    countryCode: r"51",
     isoCode: r"PE",
     leadingDigits: null,
     internationalPrefix: r"19(?:1[124]|77|90)00",
@@ -1371,7 +1371,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PF": PhoneMetadata(
-    dialCode: r"689",
+    countryCode: r"689",
     isoCode: r"PF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1379,7 +1379,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PG": PhoneMetadata(
-    dialCode: r"675",
+    countryCode: r"675",
     isoCode: r"PG",
     leadingDigits: null,
     internationalPrefix: r"00|140[1-3]",
@@ -1387,7 +1387,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PH": PhoneMetadata(
-    dialCode: r"63",
+    countryCode: r"63",
     isoCode: r"PH",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1395,7 +1395,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PK": PhoneMetadata(
-    dialCode: r"92",
+    countryCode: r"92",
     isoCode: r"PK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1403,7 +1403,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PL": PhoneMetadata(
-    dialCode: r"48",
+    countryCode: r"48",
     isoCode: r"PL",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1411,7 +1411,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PM": PhoneMetadata(
-    dialCode: r"508",
+    countryCode: r"508",
     isoCode: r"PM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1419,7 +1419,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PR": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"PR",
     leadingDigits: r"787|939",
     internationalPrefix: r"011",
@@ -1427,7 +1427,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PS": PhoneMetadata(
-    dialCode: r"970",
+    countryCode: r"970",
     isoCode: r"PS",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1435,7 +1435,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PT": PhoneMetadata(
-    dialCode: r"351",
+    countryCode: r"351",
     isoCode: r"PT",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1443,7 +1443,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PW": PhoneMetadata(
-    dialCode: r"680",
+    countryCode: r"680",
     isoCode: r"PW",
     leadingDigits: null,
     internationalPrefix: r"01[12]",
@@ -1451,7 +1451,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "PY": PhoneMetadata(
-    dialCode: r"595",
+    countryCode: r"595",
     isoCode: r"PY",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1459,7 +1459,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "QA": PhoneMetadata(
-    dialCode: r"974",
+    countryCode: r"974",
     isoCode: r"QA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1467,7 +1467,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "RE": PhoneMetadata(
-    dialCode: r"262",
+    countryCode: r"262",
     isoCode: r"RE",
     leadingDigits: r"26[23]|69|[89]",
     internationalPrefix: r"00",
@@ -1475,7 +1475,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "RO": PhoneMetadata(
-    dialCode: r"40",
+    countryCode: r"40",
     isoCode: r"RO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1483,7 +1483,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "RS": PhoneMetadata(
-    dialCode: r"381",
+    countryCode: r"381",
     isoCode: r"RS",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1491,7 +1491,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "RU": PhoneMetadata(
-    dialCode: r"7",
+    countryCode: r"7",
     isoCode: r"RU",
     leadingDigits: r"3[04-689]|[489]",
     internationalPrefix: r"810",
@@ -1499,7 +1499,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "RW": PhoneMetadata(
-    dialCode: r"250",
+    countryCode: r"250",
     isoCode: r"RW",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1507,7 +1507,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SA": PhoneMetadata(
-    dialCode: r"966",
+    countryCode: r"966",
     isoCode: r"SA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1515,7 +1515,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SB": PhoneMetadata(
-    dialCode: r"677",
+    countryCode: r"677",
     isoCode: r"SB",
     leadingDigits: null,
     internationalPrefix: r"0[01]",
@@ -1523,7 +1523,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SC": PhoneMetadata(
-    dialCode: r"248",
+    countryCode: r"248",
     isoCode: r"SC",
     leadingDigits: null,
     internationalPrefix: r"010|0[0-2]",
@@ -1531,7 +1531,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SD": PhoneMetadata(
-    dialCode: r"249",
+    countryCode: r"249",
     isoCode: r"SD",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1539,7 +1539,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SE": PhoneMetadata(
-    dialCode: r"46",
+    countryCode: r"46",
     isoCode: r"SE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1547,7 +1547,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SG": PhoneMetadata(
-    dialCode: r"65",
+    countryCode: r"65",
     isoCode: r"SG",
     leadingDigits: null,
     internationalPrefix: r"0[0-3]\d",
@@ -1555,7 +1555,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SH": PhoneMetadata(
-    dialCode: r"290",
+    countryCode: r"290",
     isoCode: r"SH",
     leadingDigits: r"[256]",
     internationalPrefix: r"00",
@@ -1563,7 +1563,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "SI": PhoneMetadata(
-    dialCode: r"386",
+    countryCode: r"386",
     isoCode: r"SI",
     leadingDigits: null,
     internationalPrefix: r"00|10(?:22|66|88|99)",
@@ -1571,7 +1571,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SJ": PhoneMetadata(
-    dialCode: r"47",
+    countryCode: r"47",
     isoCode: r"SJ",
     leadingDigits: r"79",
     internationalPrefix: r"00",
@@ -1579,7 +1579,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SK": PhoneMetadata(
-    dialCode: r"421",
+    countryCode: r"421",
     isoCode: r"SK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1587,7 +1587,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SL": PhoneMetadata(
-    dialCode: r"232",
+    countryCode: r"232",
     isoCode: r"SL",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1595,7 +1595,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SM": PhoneMetadata(
-    dialCode: r"378",
+    countryCode: r"378",
     isoCode: r"SM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1603,7 +1603,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SN": PhoneMetadata(
-    dialCode: r"221",
+    countryCode: r"221",
     isoCode: r"SN",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1611,7 +1611,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SO": PhoneMetadata(
-    dialCode: r"252",
+    countryCode: r"252",
     isoCode: r"SO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1619,7 +1619,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SR": PhoneMetadata(
-    dialCode: r"597",
+    countryCode: r"597",
     isoCode: r"SR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1627,7 +1627,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SS": PhoneMetadata(
-    dialCode: r"211",
+    countryCode: r"211",
     isoCode: r"SS",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1635,7 +1635,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ST": PhoneMetadata(
-    dialCode: r"239",
+    countryCode: r"239",
     isoCode: r"ST",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1643,7 +1643,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SV": PhoneMetadata(
-    dialCode: r"503",
+    countryCode: r"503",
     isoCode: r"SV",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1651,7 +1651,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SX": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"SX",
     leadingDigits: r"721",
     internationalPrefix: r"011",
@@ -1659,7 +1659,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SY": PhoneMetadata(
-    dialCode: r"963",
+    countryCode: r"963",
     isoCode: r"SY",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1667,7 +1667,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "SZ": PhoneMetadata(
-    dialCode: r"268",
+    countryCode: r"268",
     isoCode: r"SZ",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1675,7 +1675,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TA": PhoneMetadata(
-    dialCode: r"290",
+    countryCode: r"290",
     isoCode: r"TA",
     leadingDigits: r"8",
     internationalPrefix: r"00",
@@ -1683,7 +1683,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TC": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"TC",
     leadingDigits: r"649",
     internationalPrefix: r"011",
@@ -1691,7 +1691,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TD": PhoneMetadata(
-    dialCode: r"235",
+    countryCode: r"235",
     isoCode: r"TD",
     leadingDigits: null,
     internationalPrefix: r"00|16",
@@ -1699,7 +1699,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TG": PhoneMetadata(
-    dialCode: r"228",
+    countryCode: r"228",
     isoCode: r"TG",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1707,7 +1707,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TH": PhoneMetadata(
-    dialCode: r"66",
+    countryCode: r"66",
     isoCode: r"TH",
     leadingDigits: null,
     internationalPrefix: r"00[1-9]",
@@ -1715,7 +1715,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TJ": PhoneMetadata(
-    dialCode: r"992",
+    countryCode: r"992",
     isoCode: r"TJ",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -1723,7 +1723,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TK": PhoneMetadata(
-    dialCode: r"690",
+    countryCode: r"690",
     isoCode: r"TK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1731,7 +1731,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TL": PhoneMetadata(
-    dialCode: r"670",
+    countryCode: r"670",
     isoCode: r"TL",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1739,7 +1739,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TM": PhoneMetadata(
-    dialCode: r"993",
+    countryCode: r"993",
     isoCode: r"TM",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -1747,7 +1747,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TN": PhoneMetadata(
-    dialCode: r"216",
+    countryCode: r"216",
     isoCode: r"TN",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1755,7 +1755,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TO": PhoneMetadata(
-    dialCode: r"676",
+    countryCode: r"676",
     isoCode: r"TO",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1763,7 +1763,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TR": PhoneMetadata(
-    dialCode: r"90",
+    countryCode: r"90",
     isoCode: r"TR",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1771,7 +1771,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TT": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"TT",
     leadingDigits: r"868",
     internationalPrefix: r"011",
@@ -1779,7 +1779,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TV": PhoneMetadata(
-    dialCode: r"688",
+    countryCode: r"688",
     isoCode: r"TV",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1787,7 +1787,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TW": PhoneMetadata(
-    dialCode: r"886",
+    countryCode: r"886",
     isoCode: r"TW",
     leadingDigits: null,
     internationalPrefix: r"0(?:0[25-79]|19)",
@@ -1795,7 +1795,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "TZ": PhoneMetadata(
-    dialCode: r"255",
+    countryCode: r"255",
     isoCode: r"TZ",
     leadingDigits: null,
     internationalPrefix: r"00[056]",
@@ -1803,7 +1803,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "UA": PhoneMetadata(
-    dialCode: r"380",
+    countryCode: r"380",
     isoCode: r"UA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1811,7 +1811,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "UG": PhoneMetadata(
-    dialCode: r"256",
+    countryCode: r"256",
     isoCode: r"UG",
     leadingDigits: null,
     internationalPrefix: r"00[057]",
@@ -1819,7 +1819,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "US": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"US",
     leadingDigits: null,
     internationalPrefix: r"011",
@@ -1827,7 +1827,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: true,
   ),
   "UY": PhoneMetadata(
-    dialCode: r"598",
+    countryCode: r"598",
     isoCode: r"UY",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|1[3-9]\d)",
@@ -1835,7 +1835,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "UZ": PhoneMetadata(
-    dialCode: r"998",
+    countryCode: r"998",
     isoCode: r"UZ",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -1843,7 +1843,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "VA": PhoneMetadata(
-    dialCode: r"39",
+    countryCode: r"39",
     isoCode: r"VA",
     leadingDigits: r"06698",
     internationalPrefix: r"00",
@@ -1851,7 +1851,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "VC": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"VC",
     leadingDigits: r"784",
     internationalPrefix: r"011",
@@ -1859,7 +1859,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "VE": PhoneMetadata(
-    dialCode: r"58",
+    countryCode: r"58",
     isoCode: r"VE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1867,7 +1867,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "VG": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"VG",
     leadingDigits: r"284",
     internationalPrefix: r"011",
@@ -1875,7 +1875,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "VI": PhoneMetadata(
-    dialCode: r"1",
+    countryCode: r"1",
     isoCode: r"VI",
     leadingDigits: r"340",
     internationalPrefix: r"011",
@@ -1883,7 +1883,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "VN": PhoneMetadata(
-    dialCode: r"84",
+    countryCode: r"84",
     isoCode: r"VN",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1891,7 +1891,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "VU": PhoneMetadata(
-    dialCode: r"678",
+    countryCode: r"678",
     isoCode: r"VU",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1899,7 +1899,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "WF": PhoneMetadata(
-    dialCode: r"681",
+    countryCode: r"681",
     isoCode: r"WF",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1907,7 +1907,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "WS": PhoneMetadata(
-    dialCode: r"685",
+    countryCode: r"685",
     isoCode: r"WS",
     leadingDigits: null,
     internationalPrefix: r"0",
@@ -1915,7 +1915,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "XK": PhoneMetadata(
-    dialCode: r"383",
+    countryCode: r"383",
     isoCode: r"XK",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1923,7 +1923,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "YE": PhoneMetadata(
-    dialCode: r"967",
+    countryCode: r"967",
     isoCode: r"YE",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1931,7 +1931,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "YT": PhoneMetadata(
-    dialCode: r"262",
+    countryCode: r"262",
     isoCode: r"YT",
     leadingDigits: r"269|63",
     internationalPrefix: r"00",
@@ -1939,7 +1939,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ZA": PhoneMetadata(
-    dialCode: r"27",
+    countryCode: r"27",
     isoCode: r"ZA",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1947,7 +1947,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ZM": PhoneMetadata(
-    dialCode: r"260",
+    countryCode: r"260",
     isoCode: r"ZM",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1955,7 +1955,7 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   "ZW": PhoneMetadata(
-    dialCode: r"263",
+    countryCode: r"263",
     isoCode: r"ZW",
     leadingDigits: null,
     internationalPrefix: r"00",
