@@ -10,7 +10,7 @@ import '../../lib/src/models/phone_metadata_lengths.dart';
 
 String encodePhoneMetadata(PhoneMetadata metadata) {
   return '''PhoneMetadata(
-      countryCallingCode: ${_enc(metadata.countryCallingCode)}, 
+      countryCode: ${_enc(metadata.countryCode)}, 
       isoCode: ${_enc(metadata.isoCode)},
       leadingDigits: ${_enc(metadata.leadingDigits)},
       internationalPrefix: ${_enc(metadata.internationalPrefix)}, 

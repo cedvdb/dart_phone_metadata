@@ -1,4 +1,4 @@
-const countryCallingCodeToIsoCode = {
+const countryCodeToIsoCode = {
   '247': ['AC'],
   '376': ['AD'],
   '971': ['AE'],

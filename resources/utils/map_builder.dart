@@ -6,16 +6,16 @@ Map<String, List<String>> toCountryCodeMap(
 ) {
   final map = <String, List<String>>{};
   allMetadatas.values.forEach((m) {
-    final countryCallingCode = m.countryCallingCode;
+    final countryCode = m.countryCode;
     final isMainCountry = m.isMainCountryForDialCode;
-    if (map[countryCallingCode] == null) {
-      map[countryCallingCode] = [];
+    if (map[countryCode] == null) {
+      map[countryCode] = [];
     }
     // we insert the main country at the start of the array so it's easy to find
     if (isMainCountry == true) {
-      map[countryCallingCode]!.insert(0, m.isoCode);
+      map[countryCode]!.insert(0, m.isoCode);
     } else {
-      map[countryCallingCode]!.add(m.isoCode);
+      map[countryCode]!.add(m.isoCode);
     }
   });
   return map;
