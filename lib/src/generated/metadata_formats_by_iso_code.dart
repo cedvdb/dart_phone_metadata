@@ -1,6 +1,6 @@
 import '../models/phone_metadata_formats.dart';
 
-const metadataFormatsByIsoCode = {
+const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
   'AC': [],
   'AD': [
     PhoneMetadataFormat(
