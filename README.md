@@ -5,3 +5,5 @@ The metadata is splitted in 3 classes:
   - Metadata
   - Lengths
   - Patterns
+  - Formats
+  - Geocodes (this file is HUGE though).

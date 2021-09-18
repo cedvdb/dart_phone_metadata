@@ -1,6 +1,5 @@
 ## 4.0.0
 - rename countryCallingCode to country code to be the same as libphonenumber
-- added geocode data
 
 ## 3.0.0
 

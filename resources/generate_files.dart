@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
 
-import 'data_sources/read_geo_codes.dart';
 import 'data_sources/read_metadata.dart';
 import 'utils/map_builder.dart';
 // ignore: avoid_relative_lib_imports
@@ -19,7 +18,6 @@ void main() async {
   final patterns = await getMetadataPatterns();
   final lengths = await getMetadataLengths();
   final formats = await getMetadataFormats();
-  final geocodes = await getGeocodes();
 
   final countryCodeMap = toCountryCodeMap(metadatas);
 
@@ -29,7 +27,6 @@ void main() async {
     writeLenghtsMapFile(lengths),
     writeFormatsMapFile(formats),
     writeCountryCodeMap(countryCodeMap),
-    writeGeoCodeMapFile(geocodes),
   ]);
 }
 
@@ -41,7 +38,7 @@ Future writeCountryCodeMap(Map<String, List<String>> dialCodeMap) async {
   });
   content = content.replaceFirst('%%', body);
   final file =
-      await File('lib/src/generated/country_calling_code_to_iso_code.dart')
+      await File('lib/src/generated/country_code_to_iso_code.dart')
           .create(recursive: true);
   await file.writeAsString(content);
 }
@@ -99,15 +96,4 @@ Future writeFormatsMapFile(Map<String, PhoneMetadataFormats> metadata) async {
   await file.writeAsString(content);
 }
 
-Future writeGeoCodeMapFile(Map<String, String> geocodes) async {
-  print(geocodes.length);
-  var content = 'const geoCodes = {%%};';
-  var body = '';
-  geocodes.forEach((key, value) {
-    body += '"$key": "$value",';
-  });
-  content = content.replaceFirst('%%', body);
-  final file =
-      await File('lib/src/generated/geocodes.dart').create(recursive: true);
-  await file.writeAsString(content);
-}
+
