@@ -1,3 +1,6 @@
+## 4.0.0
+- rename countryCallingCode to country code to be the same as libphonenumber
+
 ## 3.0.0
 
 - rename dialCode to countryCallingCode

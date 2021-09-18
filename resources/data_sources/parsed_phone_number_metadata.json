@@ -1,7 +1,7 @@
 {
   "AC": {
     "isoCode": "AC",
-    "countryCallingCode": "247",
+    "countryCode": "247",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -26,7 +26,7 @@
   },
   "AD": {
     "isoCode": "AD",
-    "countryCallingCode": "376",
+    "countryCode": "376",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -74,7 +74,7 @@
   },
   "AE": {
     "isoCode": "AE",
-    "countryCallingCode": "971",
+    "countryCode": "971",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -130,7 +130,7 @@
   },
   "AF": {
     "isoCode": "AF",
-    "countryCallingCode": "93",
+    "countryCode": "93",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -172,7 +172,7 @@
   },
   "AG": {
     "isoCode": "AG",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "268",
@@ -197,7 +197,7 @@
   },
   "AI": {
     "isoCode": "AI",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "264",
@@ -222,7 +222,7 @@
   },
   "AL": {
     "isoCode": "AL",
-    "countryCallingCode": "355",
+    "countryCode": "355",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -288,7 +288,7 @@
   },
   "AM": {
     "isoCode": "AM",
-    "countryCallingCode": "374",
+    "countryCode": "374",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -346,7 +346,7 @@
   },
   "AO": {
     "isoCode": "AO",
-    "countryCallingCode": "244",
+    "countryCode": "244",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -379,7 +379,7 @@
   },
   "AR": {
     "isoCode": "AR",
-    "countryCallingCode": "54",
+    "countryCode": "54",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -507,7 +507,7 @@
   },
   "AS": {
     "isoCode": "AS",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "684",
@@ -532,7 +532,7 @@
   },
   "AT": {
     "isoCode": "AT",
-    "countryCallingCode": "43",
+    "countryCode": "43",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -637,7 +637,7 @@
   },
   "AU": {
     "isoCode": "AU",
-    "countryCallingCode": "61",
+    "countryCode": "61",
     "internationalPrefix": "001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -736,7 +736,7 @@
   },
   "AW": {
     "isoCode": "AW",
-    "countryCallingCode": "297",
+    "countryCode": "297",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -769,7 +769,7 @@
   },
   "AX": {
     "isoCode": "AX",
-    "countryCallingCode": "358",
+    "countryCode": "358",
     "internationalPrefix": "00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
     "nationalPrefix": "0",
     "leadingDigits": "18",
@@ -801,7 +801,7 @@
   },
   "AZ": {
     "isoCode": "AZ",
-    "countryCallingCode": "994",
+    "countryCode": "994",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -861,7 +861,7 @@
   },
   "BA": {
     "isoCode": "BA",
-    "countryCallingCode": "387",
+    "countryCode": "387",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -920,7 +920,7 @@
   },
   "BB": {
     "isoCode": "BB",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "246",
@@ -945,7 +945,7 @@
   },
   "BD": {
     "isoCode": "BD",
-    "countryCallingCode": "880",
+    "countryCode": "880",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1007,7 +1007,7 @@
   },
   "BE": {
     "isoCode": "BE",
-    "countryCallingCode": "32",
+    "countryCode": "32",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1065,7 +1065,7 @@
   },
   "BF": {
     "isoCode": "BF",
-    "countryCallingCode": "226",
+    "countryCode": "226",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1098,7 +1098,7 @@
   },
   "BG": {
     "isoCode": "BG",
-    "countryCallingCode": "359",
+    "countryCode": "359",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1199,7 +1199,7 @@
   },
   "BH": {
     "isoCode": "BH",
-    "countryCallingCode": "973",
+    "countryCode": "973",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1232,7 +1232,7 @@
   },
   "BI": {
     "isoCode": "BI",
-    "countryCallingCode": "257",
+    "countryCode": "257",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1265,7 +1265,7 @@
   },
   "BJ": {
     "isoCode": "BJ",
-    "countryCallingCode": "229",
+    "countryCode": "229",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1298,7 +1298,7 @@
   },
   "BL": {
     "isoCode": "BL",
-    "countryCallingCode": "590",
+    "countryCode": "590",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1323,7 +1323,7 @@
   },
   "BM": {
     "isoCode": "BM",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "441",
@@ -1348,7 +1348,7 @@
   },
   "BN": {
     "isoCode": "BN",
-    "countryCallingCode": "673",
+    "countryCode": "673",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1381,7 +1381,7 @@
   },
   "BO": {
     "isoCode": "BO",
-    "countryCallingCode": "591",
+    "countryCode": "591",
     "internationalPrefix": "00(?:1\\d)?",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1431,7 +1431,7 @@
   },
   "BQ": {
     "isoCode": "BQ",
-    "countryCallingCode": "599",
+    "countryCode": "599",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": "[347]",
@@ -1456,7 +1456,7 @@
   },
   "BR": {
     "isoCode": "BR",
-    "countryCallingCode": "55",
+    "countryCode": "55",
     "internationalPrefix": "00(?:1[245]|2[1-35]|31|4[13]|[56]5|99)",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1542,7 +1542,7 @@
   },
   "BS": {
     "isoCode": "BS",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "242",
@@ -1567,7 +1567,7 @@
   },
   "BT": {
     "isoCode": "BT",
-    "countryCallingCode": "975",
+    "countryCode": "975",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1615,7 +1615,7 @@
   },
   "BW": {
     "isoCode": "BW",
-    "countryCallingCode": "267",
+    "countryCode": "267",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1676,7 +1676,7 @@
   },
   "BY": {
     "isoCode": "BY",
-    "countryCallingCode": "375",
+    "countryCode": "375",
     "internationalPrefix": "810",
     "nationalPrefix": "8",
     "leadingDigits": null,
@@ -1751,7 +1751,7 @@
   },
   "BZ": {
     "isoCode": "BZ",
-    "countryCallingCode": "501",
+    "countryCode": "501",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1791,7 +1791,7 @@
   },
   "CA": {
     "isoCode": "CA",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": null,
@@ -1816,7 +1816,7 @@
   },
   "CC": {
     "isoCode": "CC",
-    "countryCallingCode": "61",
+    "countryCode": "61",
     "internationalPrefix": "001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1841,7 +1841,7 @@
   },
   "CD": {
     "isoCode": "CD",
-    "countryCallingCode": "243",
+    "countryCode": "243",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -1901,7 +1901,7 @@
   },
   "CF": {
     "isoCode": "CF",
-    "countryCallingCode": "236",
+    "countryCode": "236",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1934,7 +1934,7 @@
   },
   "CG": {
     "isoCode": "CG",
-    "countryCallingCode": "242",
+    "countryCode": "242",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -1981,7 +1981,7 @@
   },
   "CH": {
     "isoCode": "CH",
-    "countryCallingCode": "41",
+    "countryCode": "41",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -2031,7 +2031,7 @@
   },
   "CI": {
     "isoCode": "CI",
-    "countryCallingCode": "225",
+    "countryCode": "225",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2064,7 +2064,7 @@
   },
   "CK": {
     "isoCode": "CK",
-    "countryCallingCode": "682",
+    "countryCode": "682",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2097,7 +2097,7 @@
   },
   "CL": {
     "isoCode": "CL",
-    "countryCallingCode": "56",
+    "countryCode": "56",
     "internationalPrefix": "(?:0|1(?:1[0-69]|2[02-5]|5[13-58]|69|7[0167]|8[018]))0",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2191,7 +2191,7 @@
   },
   "CM": {
     "isoCode": "CM",
-    "countryCallingCode": "237",
+    "countryCode": "237",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2231,7 +2231,7 @@
   },
   "CN": {
     "isoCode": "CN",
-    "countryCallingCode": "86",
+    "countryCode": "86",
     "internationalPrefix": "00|1(?:[12]\\d|79)\\d\\d00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -2394,7 +2394,7 @@
   },
   "CO": {
     "isoCode": "CO",
-    "countryCallingCode": "57",
+    "countryCode": "57",
     "internationalPrefix": "00(?:4(?:[14]4|56)|[579])",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -2446,7 +2446,7 @@
   },
   "CR": {
     "isoCode": "CR",
-    "countryCallingCode": "506",
+    "countryCode": "506",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2488,7 +2488,7 @@
   },
   "CU": {
     "isoCode": "CU",
-    "countryCallingCode": "53",
+    "countryCode": "53",
     "internationalPrefix": "119",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -2549,7 +2549,7 @@
   },
   "CV": {
     "isoCode": "CV",
-    "countryCallingCode": "238",
+    "countryCode": "238",
     "internationalPrefix": "0",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2582,7 +2582,7 @@
   },
   "CW": {
     "isoCode": "CW",
-    "countryCallingCode": "599",
+    "countryCode": "599",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": "[69]",
@@ -2624,7 +2624,7 @@
   },
   "CX": {
     "isoCode": "CX",
-    "countryCallingCode": "61",
+    "countryCode": "61",
     "internationalPrefix": "001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -2649,7 +2649,7 @@
   },
   "CY": {
     "isoCode": "CY",
-    "countryCallingCode": "357",
+    "countryCode": "357",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2682,7 +2682,7 @@
   },
   "CZ": {
     "isoCode": "CZ",
-    "countryCallingCode": "420",
+    "countryCode": "420",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2729,7 +2729,7 @@
   },
   "DE": {
     "isoCode": "DE",
-    "countryCallingCode": "49",
+    "countryCode": "49",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -2914,7 +2914,7 @@
   },
   "DJ": {
     "isoCode": "DJ",
-    "countryCallingCode": "253",
+    "countryCode": "253",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2947,7 +2947,7 @@
   },
   "DK": {
     "isoCode": "DK",
-    "countryCallingCode": "45",
+    "countryCode": "45",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -2980,7 +2980,7 @@
   },
   "DM": {
     "isoCode": "DM",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "767",
@@ -3005,7 +3005,7 @@
   },
   "DO": {
     "isoCode": "DO",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "8001|8[024]9",
@@ -3030,7 +3030,7 @@
   },
   "DZ": {
     "isoCode": "DZ",
-    "countryCallingCode": "213",
+    "countryCode": "213",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3081,7 +3081,7 @@
   },
   "EC": {
     "isoCode": "EC",
-    "countryCallingCode": "593",
+    "countryCode": "593",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3139,7 +3139,7 @@
   },
   "EE": {
     "isoCode": "EE",
-    "countryCallingCode": "372",
+    "countryCode": "372",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -3196,7 +3196,7 @@
   },
   "EG": {
     "isoCode": "EG",
-    "countryCallingCode": "20",
+    "countryCode": "20",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3247,7 +3247,7 @@
   },
   "EH": {
     "isoCode": "EH",
-    "countryCallingCode": "212",
+    "countryCode": "212",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": "528[89]",
@@ -3272,7 +3272,7 @@
   },
   "ER": {
     "isoCode": "ER",
-    "countryCallingCode": "291",
+    "countryCode": "291",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3306,7 +3306,7 @@
   },
   "ES": {
     "isoCode": "ES",
-    "countryCallingCode": "34",
+    "countryCode": "34",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -3362,7 +3362,7 @@
   },
   "ET": {
     "isoCode": "ET",
-    "countryCallingCode": "251",
+    "countryCode": "251",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3396,7 +3396,7 @@
   },
   "FI": {
     "isoCode": "FI",
-    "countryCallingCode": "358",
+    "countryCode": "358",
     "internationalPrefix": "00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
     "nationalPrefix": "0",
     "leadingDigits": "1[03-79]|[2-9]",
@@ -3479,7 +3479,7 @@
   },
   "FJ": {
     "isoCode": "FJ",
-    "countryCallingCode": "679",
+    "countryCode": "679",
     "internationalPrefix": "0(?:0|52)",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -3519,7 +3519,7 @@
   },
   "FK": {
     "isoCode": "FK",
-    "countryCallingCode": "500",
+    "countryCode": "500",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -3544,7 +3544,7 @@
   },
   "FM": {
     "isoCode": "FM",
-    "countryCallingCode": "691",
+    "countryCode": "691",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -3577,7 +3577,7 @@
   },
   "FO": {
     "isoCode": "FO",
-    "countryCallingCode": "298",
+    "countryCode": "298",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -3611,7 +3611,7 @@
   },
   "FR": {
     "isoCode": "FR",
-    "countryCallingCode": "33",
+    "countryCode": "33",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3669,7 +3669,7 @@
   },
   "GA": {
     "isoCode": "GA",
-    "countryCallingCode": "241",
+    "countryCode": "241",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -3719,7 +3719,7 @@
   },
   "GB": {
     "isoCode": "GB",
-    "countryCallingCode": "44",
+    "countryCode": "44",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3820,7 +3820,7 @@
   },
   "GD": {
     "isoCode": "GD",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "473",
@@ -3845,7 +3845,7 @@
   },
   "GE": {
     "isoCode": "GE",
-    "countryCallingCode": "995",
+    "countryCode": "995",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3902,7 +3902,7 @@
   },
   "GF": {
     "isoCode": "GF",
-    "countryCallingCode": "594",
+    "countryCode": "594",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3936,7 +3936,7 @@
   },
   "GG": {
     "isoCode": "GG",
-    "countryCallingCode": "44",
+    "countryCode": "44",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -3961,7 +3961,7 @@
   },
   "GH": {
     "isoCode": "GH",
-    "countryCallingCode": "233",
+    "countryCode": "233",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -4011,7 +4011,7 @@
   },
   "GI": {
     "isoCode": "GI",
-    "countryCallingCode": "350",
+    "countryCode": "350",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4044,7 +4044,7 @@
   },
   "GL": {
     "isoCode": "GL",
-    "countryCallingCode": "299",
+    "countryCode": "299",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4077,7 +4077,7 @@
   },
   "GM": {
     "isoCode": "GM",
-    "countryCallingCode": "220",
+    "countryCode": "220",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4110,7 +4110,7 @@
   },
   "GN": {
     "isoCode": "GN",
-    "countryCallingCode": "224",
+    "countryCode": "224",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4150,7 +4150,7 @@
   },
   "GP": {
     "isoCode": "GP",
-    "countryCallingCode": "590",
+    "countryCode": "590",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -4184,7 +4184,7 @@
   },
   "GQ": {
     "isoCode": "GQ",
-    "countryCallingCode": "240",
+    "countryCode": "240",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4224,7 +4224,7 @@
   },
   "GR": {
     "isoCode": "GR",
-    "countryCallingCode": "30",
+    "countryCode": "30",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4271,7 +4271,7 @@
   },
   "GT": {
     "isoCode": "GT",
-    "countryCallingCode": "502",
+    "countryCode": "502",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4311,7 +4311,7 @@
   },
   "GU": {
     "isoCode": "GU",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "671",
@@ -4336,7 +4336,7 @@
   },
   "GW": {
     "isoCode": "GW",
-    "countryCallingCode": "245",
+    "countryCode": "245",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4376,7 +4376,7 @@
   },
   "GY": {
     "isoCode": "GY",
-    "countryCallingCode": "592",
+    "countryCode": "592",
     "internationalPrefix": "001",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4409,7 +4409,7 @@
   },
   "HK": {
     "isoCode": "HK",
-    "countryCallingCode": "852",
+    "countryCode": "852",
     "internationalPrefix": "00(?:30|5[09]|[126-9]?)",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4464,7 +4464,7 @@
   },
   "HN": {
     "isoCode": "HN",
-    "countryCallingCode": "504",
+    "countryCode": "504",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4505,7 +4505,7 @@
   },
   "HR": {
     "isoCode": "HR",
-    "countryCallingCode": "385",
+    "countryCode": "385",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -4589,7 +4589,7 @@
   },
   "HT": {
     "isoCode": "HT",
-    "countryCallingCode": "509",
+    "countryCode": "509",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -4622,7 +4622,7 @@
   },
   "HU": {
     "isoCode": "HU",
-    "countryCallingCode": "36",
+    "countryCode": "36",
     "internationalPrefix": "00",
     "nationalPrefix": "06",
     "leadingDigits": null,
@@ -4672,7 +4672,7 @@
   },
   "ID": {
     "isoCode": "ID",
-    "countryCallingCode": "62",
+    "countryCode": "62",
     "internationalPrefix": "00[89]",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -4792,7 +4792,7 @@
   },
   "IE": {
     "isoCode": "IE",
-    "countryCallingCode": "353",
+    "countryCode": "353",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -4900,7 +4900,7 @@
   },
   "IL": {
     "isoCode": "IL",
-    "countryCallingCode": "972",
+    "countryCode": "972",
     "internationalPrefix": "0(?:0|1[2-9])",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -4986,7 +4986,7 @@
   },
   "IM": {
     "isoCode": "IM",
-    "countryCallingCode": "44",
+    "countryCode": "44",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": "74576|(?:16|7[56])24",
@@ -5011,7 +5011,7 @@
   },
   "IN": {
     "isoCode": "IN",
-    "countryCallingCode": "91",
+    "countryCode": "91",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5139,7 +5139,7 @@
   },
   "IO": {
     "isoCode": "IO",
-    "countryCallingCode": "246",
+    "countryCode": "246",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -5172,7 +5172,7 @@
   },
   "IQ": {
     "isoCode": "IQ",
-    "countryCallingCode": "964",
+    "countryCode": "964",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5223,7 +5223,7 @@
   },
   "IR": {
     "isoCode": "IR",
-    "countryCallingCode": "98",
+    "countryCode": "98",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5283,7 +5283,7 @@
   },
   "IS": {
     "isoCode": "IS",
-    "countryCallingCode": "354",
+    "countryCode": "354",
     "internationalPrefix": "00|1(?:0(?:01|[12]0)|100)",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -5324,7 +5324,7 @@
   },
   "IT": {
     "isoCode": "IT",
-    "countryCallingCode": "39",
+    "countryCode": "39",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -5444,7 +5444,7 @@
   },
   "JE": {
     "isoCode": "JE",
-    "countryCallingCode": "44",
+    "countryCode": "44",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5469,7 +5469,7 @@
   },
   "JM": {
     "isoCode": "JM",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "658|876",
@@ -5494,7 +5494,7 @@
   },
   "JO": {
     "isoCode": "JO",
-    "countryCallingCode": "962",
+    "countryCode": "962",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5552,7 +5552,7 @@
   },
   "JP": {
     "isoCode": "JP",
-    "countryCallingCode": "81",
+    "countryCode": "81",
     "internationalPrefix": "010",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5707,7 +5707,7 @@
   },
   "KE": {
     "isoCode": "KE",
-    "countryCallingCode": "254",
+    "countryCode": "254",
     "internationalPrefix": "000",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5759,7 +5759,7 @@
   },
   "KG": {
     "isoCode": "KG",
-    "countryCallingCode": "996",
+    "countryCode": "996",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5809,7 +5809,7 @@
   },
   "KH": {
     "isoCode": "KH",
-    "countryCallingCode": "855",
+    "countryCode": "855",
     "internationalPrefix": "00[14-9]",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5852,7 +5852,7 @@
   },
   "KI": {
     "isoCode": "KI",
-    "countryCallingCode": "686",
+    "countryCode": "686",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5878,7 +5878,7 @@
   },
   "KM": {
     "isoCode": "KM",
-    "countryCallingCode": "269",
+    "countryCode": "269",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -5911,7 +5911,7 @@
   },
   "KN": {
     "isoCode": "KN",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "869",
@@ -5936,7 +5936,7 @@
   },
   "KP": {
     "isoCode": "KP",
-    "countryCallingCode": "850",
+    "countryCode": "850",
     "internationalPrefix": "00|99",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -5987,7 +5987,7 @@
   },
   "KR": {
     "isoCode": "KR",
-    "countryCallingCode": "82",
+    "countryCode": "82",
     "internationalPrefix": "00(?:[125689]|3(?:[46]5|91)|7(?:00|27|3|55|6[126]))",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6115,7 +6115,7 @@
   },
   "KW": {
     "isoCode": "KW",
-    "countryCallingCode": "965",
+    "countryCode": "965",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -6155,7 +6155,7 @@
   },
   "KY": {
     "isoCode": "KY",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "345",
@@ -6180,7 +6180,7 @@
   },
   "KZ": {
     "isoCode": "KZ",
-    "countryCallingCode": "7",
+    "countryCode": "7",
     "internationalPrefix": "810",
     "nationalPrefix": "8",
     "leadingDigits": "33|7",
@@ -6205,7 +6205,7 @@
   },
   "LA": {
     "isoCode": "LA",
-    "countryCallingCode": "856",
+    "countryCode": "856",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6255,7 +6255,7 @@
   },
   "LB": {
     "isoCode": "LB",
-    "countryCallingCode": "961",
+    "countryCode": "961",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6297,7 +6297,7 @@
   },
   "LC": {
     "isoCode": "LC",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "758",
@@ -6322,7 +6322,7 @@
   },
   "LI": {
     "isoCode": "LI",
-    "countryCallingCode": "423",
+    "countryCode": "423",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6373,7 +6373,7 @@
   },
   "LK": {
     "isoCode": "LK",
-    "countryCallingCode": "94",
+    "countryCode": "94",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6415,7 +6415,7 @@
   },
   "LR": {
     "isoCode": "LR",
-    "countryCallingCode": "231",
+    "countryCode": "231",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6467,7 +6467,7 @@
   },
   "LS": {
     "isoCode": "LS",
-    "countryCallingCode": "266",
+    "countryCode": "266",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -6500,7 +6500,7 @@
   },
   "LT": {
     "isoCode": "LT",
-    "countryCallingCode": "370",
+    "countryCode": "370",
     "internationalPrefix": "00",
     "nationalPrefix": "8",
     "leadingDigits": null,
@@ -6562,7 +6562,7 @@
   },
   "LU": {
     "isoCode": "LU",
-    "countryCallingCode": "352",
+    "countryCode": "352",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -6667,7 +6667,7 @@
   },
   "LV": {
     "isoCode": "LV",
-    "countryCallingCode": "371",
+    "countryCode": "371",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -6700,7 +6700,7 @@
   },
   "LY": {
     "isoCode": "LY",
-    "countryCallingCode": "218",
+    "countryCode": "218",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6734,7 +6734,7 @@
   },
   "MA": {
     "isoCode": "MA",
-    "countryCallingCode": "212",
+    "countryCode": "212",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6803,7 +6803,7 @@
   },
   "MC": {
     "isoCode": "MC",
-    "countryCallingCode": "377",
+    "countryCode": "377",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6861,7 +6861,7 @@
   },
   "MD": {
     "isoCode": "MD",
-    "countryCallingCode": "373",
+    "countryCode": "373",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6911,7 +6911,7 @@
   },
   "ME": {
     "isoCode": "ME",
-    "countryCallingCode": "382",
+    "countryCode": "382",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6945,7 +6945,7 @@
   },
   "MF": {
     "isoCode": "MF",
-    "countryCallingCode": "590",
+    "countryCode": "590",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -6970,7 +6970,7 @@
   },
   "MG": {
     "isoCode": "MG",
-    "countryCallingCode": "261",
+    "countryCode": "261",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7004,7 +7004,7 @@
   },
   "MH": {
     "isoCode": "MH",
-    "countryCallingCode": "692",
+    "countryCode": "692",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": null,
@@ -7037,7 +7037,7 @@
   },
   "MK": {
     "isoCode": "MK",
-    "countryCallingCode": "389",
+    "countryCode": "389",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7087,7 +7087,7 @@
   },
   "ML": {
     "isoCode": "ML",
-    "countryCallingCode": "223",
+    "countryCode": "223",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7129,7 +7129,7 @@
   },
   "MM": {
     "isoCode": "MM",
-    "countryCallingCode": "95",
+    "countryCode": "95",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7233,7 +7233,7 @@
   },
   "MN": {
     "isoCode": "MN",
-    "countryCallingCode": "976",
+    "countryCode": "976",
     "internationalPrefix": "001",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7301,7 +7301,7 @@
   },
   "MO": {
     "isoCode": "MO",
-    "countryCallingCode": "853",
+    "countryCode": "853",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7334,7 +7334,7 @@
   },
   "MP": {
     "isoCode": "MP",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "670",
@@ -7359,7 +7359,7 @@
   },
   "MQ": {
     "isoCode": "MQ",
-    "countryCallingCode": "596",
+    "countryCode": "596",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7393,7 +7393,7 @@
   },
   "MR": {
     "isoCode": "MR",
-    "countryCallingCode": "222",
+    "countryCode": "222",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7426,7 +7426,7 @@
   },
   "MS": {
     "isoCode": "MS",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "664",
@@ -7451,7 +7451,7 @@
   },
   "MT": {
     "isoCode": "MT",
-    "countryCallingCode": "356",
+    "countryCode": "356",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7484,7 +7484,7 @@
   },
   "MU": {
     "isoCode": "MU",
-    "countryCallingCode": "230",
+    "countryCode": "230",
     "internationalPrefix": "0(?:0|[24-7]0|3[03])",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7525,7 +7525,7 @@
   },
   "MV": {
     "isoCode": "MV",
-    "countryCallingCode": "960",
+    "countryCode": "960",
     "internationalPrefix": "0(?:0|19)",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7565,7 +7565,7 @@
   },
   "MW": {
     "isoCode": "MW",
-    "countryCallingCode": "265",
+    "countryCode": "265",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7616,7 +7616,7 @@
   },
   "MX": {
     "isoCode": "MX",
-    "countryCallingCode": "52",
+    "countryCode": "52",
     "internationalPrefix": "0[09]",
     "nationalPrefix": "01",
     "leadingDigits": null,
@@ -7683,7 +7683,7 @@
   },
   "MY": {
     "isoCode": "MY",
-    "countryCallingCode": "60",
+    "countryCode": "60",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7758,7 +7758,7 @@
   },
   "MZ": {
     "isoCode": "MZ",
-    "countryCallingCode": "258",
+    "countryCode": "258",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7798,7 +7798,7 @@
   },
   "NA": {
     "isoCode": "NA",
-    "countryCallingCode": "264",
+    "countryCode": "264",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -7857,7 +7857,7 @@
   },
   "NC": {
     "isoCode": "NC",
-    "countryCallingCode": "687",
+    "countryCode": "687",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7898,7 +7898,7 @@
   },
   "NE": {
     "isoCode": "NE",
-    "countryCallingCode": "227",
+    "countryCode": "227",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7938,7 +7938,7 @@
   },
   "NF": {
     "isoCode": "NF",
-    "countryCallingCode": "672",
+    "countryCode": "672",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -7978,7 +7978,7 @@
   },
   "NG": {
     "isoCode": "NG",
-    "countryCallingCode": "234",
+    "countryCode": "234",
     "internationalPrefix": "009",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8053,7 +8053,7 @@
   },
   "NI": {
     "isoCode": "NI",
-    "countryCallingCode": "505",
+    "countryCode": "505",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8086,7 +8086,7 @@
   },
   "NL": {
     "isoCode": "NL",
-    "countryCallingCode": "31",
+    "countryCode": "31",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8176,7 +8176,7 @@
   },
   "NO": {
     "isoCode": "NO",
-    "countryCallingCode": "47",
+    "countryCode": "47",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": "[02-689]|7[0-8]",
@@ -8216,7 +8216,7 @@
   },
   "NP": {
     "isoCode": "NP",
-    "countryCallingCode": "977",
+    "countryCode": "977",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8273,7 +8273,7 @@
   },
   "NR": {
     "isoCode": "NR",
-    "countryCallingCode": "674",
+    "countryCode": "674",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8306,7 +8306,7 @@
   },
   "NU": {
     "isoCode": "NU",
-    "countryCallingCode": "683",
+    "countryCode": "683",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8339,7 +8339,7 @@
   },
   "NZ": {
     "isoCode": "NZ",
-    "countryCallingCode": "64",
+    "countryCode": "64",
     "internationalPrefix": "0(?:0|161)",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8416,7 +8416,7 @@
   },
   "OM": {
     "isoCode": "OM",
-    "countryCallingCode": "968",
+    "countryCode": "968",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8463,7 +8463,7 @@
   },
   "PA": {
     "isoCode": "PA",
-    "countryCallingCode": "507",
+    "countryCode": "507",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8511,7 +8511,7 @@
   },
   "PE": {
     "isoCode": "PE",
-    "countryCallingCode": "51",
+    "countryCode": "51",
     "internationalPrefix": "19(?:1[124]|77|90)00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8568,7 +8568,7 @@
   },
   "PF": {
     "isoCode": "PF",
-    "countryCallingCode": "689",
+    "countryCode": "689",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8608,7 +8608,7 @@
   },
   "PG": {
     "isoCode": "PG",
-    "countryCallingCode": "675",
+    "countryCode": "675",
     "internationalPrefix": "00|140[1-3]",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8649,7 +8649,7 @@
   },
   "PH": {
     "isoCode": "PH",
-    "countryCallingCode": "63",
+    "countryCode": "63",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8750,7 +8750,7 @@
   },
   "PK": {
     "isoCode": "PK",
-    "countryCallingCode": "92",
+    "countryCode": "92",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8841,7 +8841,7 @@
   },
   "PL": {
     "isoCode": "PL",
-    "countryCallingCode": "48",
+    "countryCode": "48",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -8918,7 +8918,7 @@
   },
   "PM": {
     "isoCode": "PM",
-    "countryCallingCode": "508",
+    "countryCode": "508",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -8952,7 +8952,7 @@
   },
   "PR": {
     "isoCode": "PR",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "787|939",
@@ -8977,7 +8977,7 @@
   },
   "PS": {
     "isoCode": "PS",
-    "countryCallingCode": "970",
+    "countryCode": "970",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9026,7 +9026,7 @@
   },
   "PT": {
     "isoCode": "PT",
-    "countryCallingCode": "351",
+    "countryCode": "351",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -9066,7 +9066,7 @@
   },
   "PW": {
     "isoCode": "PW",
-    "countryCallingCode": "680",
+    "countryCode": "680",
     "internationalPrefix": "01[12]",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -9099,7 +9099,7 @@
   },
   "PY": {
     "isoCode": "PY",
-    "countryCallingCode": "595",
+    "countryCode": "595",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9189,7 +9189,7 @@
   },
   "QA": {
     "isoCode": "QA",
-    "countryCallingCode": "974",
+    "countryCode": "974",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -9229,7 +9229,7 @@
   },
   "RE": {
     "isoCode": "RE",
-    "countryCallingCode": "262",
+    "countryCode": "262",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": "26[23]|69|[89]",
@@ -9263,7 +9263,7 @@
   },
   "RO": {
     "isoCode": "RO",
-    "countryCallingCode": "40",
+    "countryCode": "40",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9323,7 +9323,7 @@
   },
   "RS": {
     "isoCode": "RS",
-    "countryCallingCode": "381",
+    "countryCode": "381",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9372,7 +9372,7 @@
   },
   "RU": {
     "isoCode": "RU",
-    "countryCallingCode": "7",
+    "countryCode": "7",
     "internationalPrefix": "810",
     "nationalPrefix": "8",
     "leadingDigits": "3[04-689]|[489]",
@@ -9446,7 +9446,7 @@
   },
   "RW": {
     "isoCode": "RW",
-    "countryCallingCode": "250",
+    "countryCode": "250",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9495,7 +9495,7 @@
   },
   "SA": {
     "isoCode": "SA",
-    "countryCallingCode": "966",
+    "countryCode": "966",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9559,7 +9559,7 @@
   },
   "SB": {
     "isoCode": "SB",
-    "countryCallingCode": "677",
+    "countryCode": "677",
     "internationalPrefix": "0[01]",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -9593,7 +9593,7 @@
   },
   "SC": {
     "isoCode": "SC",
-    "countryCallingCode": "248",
+    "countryCode": "248",
     "internationalPrefix": "010|0[0-2]",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -9626,7 +9626,7 @@
   },
   "SD": {
     "isoCode": "SD",
-    "countryCallingCode": "249",
+    "countryCode": "249",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9660,7 +9660,7 @@
   },
   "SE": {
     "isoCode": "SE",
-    "countryCallingCode": "46",
+    "countryCode": "46",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9796,7 +9796,7 @@
   },
   "SG": {
     "isoCode": "SG",
-    "countryCallingCode": "65",
+    "countryCode": "65",
     "internationalPrefix": "0[0-3]\\d",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -9859,7 +9859,7 @@
   },
   "SH": {
     "isoCode": "SH",
-    "countryCallingCode": "290",
+    "countryCode": "290",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": "[256]",
@@ -9885,7 +9885,7 @@
   },
   "SI": {
     "isoCode": "SI",
-    "countryCallingCode": "386",
+    "countryCode": "386",
     "internationalPrefix": "00|10(?:22|66|88|99)",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -9943,7 +9943,7 @@
   },
   "SJ": {
     "isoCode": "SJ",
-    "countryCallingCode": "47",
+    "countryCode": "47",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": "79",
@@ -9968,7 +9968,7 @@
   },
   "SK": {
     "isoCode": "SK",
-    "countryCallingCode": "421",
+    "countryCode": "421",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -10047,7 +10047,7 @@
   },
   "SL": {
     "isoCode": "SL",
-    "countryCallingCode": "232",
+    "countryCode": "232",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -10081,7 +10081,7 @@
   },
   "SM": {
     "isoCode": "SM",
-    "countryCallingCode": "378",
+    "countryCode": "378",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10129,7 +10129,7 @@
   },
   "SN": {
     "isoCode": "SN",
-    "countryCallingCode": "221",
+    "countryCode": "221",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10169,7 +10169,7 @@
   },
   "SO": {
     "isoCode": "SO",
-    "countryCallingCode": "252",
+    "countryCode": "252",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -10240,7 +10240,7 @@
   },
   "SR": {
     "isoCode": "SR",
-    "countryCallingCode": "597",
+    "countryCode": "597",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10288,7 +10288,7 @@
   },
   "SS": {
     "isoCode": "SS",
-    "countryCallingCode": "211",
+    "countryCode": "211",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -10322,7 +10322,7 @@
   },
   "ST": {
     "isoCode": "ST",
-    "countryCallingCode": "239",
+    "countryCode": "239",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10355,7 +10355,7 @@
   },
   "SV": {
     "isoCode": "SV",
-    "countryCallingCode": "503",
+    "countryCode": "503",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10402,7 +10402,7 @@
   },
   "SX": {
     "isoCode": "SX",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "721",
@@ -10427,7 +10427,7 @@
   },
   "SY": {
     "isoCode": "SY",
-    "countryCallingCode": "963",
+    "countryCode": "963",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -10472,7 +10472,7 @@
   },
   "SZ": {
     "isoCode": "SZ",
-    "countryCallingCode": "268",
+    "countryCode": "268",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10512,7 +10512,7 @@
   },
   "TA": {
     "isoCode": "TA",
-    "countryCallingCode": "290",
+    "countryCode": "290",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": "8",
@@ -10537,7 +10537,7 @@
   },
   "TC": {
     "isoCode": "TC",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "649",
@@ -10562,7 +10562,7 @@
   },
   "TD": {
     "isoCode": "TD",
-    "countryCallingCode": "235",
+    "countryCode": "235",
     "internationalPrefix": "00|16",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10595,7 +10595,7 @@
   },
   "TG": {
     "isoCode": "TG",
-    "countryCallingCode": "228",
+    "countryCode": "228",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10628,7 +10628,7 @@
   },
   "TH": {
     "isoCode": "TH",
-    "countryCallingCode": "66",
+    "countryCode": "66",
     "internationalPrefix": "00[1-9]",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -10677,7 +10677,7 @@
   },
   "TJ": {
     "isoCode": "TJ",
-    "countryCallingCode": "992",
+    "countryCode": "992",
     "internationalPrefix": "810",
     "nationalPrefix": "8",
     "leadingDigits": null,
@@ -10736,7 +10736,7 @@
   },
   "TK": {
     "isoCode": "TK",
-    "countryCallingCode": "690",
+    "countryCode": "690",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10767,7 +10767,7 @@
   },
   "TL": {
     "isoCode": "TL",
-    "countryCallingCode": "670",
+    "countryCode": "670",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10807,7 +10807,7 @@
   },
   "TM": {
     "isoCode": "TM",
-    "countryCallingCode": "993",
+    "countryCode": "993",
     "internationalPrefix": "810",
     "nationalPrefix": "8",
     "leadingDigits": null,
@@ -10857,7 +10857,7 @@
   },
   "TN": {
     "isoCode": "TN",
-    "countryCallingCode": "216",
+    "countryCode": "216",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10890,7 +10890,7 @@
   },
   "TO": {
     "isoCode": "TO",
-    "countryCallingCode": "676",
+    "countryCode": "676",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -10937,7 +10937,7 @@
   },
   "TR": {
     "isoCode": "TR",
-    "countryCallingCode": "90",
+    "countryCode": "90",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11010,7 +11010,7 @@
   },
   "TT": {
     "isoCode": "TT",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "868",
@@ -11035,7 +11035,7 @@
   },
   "TV": {
     "isoCode": "TV",
-    "countryCallingCode": "688",
+    "countryCode": "688",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -11083,7 +11083,7 @@
   },
   "TW": {
     "isoCode": "TW",
-    "countryCallingCode": "886",
+    "countryCode": "886",
     "internationalPrefix": "0(?:0[25-79]|19)",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11151,7 +11151,7 @@
   },
   "TZ": {
     "isoCode": "TZ",
-    "countryCallingCode": "255",
+    "countryCode": "255",
     "internationalPrefix": "00[056]",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11201,7 +11201,7 @@
   },
   "UA": {
     "isoCode": "UA",
-    "countryCallingCode": "380",
+    "countryCode": "380",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11261,7 +11261,7 @@
   },
   "UG": {
     "isoCode": "UG",
-    "countryCallingCode": "256",
+    "countryCode": "256",
     "internationalPrefix": "00[057]",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11312,7 +11312,7 @@
   },
   "US": {
     "isoCode": "US",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": null,
@@ -11355,7 +11355,7 @@
   },
   "UY": {
     "isoCode": "UY",
-    "countryCallingCode": "598",
+    "countryCode": "598",
     "internationalPrefix": "0(?:0|1[3-9]\\d)",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11412,7 +11412,7 @@
   },
   "UZ": {
     "isoCode": "UZ",
-    "countryCallingCode": "998",
+    "countryCode": "998",
     "internationalPrefix": "810",
     "nationalPrefix": "8",
     "leadingDigits": null,
@@ -11446,7 +11446,7 @@
   },
   "VA": {
     "isoCode": "VA",
-    "countryCallingCode": "39",
+    "countryCode": "39",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": "06698",
@@ -11477,7 +11477,7 @@
   },
   "VC": {
     "isoCode": "VC",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "784",
@@ -11502,7 +11502,7 @@
   },
   "VE": {
     "isoCode": "VE",
-    "countryCallingCode": "58",
+    "countryCode": "58",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11537,7 +11537,7 @@
   },
   "VG": {
     "isoCode": "VG",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "284",
@@ -11562,7 +11562,7 @@
   },
   "VI": {
     "isoCode": "VI",
-    "countryCallingCode": "1",
+    "countryCode": "1",
     "internationalPrefix": "011",
     "nationalPrefix": "1",
     "leadingDigits": "340",
@@ -11587,7 +11587,7 @@
   },
   "VN": {
     "isoCode": "VN",
-    "countryCallingCode": "84",
+    "countryCode": "84",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11686,7 +11686,7 @@
   },
   "VU": {
     "isoCode": "VU",
-    "countryCallingCode": "678",
+    "countryCode": "678",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -11719,7 +11719,7 @@
   },
   "WF": {
     "isoCode": "WF",
-    "countryCallingCode": "681",
+    "countryCode": "681",
     "internationalPrefix": "00",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -11752,7 +11752,7 @@
   },
   "WS": {
     "isoCode": "WS",
-    "countryCallingCode": "685",
+    "countryCode": "685",
     "internationalPrefix": "0",
     "nationalPrefix": null,
     "leadingDigits": null,
@@ -11801,7 +11801,7 @@
   },
   "XK": {
     "isoCode": "XK",
-    "countryCallingCode": "383",
+    "countryCode": "383",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11852,7 +11852,7 @@
   },
   "YE": {
     "isoCode": "YE",
-    "countryCallingCode": "967",
+    "countryCode": "967",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11895,7 +11895,7 @@
   },
   "YT": {
     "isoCode": "YT",
-    "countryCallingCode": "262",
+    "countryCode": "262",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": "269|63",
@@ -11920,7 +11920,7 @@
   },
   "ZA": {
     "isoCode": "ZA",
-    "countryCallingCode": "27",
+    "countryCode": "27",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -11990,7 +11990,7 @@
   },
   "ZM": {
     "isoCode": "ZM",
-    "countryCallingCode": "260",
+    "countryCode": "260",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
@@ -12040,7 +12040,7 @@
   },
   "ZW": {
     "isoCode": "ZW",
-    "countryCallingCode": "263",
+    "countryCode": "263",
     "internationalPrefix": "00",
     "nationalPrefix": "0",
     "leadingDigits": null,
