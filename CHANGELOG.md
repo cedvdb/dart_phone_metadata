@@ -1,4 +1,10 @@
+
+## 4.0.1
+
+- correct typings for formats
+
 ## 4.0.0
+
 - rename countryCallingCode to country code to be the same as libphonenumber
 
 ## 3.0.0

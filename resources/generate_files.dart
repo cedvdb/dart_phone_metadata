@@ -37,9 +37,8 @@ Future writeCountryCodeMap(Map<String, List<String>> dialCodeMap) async {
     body += "'$key': [${value.map((v) => "'$v'").join(',')}],";
   });
   content = content.replaceFirst('%%', body);
-  final file =
-      await File('lib/src/generated/country_code_to_iso_code.dart')
-          .create(recursive: true);
+  final file = await File('lib/src/generated/country_code_to_iso_code.dart')
+      .create(recursive: true);
   await file.writeAsString(content);
 }
 
@@ -85,7 +84,7 @@ Future writeLenghtsMapFile(Map<String, PhoneMetadataLengths> metadata) async {
 
 Future writeFormatsMapFile(Map<String, PhoneMetadataFormats> metadata) async {
   var content = 'import "../models/phone_metadata_formats.dart";'
-      'const metadataFormatsByIsoCode = {%%};';
+      'const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{%%};';
   var body = '';
   metadata.forEach((key, value) {
     body += '"$key": [${(value).map((f) => '${encodeFormats(f)}').join(',')}],';
@@ -95,5 +94,3 @@ Future writeFormatsMapFile(Map<String, PhoneMetadataFormats> metadata) async {
       .create(recursive: true);
   await file.writeAsString(content);
 }
-
-
