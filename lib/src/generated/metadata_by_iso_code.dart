@@ -1,1962 +1,1962 @@
-import '../models/phone_metadata.dart';
+import 'package:phone_number_metadata/phone_number_metadata.dart';
 
 const metadataByIsoCode = {
-  'AC': PhoneMetadata(
+  IsoCode.AC: PhoneMetadata(
     countryCode: r'247',
-    isoCode: r'AC',
+    isoCode: IsoCode.AC,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'AD': PhoneMetadata(
+  IsoCode.AD: PhoneMetadata(
     countryCode: r'376',
-    isoCode: r'AD',
+    isoCode: IsoCode.AD,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'AE': PhoneMetadata(
+  IsoCode.AE: PhoneMetadata(
     countryCode: r'971',
-    isoCode: r'AE',
+    isoCode: IsoCode.AE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'AF': PhoneMetadata(
+  IsoCode.AF: PhoneMetadata(
     countryCode: r'93',
-    isoCode: r'AF',
+    isoCode: IsoCode.AF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'AG': PhoneMetadata(
+  IsoCode.AG: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'AG',
+    isoCode: IsoCode.AG,
     leadingDigits: r'268',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'AI': PhoneMetadata(
+  IsoCode.AI: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'AI',
+    isoCode: IsoCode.AI,
     leadingDigits: r'264',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'AL': PhoneMetadata(
+  IsoCode.AL: PhoneMetadata(
     countryCode: r'355',
-    isoCode: r'AL',
+    isoCode: IsoCode.AL,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'AM': PhoneMetadata(
+  IsoCode.AM: PhoneMetadata(
     countryCode: r'374',
-    isoCode: r'AM',
+    isoCode: IsoCode.AM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'AO': PhoneMetadata(
+  IsoCode.AO: PhoneMetadata(
     countryCode: r'244',
-    isoCode: r'AO',
+    isoCode: IsoCode.AO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'AR': PhoneMetadata(
+  IsoCode.AR: PhoneMetadata(
     countryCode: r'54',
-    isoCode: r'AR',
+    isoCode: IsoCode.AR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'AS': PhoneMetadata(
+  IsoCode.AS: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'AS',
+    isoCode: IsoCode.AS,
     leadingDigits: r'684',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'AT': PhoneMetadata(
+  IsoCode.AT: PhoneMetadata(
     countryCode: r'43',
-    isoCode: r'AT',
+    isoCode: IsoCode.AT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'AU': PhoneMetadata(
+  IsoCode.AU: PhoneMetadata(
     countryCode: r'61',
-    isoCode: r'AU',
+    isoCode: IsoCode.AU,
     leadingDigits: null,
     internationalPrefix: r'001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011',
     nationalPrefix: r'0',
     isMainCountryForDialCode: true,
   ),
-  'AW': PhoneMetadata(
+  IsoCode.AW: PhoneMetadata(
     countryCode: r'297',
-    isoCode: r'AW',
+    isoCode: IsoCode.AW,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'AX': PhoneMetadata(
+  IsoCode.AX: PhoneMetadata(
     countryCode: r'358',
-    isoCode: r'AX',
+    isoCode: IsoCode.AX,
     leadingDigits: r'18',
     internationalPrefix: r'00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'AZ': PhoneMetadata(
+  IsoCode.AZ: PhoneMetadata(
     countryCode: r'994',
-    isoCode: r'AZ',
+    isoCode: IsoCode.AZ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BA': PhoneMetadata(
+  IsoCode.BA: PhoneMetadata(
     countryCode: r'387',
-    isoCode: r'BA',
+    isoCode: IsoCode.BA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BB': PhoneMetadata(
+  IsoCode.BB: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'BB',
+    isoCode: IsoCode.BB,
     leadingDigits: r'246',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'BD': PhoneMetadata(
+  IsoCode.BD: PhoneMetadata(
     countryCode: r'880',
-    isoCode: r'BD',
+    isoCode: IsoCode.BD,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BE': PhoneMetadata(
+  IsoCode.BE: PhoneMetadata(
     countryCode: r'32',
-    isoCode: r'BE',
+    isoCode: IsoCode.BE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BF': PhoneMetadata(
+  IsoCode.BF: PhoneMetadata(
     countryCode: r'226',
-    isoCode: r'BF',
+    isoCode: IsoCode.BF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BG': PhoneMetadata(
+  IsoCode.BG: PhoneMetadata(
     countryCode: r'359',
-    isoCode: r'BG',
+    isoCode: IsoCode.BG,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BH': PhoneMetadata(
+  IsoCode.BH: PhoneMetadata(
     countryCode: r'973',
-    isoCode: r'BH',
+    isoCode: IsoCode.BH,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BI': PhoneMetadata(
+  IsoCode.BI: PhoneMetadata(
     countryCode: r'257',
-    isoCode: r'BI',
+    isoCode: IsoCode.BI,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BJ': PhoneMetadata(
+  IsoCode.BJ: PhoneMetadata(
     countryCode: r'229',
-    isoCode: r'BJ',
+    isoCode: IsoCode.BJ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BL': PhoneMetadata(
+  IsoCode.BL: PhoneMetadata(
     countryCode: r'590',
-    isoCode: r'BL',
+    isoCode: IsoCode.BL,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BM': PhoneMetadata(
+  IsoCode.BM: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'BM',
+    isoCode: IsoCode.BM,
     leadingDigits: r'441',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'BN': PhoneMetadata(
+  IsoCode.BN: PhoneMetadata(
     countryCode: r'673',
-    isoCode: r'BN',
+    isoCode: IsoCode.BN,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BO': PhoneMetadata(
+  IsoCode.BO: PhoneMetadata(
     countryCode: r'591',
-    isoCode: r'BO',
+    isoCode: IsoCode.BO,
     leadingDigits: null,
     internationalPrefix: r'00(?:1\d)?',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BQ': PhoneMetadata(
+  IsoCode.BQ: PhoneMetadata(
     countryCode: r'599',
-    isoCode: r'BQ',
+    isoCode: IsoCode.BQ,
     leadingDigits: r'[347]',
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BR': PhoneMetadata(
+  IsoCode.BR: PhoneMetadata(
     countryCode: r'55',
-    isoCode: r'BR',
+    isoCode: IsoCode.BR,
     leadingDigits: null,
     internationalPrefix: r'00(?:1[245]|2[1-35]|31|4[13]|[56]5|99)',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'BS': PhoneMetadata(
+  IsoCode.BS: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'BS',
+    isoCode: IsoCode.BS,
     leadingDigits: r'242',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'BT': PhoneMetadata(
+  IsoCode.BT: PhoneMetadata(
     countryCode: r'975',
-    isoCode: r'BT',
+    isoCode: IsoCode.BT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BW': PhoneMetadata(
+  IsoCode.BW: PhoneMetadata(
     countryCode: r'267',
-    isoCode: r'BW',
+    isoCode: IsoCode.BW,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'BY': PhoneMetadata(
+  IsoCode.BY: PhoneMetadata(
     countryCode: r'375',
-    isoCode: r'BY',
+    isoCode: IsoCode.BY,
     leadingDigits: null,
     internationalPrefix: r'810',
     nationalPrefix: r'8',
     isMainCountryForDialCode: false,
   ),
-  'BZ': PhoneMetadata(
+  IsoCode.BZ: PhoneMetadata(
     countryCode: r'501',
-    isoCode: r'BZ',
+    isoCode: IsoCode.BZ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CA': PhoneMetadata(
+  IsoCode.CA: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'CA',
+    isoCode: IsoCode.CA,
     leadingDigits: null,
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'CC': PhoneMetadata(
+  IsoCode.CC: PhoneMetadata(
     countryCode: r'61',
-    isoCode: r'CC',
+    isoCode: IsoCode.CC,
     leadingDigits: null,
     internationalPrefix: r'001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'CD': PhoneMetadata(
+  IsoCode.CD: PhoneMetadata(
     countryCode: r'243',
-    isoCode: r'CD',
+    isoCode: IsoCode.CD,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'CF': PhoneMetadata(
+  IsoCode.CF: PhoneMetadata(
     countryCode: r'236',
-    isoCode: r'CF',
+    isoCode: IsoCode.CF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CG': PhoneMetadata(
+  IsoCode.CG: PhoneMetadata(
     countryCode: r'242',
-    isoCode: r'CG',
+    isoCode: IsoCode.CG,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CH': PhoneMetadata(
+  IsoCode.CH: PhoneMetadata(
     countryCode: r'41',
-    isoCode: r'CH',
+    isoCode: IsoCode.CH,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'CI': PhoneMetadata(
+  IsoCode.CI: PhoneMetadata(
     countryCode: r'225',
-    isoCode: r'CI',
+    isoCode: IsoCode.CI,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CK': PhoneMetadata(
+  IsoCode.CK: PhoneMetadata(
     countryCode: r'682',
-    isoCode: r'CK',
+    isoCode: IsoCode.CK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CL': PhoneMetadata(
+  IsoCode.CL: PhoneMetadata(
     countryCode: r'56',
-    isoCode: r'CL',
+    isoCode: IsoCode.CL,
     leadingDigits: null,
     internationalPrefix:
         r'(?:0|1(?:1[0-69]|2[02-5]|5[13-58]|69|7[0167]|8[018]))0',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CM': PhoneMetadata(
+  IsoCode.CM: PhoneMetadata(
     countryCode: r'237',
-    isoCode: r'CM',
+    isoCode: IsoCode.CM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CN': PhoneMetadata(
+  IsoCode.CN: PhoneMetadata(
     countryCode: r'86',
-    isoCode: r'CN',
+    isoCode: IsoCode.CN,
     leadingDigits: null,
     internationalPrefix: r'00|1(?:[12]\d|79)\d\d00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'CO': PhoneMetadata(
+  IsoCode.CO: PhoneMetadata(
     countryCode: r'57',
-    isoCode: r'CO',
+    isoCode: IsoCode.CO,
     leadingDigits: null,
     internationalPrefix: r'00(?:4(?:[14]4|56)|[579])',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'CR': PhoneMetadata(
+  IsoCode.CR: PhoneMetadata(
     countryCode: r'506',
-    isoCode: r'CR',
+    isoCode: IsoCode.CR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CU': PhoneMetadata(
+  IsoCode.CU: PhoneMetadata(
     countryCode: r'53',
-    isoCode: r'CU',
+    isoCode: IsoCode.CU,
     leadingDigits: null,
     internationalPrefix: r'119',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'CV': PhoneMetadata(
+  IsoCode.CV: PhoneMetadata(
     countryCode: r'238',
-    isoCode: r'CV',
+    isoCode: IsoCode.CV,
     leadingDigits: null,
     internationalPrefix: r'0',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CW': PhoneMetadata(
+  IsoCode.CW: PhoneMetadata(
     countryCode: r'599',
-    isoCode: r'CW',
+    isoCode: IsoCode.CW,
     leadingDigits: r'[69]',
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: true,
   ),
-  'CX': PhoneMetadata(
+  IsoCode.CX: PhoneMetadata(
     countryCode: r'61',
-    isoCode: r'CX',
+    isoCode: IsoCode.CX,
     leadingDigits: null,
     internationalPrefix: r'001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'CY': PhoneMetadata(
+  IsoCode.CY: PhoneMetadata(
     countryCode: r'357',
-    isoCode: r'CY',
+    isoCode: IsoCode.CY,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'CZ': PhoneMetadata(
+  IsoCode.CZ: PhoneMetadata(
     countryCode: r'420',
-    isoCode: r'CZ',
+    isoCode: IsoCode.CZ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'DE': PhoneMetadata(
+  IsoCode.DE: PhoneMetadata(
     countryCode: r'49',
-    isoCode: r'DE',
+    isoCode: IsoCode.DE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'DJ': PhoneMetadata(
+  IsoCode.DJ: PhoneMetadata(
     countryCode: r'253',
-    isoCode: r'DJ',
+    isoCode: IsoCode.DJ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'DK': PhoneMetadata(
+  IsoCode.DK: PhoneMetadata(
     countryCode: r'45',
-    isoCode: r'DK',
+    isoCode: IsoCode.DK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'DM': PhoneMetadata(
+  IsoCode.DM: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'DM',
+    isoCode: IsoCode.DM,
     leadingDigits: r'767',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'DO': PhoneMetadata(
+  IsoCode.DO: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'DO',
+    isoCode: IsoCode.DO,
     leadingDigits: r'8001|8[024]9',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'DZ': PhoneMetadata(
+  IsoCode.DZ: PhoneMetadata(
     countryCode: r'213',
-    isoCode: r'DZ',
+    isoCode: IsoCode.DZ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'EC': PhoneMetadata(
+  IsoCode.EC: PhoneMetadata(
     countryCode: r'593',
-    isoCode: r'EC',
+    isoCode: IsoCode.EC,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'EE': PhoneMetadata(
+  IsoCode.EE: PhoneMetadata(
     countryCode: r'372',
-    isoCode: r'EE',
+    isoCode: IsoCode.EE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'EG': PhoneMetadata(
+  IsoCode.EG: PhoneMetadata(
     countryCode: r'20',
-    isoCode: r'EG',
+    isoCode: IsoCode.EG,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'EH': PhoneMetadata(
+  IsoCode.EH: PhoneMetadata(
     countryCode: r'212',
-    isoCode: r'EH',
+    isoCode: IsoCode.EH,
     leadingDigits: r'528[89]',
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ER': PhoneMetadata(
+  IsoCode.ER: PhoneMetadata(
     countryCode: r'291',
-    isoCode: r'ER',
+    isoCode: IsoCode.ER,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ES': PhoneMetadata(
+  IsoCode.ES: PhoneMetadata(
     countryCode: r'34',
-    isoCode: r'ES',
+    isoCode: IsoCode.ES,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'ET': PhoneMetadata(
+  IsoCode.ET: PhoneMetadata(
     countryCode: r'251',
-    isoCode: r'ET',
+    isoCode: IsoCode.ET,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'FI': PhoneMetadata(
+  IsoCode.FI: PhoneMetadata(
     countryCode: r'358',
-    isoCode: r'FI',
+    isoCode: IsoCode.FI,
     leadingDigits: r'1[03-79]|[2-9]',
     internationalPrefix: r'00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))',
     nationalPrefix: r'0',
     isMainCountryForDialCode: true,
   ),
-  'FJ': PhoneMetadata(
+  IsoCode.FJ: PhoneMetadata(
     countryCode: r'679',
-    isoCode: r'FJ',
+    isoCode: IsoCode.FJ,
     leadingDigits: null,
     internationalPrefix: r'0(?:0|52)',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'FK': PhoneMetadata(
+  IsoCode.FK: PhoneMetadata(
     countryCode: r'500',
-    isoCode: r'FK',
+    isoCode: IsoCode.FK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'FM': PhoneMetadata(
+  IsoCode.FM: PhoneMetadata(
     countryCode: r'691',
-    isoCode: r'FM',
+    isoCode: IsoCode.FM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'FO': PhoneMetadata(
+  IsoCode.FO: PhoneMetadata(
     countryCode: r'298',
-    isoCode: r'FO',
+    isoCode: IsoCode.FO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'FR': PhoneMetadata(
+  IsoCode.FR: PhoneMetadata(
     countryCode: r'33',
-    isoCode: r'FR',
+    isoCode: IsoCode.FR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'GA': PhoneMetadata(
+  IsoCode.GA: PhoneMetadata(
     countryCode: r'241',
-    isoCode: r'GA',
+    isoCode: IsoCode.GA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GB': PhoneMetadata(
+  IsoCode.GB: PhoneMetadata(
     countryCode: r'44',
-    isoCode: r'GB',
+    isoCode: IsoCode.GB,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: true,
   ),
-  'GD': PhoneMetadata(
+  IsoCode.GD: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'GD',
+    isoCode: IsoCode.GD,
     leadingDigits: r'473',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'GE': PhoneMetadata(
+  IsoCode.GE: PhoneMetadata(
     countryCode: r'995',
-    isoCode: r'GE',
+    isoCode: IsoCode.GE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'GF': PhoneMetadata(
+  IsoCode.GF: PhoneMetadata(
     countryCode: r'594',
-    isoCode: r'GF',
+    isoCode: IsoCode.GF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'GG': PhoneMetadata(
+  IsoCode.GG: PhoneMetadata(
     countryCode: r'44',
-    isoCode: r'GG',
+    isoCode: IsoCode.GG,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'GH': PhoneMetadata(
+  IsoCode.GH: PhoneMetadata(
     countryCode: r'233',
-    isoCode: r'GH',
+    isoCode: IsoCode.GH,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'GI': PhoneMetadata(
+  IsoCode.GI: PhoneMetadata(
     countryCode: r'350',
-    isoCode: r'GI',
+    isoCode: IsoCode.GI,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GL': PhoneMetadata(
+  IsoCode.GL: PhoneMetadata(
     countryCode: r'299',
-    isoCode: r'GL',
+    isoCode: IsoCode.GL,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GM': PhoneMetadata(
+  IsoCode.GM: PhoneMetadata(
     countryCode: r'220',
-    isoCode: r'GM',
+    isoCode: IsoCode.GM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GN': PhoneMetadata(
+  IsoCode.GN: PhoneMetadata(
     countryCode: r'224',
-    isoCode: r'GN',
+    isoCode: IsoCode.GN,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GP': PhoneMetadata(
+  IsoCode.GP: PhoneMetadata(
     countryCode: r'590',
-    isoCode: r'GP',
+    isoCode: IsoCode.GP,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: true,
   ),
-  'GQ': PhoneMetadata(
+  IsoCode.GQ: PhoneMetadata(
     countryCode: r'240',
-    isoCode: r'GQ',
+    isoCode: IsoCode.GQ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GR': PhoneMetadata(
+  IsoCode.GR: PhoneMetadata(
     countryCode: r'30',
-    isoCode: r'GR',
+    isoCode: IsoCode.GR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GT': PhoneMetadata(
+  IsoCode.GT: PhoneMetadata(
     countryCode: r'502',
-    isoCode: r'GT',
+    isoCode: IsoCode.GT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GU': PhoneMetadata(
+  IsoCode.GU: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'GU',
+    isoCode: IsoCode.GU,
     leadingDigits: r'671',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'GW': PhoneMetadata(
+  IsoCode.GW: PhoneMetadata(
     countryCode: r'245',
-    isoCode: r'GW',
+    isoCode: IsoCode.GW,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'GY': PhoneMetadata(
+  IsoCode.GY: PhoneMetadata(
     countryCode: r'592',
-    isoCode: r'GY',
+    isoCode: IsoCode.GY,
     leadingDigits: null,
     internationalPrefix: r'001',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'HK': PhoneMetadata(
+  IsoCode.HK: PhoneMetadata(
     countryCode: r'852',
-    isoCode: r'HK',
+    isoCode: IsoCode.HK,
     leadingDigits: null,
     internationalPrefix: r'00(?:30|5[09]|[126-9]?)',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'HN': PhoneMetadata(
+  IsoCode.HN: PhoneMetadata(
     countryCode: r'504',
-    isoCode: r'HN',
+    isoCode: IsoCode.HN,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'HR': PhoneMetadata(
+  IsoCode.HR: PhoneMetadata(
     countryCode: r'385',
-    isoCode: r'HR',
+    isoCode: IsoCode.HR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'HT': PhoneMetadata(
+  IsoCode.HT: PhoneMetadata(
     countryCode: r'509',
-    isoCode: r'HT',
+    isoCode: IsoCode.HT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'HU': PhoneMetadata(
+  IsoCode.HU: PhoneMetadata(
     countryCode: r'36',
-    isoCode: r'HU',
+    isoCode: IsoCode.HU,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'06',
     isMainCountryForDialCode: false,
   ),
-  'ID': PhoneMetadata(
+  IsoCode.ID: PhoneMetadata(
     countryCode: r'62',
-    isoCode: r'ID',
+    isoCode: IsoCode.ID,
     leadingDigits: null,
     internationalPrefix: r'00[89]',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'IE': PhoneMetadata(
+  IsoCode.IE: PhoneMetadata(
     countryCode: r'353',
-    isoCode: r'IE',
+    isoCode: IsoCode.IE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'IL': PhoneMetadata(
+  IsoCode.IL: PhoneMetadata(
     countryCode: r'972',
-    isoCode: r'IL',
+    isoCode: IsoCode.IL,
     leadingDigits: null,
     internationalPrefix: r'0(?:0|1[2-9])',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'IM': PhoneMetadata(
+  IsoCode.IM: PhoneMetadata(
     countryCode: r'44',
-    isoCode: r'IM',
+    isoCode: IsoCode.IM,
     leadingDigits: r'74576|(?:16|7[56])24',
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'IN': PhoneMetadata(
+  IsoCode.IN: PhoneMetadata(
     countryCode: r'91',
-    isoCode: r'IN',
+    isoCode: IsoCode.IN,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'IO': PhoneMetadata(
+  IsoCode.IO: PhoneMetadata(
     countryCode: r'246',
-    isoCode: r'IO',
+    isoCode: IsoCode.IO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'IQ': PhoneMetadata(
+  IsoCode.IQ: PhoneMetadata(
     countryCode: r'964',
-    isoCode: r'IQ',
+    isoCode: IsoCode.IQ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'IR': PhoneMetadata(
+  IsoCode.IR: PhoneMetadata(
     countryCode: r'98',
-    isoCode: r'IR',
+    isoCode: IsoCode.IR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'IS': PhoneMetadata(
+  IsoCode.IS: PhoneMetadata(
     countryCode: r'354',
-    isoCode: r'IS',
+    isoCode: IsoCode.IS,
     leadingDigits: null,
     internationalPrefix: r'00|1(?:0(?:01|[12]0)|100)',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'IT': PhoneMetadata(
+  IsoCode.IT: PhoneMetadata(
     countryCode: r'39',
-    isoCode: r'IT',
+    isoCode: IsoCode.IT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: true,
   ),
-  'JE': PhoneMetadata(
+  IsoCode.JE: PhoneMetadata(
     countryCode: r'44',
-    isoCode: r'JE',
+    isoCode: IsoCode.JE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'JM': PhoneMetadata(
+  IsoCode.JM: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'JM',
+    isoCode: IsoCode.JM,
     leadingDigits: r'658|876',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'JO': PhoneMetadata(
+  IsoCode.JO: PhoneMetadata(
     countryCode: r'962',
-    isoCode: r'JO',
+    isoCode: IsoCode.JO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'JP': PhoneMetadata(
+  IsoCode.JP: PhoneMetadata(
     countryCode: r'81',
-    isoCode: r'JP',
+    isoCode: IsoCode.JP,
     leadingDigits: null,
     internationalPrefix: r'010',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'KE': PhoneMetadata(
+  IsoCode.KE: PhoneMetadata(
     countryCode: r'254',
-    isoCode: r'KE',
+    isoCode: IsoCode.KE,
     leadingDigits: null,
     internationalPrefix: r'000',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'KG': PhoneMetadata(
+  IsoCode.KG: PhoneMetadata(
     countryCode: r'996',
-    isoCode: r'KG',
+    isoCode: IsoCode.KG,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'KH': PhoneMetadata(
+  IsoCode.KH: PhoneMetadata(
     countryCode: r'855',
-    isoCode: r'KH',
+    isoCode: IsoCode.KH,
     leadingDigits: null,
     internationalPrefix: r'00[14-9]',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'KI': PhoneMetadata(
+  IsoCode.KI: PhoneMetadata(
     countryCode: r'686',
-    isoCode: r'KI',
+    isoCode: IsoCode.KI,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'KM': PhoneMetadata(
+  IsoCode.KM: PhoneMetadata(
     countryCode: r'269',
-    isoCode: r'KM',
+    isoCode: IsoCode.KM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'KN': PhoneMetadata(
+  IsoCode.KN: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'KN',
+    isoCode: IsoCode.KN,
     leadingDigits: r'869',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'KP': PhoneMetadata(
+  IsoCode.KP: PhoneMetadata(
     countryCode: r'850',
-    isoCode: r'KP',
+    isoCode: IsoCode.KP,
     leadingDigits: null,
     internationalPrefix: r'00|99',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'KR': PhoneMetadata(
+  IsoCode.KR: PhoneMetadata(
     countryCode: r'82',
-    isoCode: r'KR',
+    isoCode: IsoCode.KR,
     leadingDigits: null,
     internationalPrefix: r'00(?:[125689]|3(?:[46]5|91)|7(?:00|27|3|55|6[126]))',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'KW': PhoneMetadata(
+  IsoCode.KW: PhoneMetadata(
     countryCode: r'965',
-    isoCode: r'KW',
+    isoCode: IsoCode.KW,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'KY': PhoneMetadata(
+  IsoCode.KY: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'KY',
+    isoCode: IsoCode.KY,
     leadingDigits: r'345',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'KZ': PhoneMetadata(
+  IsoCode.KZ: PhoneMetadata(
     countryCode: r'7',
-    isoCode: r'KZ',
+    isoCode: IsoCode.KZ,
     leadingDigits: r'33|7',
     internationalPrefix: r'810',
     nationalPrefix: r'8',
     isMainCountryForDialCode: false,
   ),
-  'LA': PhoneMetadata(
+  IsoCode.LA: PhoneMetadata(
     countryCode: r'856',
-    isoCode: r'LA',
+    isoCode: IsoCode.LA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'LB': PhoneMetadata(
+  IsoCode.LB: PhoneMetadata(
     countryCode: r'961',
-    isoCode: r'LB',
+    isoCode: IsoCode.LB,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'LC': PhoneMetadata(
+  IsoCode.LC: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'LC',
+    isoCode: IsoCode.LC,
     leadingDigits: r'758',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'LI': PhoneMetadata(
+  IsoCode.LI: PhoneMetadata(
     countryCode: r'423',
-    isoCode: r'LI',
+    isoCode: IsoCode.LI,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'LK': PhoneMetadata(
+  IsoCode.LK: PhoneMetadata(
     countryCode: r'94',
-    isoCode: r'LK',
+    isoCode: IsoCode.LK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'LR': PhoneMetadata(
+  IsoCode.LR: PhoneMetadata(
     countryCode: r'231',
-    isoCode: r'LR',
+    isoCode: IsoCode.LR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'LS': PhoneMetadata(
+  IsoCode.LS: PhoneMetadata(
     countryCode: r'266',
-    isoCode: r'LS',
+    isoCode: IsoCode.LS,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'LT': PhoneMetadata(
+  IsoCode.LT: PhoneMetadata(
     countryCode: r'370',
-    isoCode: r'LT',
+    isoCode: IsoCode.LT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'8',
     isMainCountryForDialCode: false,
   ),
-  'LU': PhoneMetadata(
+  IsoCode.LU: PhoneMetadata(
     countryCode: r'352',
-    isoCode: r'LU',
+    isoCode: IsoCode.LU,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'LV': PhoneMetadata(
+  IsoCode.LV: PhoneMetadata(
     countryCode: r'371',
-    isoCode: r'LV',
+    isoCode: IsoCode.LV,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'LY': PhoneMetadata(
+  IsoCode.LY: PhoneMetadata(
     countryCode: r'218',
-    isoCode: r'LY',
+    isoCode: IsoCode.LY,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MA': PhoneMetadata(
+  IsoCode.MA: PhoneMetadata(
     countryCode: r'212',
-    isoCode: r'MA',
+    isoCode: IsoCode.MA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: true,
   ),
-  'MC': PhoneMetadata(
+  IsoCode.MC: PhoneMetadata(
     countryCode: r'377',
-    isoCode: r'MC',
+    isoCode: IsoCode.MC,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MD': PhoneMetadata(
+  IsoCode.MD: PhoneMetadata(
     countryCode: r'373',
-    isoCode: r'MD',
+    isoCode: IsoCode.MD,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ME': PhoneMetadata(
+  IsoCode.ME: PhoneMetadata(
     countryCode: r'382',
-    isoCode: r'ME',
+    isoCode: IsoCode.ME,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MF': PhoneMetadata(
+  IsoCode.MF: PhoneMetadata(
     countryCode: r'590',
-    isoCode: r'MF',
+    isoCode: IsoCode.MF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MG': PhoneMetadata(
+  IsoCode.MG: PhoneMetadata(
     countryCode: r'261',
-    isoCode: r'MG',
+    isoCode: IsoCode.MG,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MH': PhoneMetadata(
+  IsoCode.MH: PhoneMetadata(
     countryCode: r'692',
-    isoCode: r'MH',
+    isoCode: IsoCode.MH,
     leadingDigits: null,
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'MK': PhoneMetadata(
+  IsoCode.MK: PhoneMetadata(
     countryCode: r'389',
-    isoCode: r'MK',
+    isoCode: IsoCode.MK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ML': PhoneMetadata(
+  IsoCode.ML: PhoneMetadata(
     countryCode: r'223',
-    isoCode: r'ML',
+    isoCode: IsoCode.ML,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'MM': PhoneMetadata(
+  IsoCode.MM: PhoneMetadata(
     countryCode: r'95',
-    isoCode: r'MM',
+    isoCode: IsoCode.MM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MN': PhoneMetadata(
+  IsoCode.MN: PhoneMetadata(
     countryCode: r'976',
-    isoCode: r'MN',
+    isoCode: IsoCode.MN,
     leadingDigits: null,
     internationalPrefix: r'001',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MO': PhoneMetadata(
+  IsoCode.MO: PhoneMetadata(
     countryCode: r'853',
-    isoCode: r'MO',
+    isoCode: IsoCode.MO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'MP': PhoneMetadata(
+  IsoCode.MP: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'MP',
+    isoCode: IsoCode.MP,
     leadingDigits: r'670',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'MQ': PhoneMetadata(
+  IsoCode.MQ: PhoneMetadata(
     countryCode: r'596',
-    isoCode: r'MQ',
+    isoCode: IsoCode.MQ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MR': PhoneMetadata(
+  IsoCode.MR: PhoneMetadata(
     countryCode: r'222',
-    isoCode: r'MR',
+    isoCode: IsoCode.MR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'MS': PhoneMetadata(
+  IsoCode.MS: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'MS',
+    isoCode: IsoCode.MS,
     leadingDigits: r'664',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'MT': PhoneMetadata(
+  IsoCode.MT: PhoneMetadata(
     countryCode: r'356',
-    isoCode: r'MT',
+    isoCode: IsoCode.MT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'MU': PhoneMetadata(
+  IsoCode.MU: PhoneMetadata(
     countryCode: r'230',
-    isoCode: r'MU',
+    isoCode: IsoCode.MU,
     leadingDigits: null,
     internationalPrefix: r'0(?:0|[24-7]0|3[03])',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'MV': PhoneMetadata(
+  IsoCode.MV: PhoneMetadata(
     countryCode: r'960',
-    isoCode: r'MV',
+    isoCode: IsoCode.MV,
     leadingDigits: null,
     internationalPrefix: r'0(?:0|19)',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'MW': PhoneMetadata(
+  IsoCode.MW: PhoneMetadata(
     countryCode: r'265',
-    isoCode: r'MW',
+    isoCode: IsoCode.MW,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MX': PhoneMetadata(
+  IsoCode.MX: PhoneMetadata(
     countryCode: r'52',
-    isoCode: r'MX',
+    isoCode: IsoCode.MX,
     leadingDigits: null,
     internationalPrefix: r'0[09]',
     nationalPrefix: r'01',
     isMainCountryForDialCode: false,
   ),
-  'MY': PhoneMetadata(
+  IsoCode.MY: PhoneMetadata(
     countryCode: r'60',
-    isoCode: r'MY',
+    isoCode: IsoCode.MY,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'MZ': PhoneMetadata(
+  IsoCode.MZ: PhoneMetadata(
     countryCode: r'258',
-    isoCode: r'MZ',
+    isoCode: IsoCode.MZ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'NA': PhoneMetadata(
+  IsoCode.NA: PhoneMetadata(
     countryCode: r'264',
-    isoCode: r'NA',
+    isoCode: IsoCode.NA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'NC': PhoneMetadata(
+  IsoCode.NC: PhoneMetadata(
     countryCode: r'687',
-    isoCode: r'NC',
+    isoCode: IsoCode.NC,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'NE': PhoneMetadata(
+  IsoCode.NE: PhoneMetadata(
     countryCode: r'227',
-    isoCode: r'NE',
+    isoCode: IsoCode.NE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'NF': PhoneMetadata(
+  IsoCode.NF: PhoneMetadata(
     countryCode: r'672',
-    isoCode: r'NF',
+    isoCode: IsoCode.NF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'NG': PhoneMetadata(
+  IsoCode.NG: PhoneMetadata(
     countryCode: r'234',
-    isoCode: r'NG',
+    isoCode: IsoCode.NG,
     leadingDigits: null,
     internationalPrefix: r'009',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'NI': PhoneMetadata(
+  IsoCode.NI: PhoneMetadata(
     countryCode: r'505',
-    isoCode: r'NI',
+    isoCode: IsoCode.NI,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'NL': PhoneMetadata(
+  IsoCode.NL: PhoneMetadata(
     countryCode: r'31',
-    isoCode: r'NL',
+    isoCode: IsoCode.NL,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'NO': PhoneMetadata(
+  IsoCode.NO: PhoneMetadata(
     countryCode: r'47',
-    isoCode: r'NO',
+    isoCode: IsoCode.NO,
     leadingDigits: r'[02-689]|7[0-8]',
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: true,
   ),
-  'NP': PhoneMetadata(
+  IsoCode.NP: PhoneMetadata(
     countryCode: r'977',
-    isoCode: r'NP',
+    isoCode: IsoCode.NP,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'NR': PhoneMetadata(
+  IsoCode.NR: PhoneMetadata(
     countryCode: r'674',
-    isoCode: r'NR',
+    isoCode: IsoCode.NR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'NU': PhoneMetadata(
+  IsoCode.NU: PhoneMetadata(
     countryCode: r'683',
-    isoCode: r'NU',
+    isoCode: IsoCode.NU,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'NZ': PhoneMetadata(
+  IsoCode.NZ: PhoneMetadata(
     countryCode: r'64',
-    isoCode: r'NZ',
+    isoCode: IsoCode.NZ,
     leadingDigits: null,
     internationalPrefix: r'0(?:0|161)',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'OM': PhoneMetadata(
+  IsoCode.OM: PhoneMetadata(
     countryCode: r'968',
-    isoCode: r'OM',
+    isoCode: IsoCode.OM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'PA': PhoneMetadata(
+  IsoCode.PA: PhoneMetadata(
     countryCode: r'507',
-    isoCode: r'PA',
+    isoCode: IsoCode.PA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'PE': PhoneMetadata(
+  IsoCode.PE: PhoneMetadata(
     countryCode: r'51',
-    isoCode: r'PE',
+    isoCode: IsoCode.PE,
     leadingDigits: null,
     internationalPrefix: r'19(?:1[124]|77|90)00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'PF': PhoneMetadata(
+  IsoCode.PF: PhoneMetadata(
     countryCode: r'689',
-    isoCode: r'PF',
+    isoCode: IsoCode.PF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'PG': PhoneMetadata(
+  IsoCode.PG: PhoneMetadata(
     countryCode: r'675',
-    isoCode: r'PG',
+    isoCode: IsoCode.PG,
     leadingDigits: null,
     internationalPrefix: r'00|140[1-3]',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'PH': PhoneMetadata(
+  IsoCode.PH: PhoneMetadata(
     countryCode: r'63',
-    isoCode: r'PH',
+    isoCode: IsoCode.PH,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'PK': PhoneMetadata(
+  IsoCode.PK: PhoneMetadata(
     countryCode: r'92',
-    isoCode: r'PK',
+    isoCode: IsoCode.PK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'PL': PhoneMetadata(
+  IsoCode.PL: PhoneMetadata(
     countryCode: r'48',
-    isoCode: r'PL',
+    isoCode: IsoCode.PL,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'PM': PhoneMetadata(
+  IsoCode.PM: PhoneMetadata(
     countryCode: r'508',
-    isoCode: r'PM',
+    isoCode: IsoCode.PM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'PR': PhoneMetadata(
+  IsoCode.PR: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'PR',
+    isoCode: IsoCode.PR,
     leadingDigits: r'787|939',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'PS': PhoneMetadata(
+  IsoCode.PS: PhoneMetadata(
     countryCode: r'970',
-    isoCode: r'PS',
+    isoCode: IsoCode.PS,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'PT': PhoneMetadata(
+  IsoCode.PT: PhoneMetadata(
     countryCode: r'351',
-    isoCode: r'PT',
+    isoCode: IsoCode.PT,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'PW': PhoneMetadata(
+  IsoCode.PW: PhoneMetadata(
     countryCode: r'680',
-    isoCode: r'PW',
+    isoCode: IsoCode.PW,
     leadingDigits: null,
     internationalPrefix: r'01[12]',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'PY': PhoneMetadata(
+  IsoCode.PY: PhoneMetadata(
     countryCode: r'595',
-    isoCode: r'PY',
+    isoCode: IsoCode.PY,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'QA': PhoneMetadata(
+  IsoCode.QA: PhoneMetadata(
     countryCode: r'974',
-    isoCode: r'QA',
+    isoCode: IsoCode.QA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'RE': PhoneMetadata(
+  IsoCode.RE: PhoneMetadata(
     countryCode: r'262',
-    isoCode: r'RE',
+    isoCode: IsoCode.RE,
     leadingDigits: r'26[23]|69|[89]',
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: true,
   ),
-  'RO': PhoneMetadata(
+  IsoCode.RO: PhoneMetadata(
     countryCode: r'40',
-    isoCode: r'RO',
+    isoCode: IsoCode.RO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'RS': PhoneMetadata(
+  IsoCode.RS: PhoneMetadata(
     countryCode: r'381',
-    isoCode: r'RS',
+    isoCode: IsoCode.RS,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'RU': PhoneMetadata(
+  IsoCode.RU: PhoneMetadata(
     countryCode: r'7',
-    isoCode: r'RU',
+    isoCode: IsoCode.RU,
     leadingDigits: r'3[04-689]|[489]',
     internationalPrefix: r'810',
     nationalPrefix: r'8',
     isMainCountryForDialCode: true,
   ),
-  'RW': PhoneMetadata(
+  IsoCode.RW: PhoneMetadata(
     countryCode: r'250',
-    isoCode: r'RW',
+    isoCode: IsoCode.RW,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SA': PhoneMetadata(
+  IsoCode.SA: PhoneMetadata(
     countryCode: r'966',
-    isoCode: r'SA',
+    isoCode: IsoCode.SA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SB': PhoneMetadata(
+  IsoCode.SB: PhoneMetadata(
     countryCode: r'677',
-    isoCode: r'SB',
+    isoCode: IsoCode.SB,
     leadingDigits: null,
     internationalPrefix: r'0[01]',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SC': PhoneMetadata(
+  IsoCode.SC: PhoneMetadata(
     countryCode: r'248',
-    isoCode: r'SC',
+    isoCode: IsoCode.SC,
     leadingDigits: null,
     internationalPrefix: r'010|0[0-2]',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SD': PhoneMetadata(
+  IsoCode.SD: PhoneMetadata(
     countryCode: r'249',
-    isoCode: r'SD',
+    isoCode: IsoCode.SD,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SE': PhoneMetadata(
+  IsoCode.SE: PhoneMetadata(
     countryCode: r'46',
-    isoCode: r'SE',
+    isoCode: IsoCode.SE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SG': PhoneMetadata(
+  IsoCode.SG: PhoneMetadata(
     countryCode: r'65',
-    isoCode: r'SG',
+    isoCode: IsoCode.SG,
     leadingDigits: null,
     internationalPrefix: r'0[0-3]\d',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SH': PhoneMetadata(
+  IsoCode.SH: PhoneMetadata(
     countryCode: r'290',
-    isoCode: r'SH',
+    isoCode: IsoCode.SH,
     leadingDigits: r'[256]',
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: true,
   ),
-  'SI': PhoneMetadata(
+  IsoCode.SI: PhoneMetadata(
     countryCode: r'386',
-    isoCode: r'SI',
+    isoCode: IsoCode.SI,
     leadingDigits: null,
     internationalPrefix: r'00|10(?:22|66|88|99)',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SJ': PhoneMetadata(
+  IsoCode.SJ: PhoneMetadata(
     countryCode: r'47',
-    isoCode: r'SJ',
+    isoCode: IsoCode.SJ,
     leadingDigits: r'79',
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SK': PhoneMetadata(
+  IsoCode.SK: PhoneMetadata(
     countryCode: r'421',
-    isoCode: r'SK',
+    isoCode: IsoCode.SK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SL': PhoneMetadata(
+  IsoCode.SL: PhoneMetadata(
     countryCode: r'232',
-    isoCode: r'SL',
+    isoCode: IsoCode.SL,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SM': PhoneMetadata(
+  IsoCode.SM: PhoneMetadata(
     countryCode: r'378',
-    isoCode: r'SM',
+    isoCode: IsoCode.SM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SN': PhoneMetadata(
+  IsoCode.SN: PhoneMetadata(
     countryCode: r'221',
-    isoCode: r'SN',
+    isoCode: IsoCode.SN,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SO': PhoneMetadata(
+  IsoCode.SO: PhoneMetadata(
     countryCode: r'252',
-    isoCode: r'SO',
+    isoCode: IsoCode.SO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SR': PhoneMetadata(
+  IsoCode.SR: PhoneMetadata(
     countryCode: r'597',
-    isoCode: r'SR',
+    isoCode: IsoCode.SR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SS': PhoneMetadata(
+  IsoCode.SS: PhoneMetadata(
     countryCode: r'211',
-    isoCode: r'SS',
+    isoCode: IsoCode.SS,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ST': PhoneMetadata(
+  IsoCode.ST: PhoneMetadata(
     countryCode: r'239',
-    isoCode: r'ST',
+    isoCode: IsoCode.ST,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SV': PhoneMetadata(
+  IsoCode.SV: PhoneMetadata(
     countryCode: r'503',
-    isoCode: r'SV',
+    isoCode: IsoCode.SV,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'SX': PhoneMetadata(
+  IsoCode.SX: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'SX',
+    isoCode: IsoCode.SX,
     leadingDigits: r'721',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'SY': PhoneMetadata(
+  IsoCode.SY: PhoneMetadata(
     countryCode: r'963',
-    isoCode: r'SY',
+    isoCode: IsoCode.SY,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'SZ': PhoneMetadata(
+  IsoCode.SZ: PhoneMetadata(
     countryCode: r'268',
-    isoCode: r'SZ',
+    isoCode: IsoCode.SZ,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TA': PhoneMetadata(
+  IsoCode.TA: PhoneMetadata(
     countryCode: r'290',
-    isoCode: r'TA',
+    isoCode: IsoCode.TA,
     leadingDigits: r'8',
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TC': PhoneMetadata(
+  IsoCode.TC: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'TC',
+    isoCode: IsoCode.TC,
     leadingDigits: r'649',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'TD': PhoneMetadata(
+  IsoCode.TD: PhoneMetadata(
     countryCode: r'235',
-    isoCode: r'TD',
+    isoCode: IsoCode.TD,
     leadingDigits: null,
     internationalPrefix: r'00|16',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TG': PhoneMetadata(
+  IsoCode.TG: PhoneMetadata(
     countryCode: r'228',
-    isoCode: r'TG',
+    isoCode: IsoCode.TG,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TH': PhoneMetadata(
+  IsoCode.TH: PhoneMetadata(
     countryCode: r'66',
-    isoCode: r'TH',
+    isoCode: IsoCode.TH,
     leadingDigits: null,
     internationalPrefix: r'00[1-9]',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'TJ': PhoneMetadata(
+  IsoCode.TJ: PhoneMetadata(
     countryCode: r'992',
-    isoCode: r'TJ',
+    isoCode: IsoCode.TJ,
     leadingDigits: null,
     internationalPrefix: r'810',
     nationalPrefix: r'8',
     isMainCountryForDialCode: false,
   ),
-  'TK': PhoneMetadata(
+  IsoCode.TK: PhoneMetadata(
     countryCode: r'690',
-    isoCode: r'TK',
+    isoCode: IsoCode.TK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TL': PhoneMetadata(
+  IsoCode.TL: PhoneMetadata(
     countryCode: r'670',
-    isoCode: r'TL',
+    isoCode: IsoCode.TL,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TM': PhoneMetadata(
+  IsoCode.TM: PhoneMetadata(
     countryCode: r'993',
-    isoCode: r'TM',
+    isoCode: IsoCode.TM,
     leadingDigits: null,
     internationalPrefix: r'810',
     nationalPrefix: r'8',
     isMainCountryForDialCode: false,
   ),
-  'TN': PhoneMetadata(
+  IsoCode.TN: PhoneMetadata(
     countryCode: r'216',
-    isoCode: r'TN',
+    isoCode: IsoCode.TN,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TO': PhoneMetadata(
+  IsoCode.TO: PhoneMetadata(
     countryCode: r'676',
-    isoCode: r'TO',
+    isoCode: IsoCode.TO,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TR': PhoneMetadata(
+  IsoCode.TR: PhoneMetadata(
     countryCode: r'90',
-    isoCode: r'TR',
+    isoCode: IsoCode.TR,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'TT': PhoneMetadata(
+  IsoCode.TT: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'TT',
+    isoCode: IsoCode.TT,
     leadingDigits: r'868',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'TV': PhoneMetadata(
+  IsoCode.TV: PhoneMetadata(
     countryCode: r'688',
-    isoCode: r'TV',
+    isoCode: IsoCode.TV,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'TW': PhoneMetadata(
+  IsoCode.TW: PhoneMetadata(
     countryCode: r'886',
-    isoCode: r'TW',
+    isoCode: IsoCode.TW,
     leadingDigits: null,
     internationalPrefix: r'0(?:0[25-79]|19)',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'TZ': PhoneMetadata(
+  IsoCode.TZ: PhoneMetadata(
     countryCode: r'255',
-    isoCode: r'TZ',
+    isoCode: IsoCode.TZ,
     leadingDigits: null,
     internationalPrefix: r'00[056]',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'UA': PhoneMetadata(
+  IsoCode.UA: PhoneMetadata(
     countryCode: r'380',
-    isoCode: r'UA',
+    isoCode: IsoCode.UA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'UG': PhoneMetadata(
+  IsoCode.UG: PhoneMetadata(
     countryCode: r'256',
-    isoCode: r'UG',
+    isoCode: IsoCode.UG,
     leadingDigits: null,
     internationalPrefix: r'00[057]',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'US': PhoneMetadata(
+  IsoCode.US: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'US',
+    isoCode: IsoCode.US,
     leadingDigits: null,
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: true,
   ),
-  'UY': PhoneMetadata(
+  IsoCode.UY: PhoneMetadata(
     countryCode: r'598',
-    isoCode: r'UY',
+    isoCode: IsoCode.UY,
     leadingDigits: null,
     internationalPrefix: r'0(?:0|1[3-9]\d)',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'UZ': PhoneMetadata(
+  IsoCode.UZ: PhoneMetadata(
     countryCode: r'998',
-    isoCode: r'UZ',
+    isoCode: IsoCode.UZ,
     leadingDigits: null,
     internationalPrefix: r'810',
     nationalPrefix: r'8',
     isMainCountryForDialCode: false,
   ),
-  'VA': PhoneMetadata(
+  IsoCode.VA: PhoneMetadata(
     countryCode: r'39',
-    isoCode: r'VA',
+    isoCode: IsoCode.VA,
     leadingDigits: r'06698',
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'VC': PhoneMetadata(
+  IsoCode.VC: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'VC',
+    isoCode: IsoCode.VC,
     leadingDigits: r'784',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'VE': PhoneMetadata(
+  IsoCode.VE: PhoneMetadata(
     countryCode: r'58',
-    isoCode: r'VE',
+    isoCode: IsoCode.VE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'VG': PhoneMetadata(
+  IsoCode.VG: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'VG',
+    isoCode: IsoCode.VG,
     leadingDigits: r'284',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'VI': PhoneMetadata(
+  IsoCode.VI: PhoneMetadata(
     countryCode: r'1',
-    isoCode: r'VI',
+    isoCode: IsoCode.VI,
     leadingDigits: r'340',
     internationalPrefix: r'011',
     nationalPrefix: r'1',
     isMainCountryForDialCode: false,
   ),
-  'VN': PhoneMetadata(
+  IsoCode.VN: PhoneMetadata(
     countryCode: r'84',
-    isoCode: r'VN',
+    isoCode: IsoCode.VN,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'VU': PhoneMetadata(
+  IsoCode.VU: PhoneMetadata(
     countryCode: r'678',
-    isoCode: r'VU',
+    isoCode: IsoCode.VU,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'WF': PhoneMetadata(
+  IsoCode.WF: PhoneMetadata(
     countryCode: r'681',
-    isoCode: r'WF',
+    isoCode: IsoCode.WF,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'WS': PhoneMetadata(
+  IsoCode.WS: PhoneMetadata(
     countryCode: r'685',
-    isoCode: r'WS',
+    isoCode: IsoCode.WS,
     leadingDigits: null,
     internationalPrefix: r'0',
     nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
-  'XK': PhoneMetadata(
+  IsoCode.XK: PhoneMetadata(
     countryCode: r'383',
-    isoCode: r'XK',
+    isoCode: IsoCode.XK,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'YE': PhoneMetadata(
+  IsoCode.YE: PhoneMetadata(
     countryCode: r'967',
-    isoCode: r'YE',
+    isoCode: IsoCode.YE,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'YT': PhoneMetadata(
+  IsoCode.YT: PhoneMetadata(
     countryCode: r'262',
-    isoCode: r'YT',
+    isoCode: IsoCode.YT,
     leadingDigits: r'269|63',
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ZA': PhoneMetadata(
+  IsoCode.ZA: PhoneMetadata(
     countryCode: r'27',
-    isoCode: r'ZA',
+    isoCode: IsoCode.ZA,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ZM': PhoneMetadata(
+  IsoCode.ZM: PhoneMetadata(
     countryCode: r'260',
-    isoCode: r'ZM',
+    isoCode: IsoCode.ZM,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
-  'ZW': PhoneMetadata(
+  IsoCode.ZW: PhoneMetadata(
     countryCode: r'263',
-    isoCode: r'ZW',
+    isoCode: IsoCode.ZW,
     leadingDigits: null,
     internationalPrefix: r'00',
     nationalPrefix: r'0',

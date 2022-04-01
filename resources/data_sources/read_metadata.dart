@@ -2,33 +2,37 @@ import 'dart:convert';
 import 'dart:io';
 
 // ignore: avoid_relative_lib_imports
-import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
+import 'package:phone_number_metadata/phone_number_metadata.dart';
+// import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
 
-import '../../lib/src/models/phone_metadata.dart';
-// ignore: avoid_relative_lib_imports
-import '../../lib/src/models/phone_metadata_patterns.dart';
-// ignore: avoid_relative_lib_imports
-import '../../lib/src/models/phone_metadata_lengths.dart';
+// // ignore: avoid_relative_lib_imports
+// import '../../lib/src/models/phone_metadata.dart';
+// // ignore: avoid_relative_lib_imports
+// import '../../lib/src/models/phone_metadata_patterns.dart';
+// // ignore: avoid_relative_lib_imports
+// import '../../lib/src/models/phone_metadata_lengths.dart';
 
 /// reads the json file of country names which is an array of country information
-Future<Map<String, PhoneMetadata>> getMetadata() async {
+Future<Map<IsoCode, PhoneMetadata>> getMetadata() async {
   final info = await readMetadataJson();
-  return info.map((key, value) => MapEntry(key, PhoneMetadata.fromMap(value)));
+  return info.map((key, value) => MapEntry(
+      IsoCode.values.byName(key.toUpperCase()), PhoneMetadata.fromMap(value)));
 }
 
-Future<Map<String, PhoneMetadataPatterns>> getMetadataPatterns() async {
+Future<Map<IsoCode, PhoneMetadataPatterns>> getMetadataPatterns() async {
   final info = await readMetadataJson();
-  return info.map((key, value) =>
-      MapEntry(key, PhoneMetadataPatterns.fromMap(value['patterns'])));
+  return info.map((key, value) => MapEntry(IsoCode.values.byName(key),
+      PhoneMetadataPatterns.fromMap(value['patterns'])));
 }
 
-Future<Map<String, PhoneMetadataLengths>> getMetadataLengths() async {
+Future<Map<IsoCode, PhoneMetadataLengths>> getMetadataLengths() async {
   final info = await readMetadataJson();
-  return info.map((key, value) =>
-      MapEntry(key, PhoneMetadataLengths.fromMap(value['lengths'])));
+  return info.map((key, value) => MapEntry(
+      IsoCode.values.byName(key.toUpperCase()),
+      PhoneMetadataLengths.fromMap(value['lengths'])));
 }
 
-Future<Map<String, PhoneMetadataFormats>> getMetadataFormats() async {
+Future<Map<IsoCode, PhoneMetadataFormats>> getMetadataFormats() async {
   final info = await readMetadataJson();
   return info.map((key, value) {
     PhoneMetadataFormats converted;
@@ -36,7 +40,7 @@ Future<Map<String, PhoneMetadataFormats>> getMetadataFormats() async {
         .map((v) => PhoneMetadataFormat.fromMap(v))
         .toList();
 
-    return MapEntry(key, converted);
+    return MapEntry(IsoCode.values.byName(key.toUpperCase()), converted);
   });
 }
 
