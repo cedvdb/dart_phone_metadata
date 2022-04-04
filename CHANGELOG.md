@@ -1,3 +1,6 @@
+## 5.0.0
+
+- usage of IsoCode enum
 
 ## 4.0.2
 
