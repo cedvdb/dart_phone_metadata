@@ -1,11 +1,13 @@
 import 'dart:convert';
 
+import 'package:phone_number_metadata/phone_number_metadata.dart';
+
 /// phone metadata
 ///
 /// it does not include pattern and lengths, to access those use the maps
 class PhoneMetadata {
   final String countryCode;
-  final String isoCode;
+  final IsoCode isoCode;
   final String internationalPrefix;
   final String? nationalPrefix;
   final String? leadingDigits;
@@ -25,7 +27,7 @@ class PhoneMetadata {
   Map<String, dynamic> toMap() {
     return {
       'countryCode': countryCode,
-      'isoCode': isoCode,
+      'isoCode': isoCode.name,
       'internationalPrefix': internationalPrefix,
       'nationalPrefix': nationalPrefix,
       'leadingDigits': leadingDigits,
@@ -36,7 +38,7 @@ class PhoneMetadata {
   factory PhoneMetadata.fromMap(Map<String, dynamic> map) {
     return PhoneMetadata(
       countryCode: map['countryCode'],
-      isoCode: map['isoCode'],
+      isoCode: IsoCode.values.byName(map['isoCode']),
       internationalPrefix: map['internationalPrefix'],
       nationalPrefix: map['nationalPrefix'],
       leadingDigits: map['leadingDigits'],

@@ -1,10 +1,10 @@
 // ignore: avoid_relative_lib_imports
-import '../../lib/src/models/phone_metadata.dart';
+import 'package:phone_number_metadata/phone_number_metadata.dart';
 
-Map<String, List<String>> toCountryCodeMap(
-  Map<String, PhoneMetadata> allMetadatas,
+Map<String, List<IsoCode>> countryCodeToIsoCodeMap(
+  Map<IsoCode, PhoneMetadata> allMetadatas,
 ) {
-  final map = <String, List<String>>{};
+  final map = <String, List<IsoCode>>{};
   allMetadatas.values.forEach((m) {
     final countryCode = m.countryCode;
     final isMainCountry = m.isMainCountryForDialCode;

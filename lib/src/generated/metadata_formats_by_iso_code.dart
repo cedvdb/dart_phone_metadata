@@ -1,8 +1,8 @@
-import '../models/phone_metadata_formats.dart';
+import 'package:phone_number_metadata/phone_number_metadata.dart';
 
-const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
-  'AC': [],
-  'AD': [
+const metadataFormatsByIsoCode = <IsoCode, PhoneMetadataFormats>{
+  IsoCode.AC: [],
+  IsoCode.AD: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -25,7 +25,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AE': [
+  IsoCode.AE: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2,9})',
       nationalPrefixFormattingRule: null,
@@ -55,7 +55,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AF': [
+  IsoCode.AF: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -71,9 +71,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AG': [],
-  'AI': [],
-  'AL': [
+  IsoCode.AG: [],
+  IsoCode.AI: [],
+  IsoCode.AL: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -110,7 +110,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AM': [
+  IsoCode.AM: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{3})',
       nationalPrefixFormattingRule: r'$NP $FG',
@@ -140,7 +140,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AO': [
+  IsoCode.AO: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -149,7 +149,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AR': [
+  IsoCode.AR: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -239,8 +239,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'$1 $2 $3-$4',
     )
   ],
-  'AS': [],
-  'AT': [
+  IsoCode.AS: [],
+  IsoCode.AT: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3,12})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -298,7 +298,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AU': [
+  IsoCode.AU: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -363,7 +363,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AW': [
+  IsoCode.AW: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -372,8 +372,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'AX': [],
-  'AZ': [
+  IsoCode.AX: [],
+  IsoCode.AZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -407,7 +407,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BA': [
+  IsoCode.BA: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -437,8 +437,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BB': [],
-  'BD': [
+  IsoCode.BB: [],
+  IsoCode.BD: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{4,6})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -470,7 +470,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BE': [
+  IsoCode.BE: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -500,7 +500,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BF': [
+  IsoCode.BF: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -509,7 +509,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BG': [
+  IsoCode.BG: [
     PhoneMetadataFormat(
       pattern: r'(\d{6})',
       nationalPrefixFormattingRule: null,
@@ -574,7 +574,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BH': [
+  IsoCode.BH: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -583,7 +583,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BI': [
+  IsoCode.BI: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -592,7 +592,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BJ': [
+  IsoCode.BJ: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -601,9 +601,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BL': [],
-  'BM': [],
-  'BN': [
+  IsoCode.BL: [],
+  IsoCode.BM: [],
+  IsoCode.BN: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -612,7 +612,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BO': [
+  IsoCode.BO: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{7})',
       nationalPrefixFormattingRule: null,
@@ -635,8 +635,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BQ': [],
-  'BR': [
+  IsoCode.BQ: [],
+  IsoCode.BR: [
     PhoneMetadataFormat(
       pattern: r'(\d{3,6})',
       nationalPrefixFormattingRule: null,
@@ -691,8 +691,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BS': [],
-  'BT': [
+  IsoCode.BS: [],
+  IsoCode.BT: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -715,7 +715,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BW': [
+  IsoCode.BW: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{5})',
       nationalPrefixFormattingRule: null,
@@ -752,7 +752,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BY': [
+  IsoCode.BY: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP $FG',
@@ -799,7 +799,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'BZ': [
+  IsoCode.BZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -815,9 +815,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CA': [],
-  'CC': [],
-  'CD': [
+  IsoCode.CA: [],
+  IsoCode.CC: [],
+  IsoCode.CD: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -847,7 +847,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CF': [
+  IsoCode.CF: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -856,7 +856,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CG': [
+  IsoCode.CG: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -879,7 +879,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CH': [
+  IsoCode.CH: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -902,7 +902,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CI': [
+  IsoCode.CI: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -911,7 +911,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CK': [
+  IsoCode.CK: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -920,7 +920,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CL': [
+  IsoCode.CL: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -985,7 +985,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CM': [
+  IsoCode.CM: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -1001,7 +1001,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CN': [
+  IsoCode.CN: [
     PhoneMetadataFormat(
       pattern: r'(\d{5,6})',
       nationalPrefixFormattingRule: null,
@@ -1125,7 +1125,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CO': [
+  IsoCode.CO: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{7})',
       nationalPrefixFormattingRule: r'($FG)',
@@ -1148,7 +1148,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'$1 $2 $3',
     )
   ],
-  'CR': [
+  IsoCode.CR: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1164,7 +1164,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CU': [
+  IsoCode.CU: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{4,6})',
       nationalPrefixFormattingRule: r'($NP$FG)',
@@ -1194,7 +1194,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CV': [
+  IsoCode.CV: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -1203,7 +1203,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CW': [
+  IsoCode.CW: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1219,8 +1219,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CX': [],
-  'CY': [
+  IsoCode.CX: [],
+  IsoCode.CY: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{6})',
       nationalPrefixFormattingRule: null,
@@ -1229,7 +1229,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'CZ': [
+  IsoCode.CZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -1252,7 +1252,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'DE': [
+  IsoCode.DE: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3,13})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1386,7 +1386,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'DJ': [
+  IsoCode.DJ: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -1395,7 +1395,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'DK': [
+  IsoCode.DK: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -1404,9 +1404,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'DM': [],
-  'DO': [],
-  'DZ': [
+  IsoCode.DM: [],
+  IsoCode.DO: [],
+  IsoCode.DZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1429,7 +1429,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'EC': [
+  IsoCode.EC: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1459,7 +1459,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'EE': [
+  IsoCode.EE: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1492,7 +1492,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'EG': [
+  IsoCode.EG: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{7,8})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1515,8 +1515,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'EH': [],
-  'ER': [
+  IsoCode.EH: [],
+  IsoCode.ER: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1525,7 +1525,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ES': [
+  IsoCode.ES: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1555,7 +1555,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ET': [
+  IsoCode.ET: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1564,7 +1564,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'FI': [
+  IsoCode.FI: [
     PhoneMetadataFormat(
       pattern: r'(\d{5})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1608,7 +1608,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'FJ': [
+  IsoCode.FJ: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1624,8 +1624,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'FK': [],
-  'FM': [
+  IsoCode.FK: [],
+  IsoCode.FM: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1634,7 +1634,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'FO': [
+  IsoCode.FO: [
     PhoneMetadataFormat(
       pattern: r'(\d{6})',
       nationalPrefixFormattingRule: null,
@@ -1643,7 +1643,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'FR': [
+  IsoCode.FR: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1673,7 +1673,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GA': [
+  IsoCode.GA: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'0$FG',
@@ -1696,7 +1696,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GB': [
+  IsoCode.GB: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1758,8 +1758,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GD': [],
-  'GE': [
+  IsoCode.GD: [],
+  IsoCode.GE: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1789,7 +1789,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GF': [
+  IsoCode.GF: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1798,8 +1798,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GG': [],
-  'GH': [
+  IsoCode.GG: [],
+  IsoCode.GH: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1822,7 +1822,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GI': [
+  IsoCode.GI: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{5})',
       nationalPrefixFormattingRule: null,
@@ -1831,7 +1831,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GL': [
+  IsoCode.GL: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -1840,7 +1840,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GM': [
+  IsoCode.GM: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1849,7 +1849,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GN': [
+  IsoCode.GN: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -1865,7 +1865,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GP': [
+  IsoCode.GP: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -1874,7 +1874,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GQ': [
+  IsoCode.GQ: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -1890,7 +1890,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GR': [
+  IsoCode.GR: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1915,7 +1915,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GT': [
+  IsoCode.GT: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1931,8 +1931,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GU': [],
-  'GW': [
+  IsoCode.GU: [],
+  IsoCode.GW: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1948,7 +1948,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'GY': [
+  IsoCode.GY: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -1957,7 +1957,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'HK': [
+  IsoCode.HK: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2,5})',
       nationalPrefixFormattingRule: null,
@@ -1987,7 +1987,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'HN': [
+  IsoCode.HN: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -2003,7 +2003,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'NA',
     )
   ],
-  'HR': [
+  IsoCode.HR: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2,3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2054,7 +2054,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'HT': [
+  IsoCode.HT: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -2063,7 +2063,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'HU': [
+  IsoCode.HU: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'($NP $FG)',
@@ -2086,7 +2086,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ID': [
+  IsoCode.ID: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -2165,7 +2165,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'NA',
     )
   ],
-  'IE': [
+  IsoCode.IE: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{5})',
       nationalPrefixFormattingRule: r'($NP$FG)',
@@ -2237,7 +2237,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'IL': [
+  IsoCode.IL: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -2295,8 +2295,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'IM': [],
-  'IN': [
+  IsoCode.IM: [],
+  IsoCode.IN: [
     PhoneMetadataFormat(
       pattern: r'(\d{7})',
       nationalPrefixFormattingRule: null,
@@ -2391,7 +2391,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'IO': [
+  IsoCode.IO: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -2400,7 +2400,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'IQ': [
+  IsoCode.IQ: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2423,7 +2423,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'IR': [
+  IsoCode.IR: [
     PhoneMetadataFormat(
       pattern: r'(\d{4,5})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2455,7 +2455,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'IS': [
+  IsoCode.IS: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -2471,7 +2471,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'IT': [
+  IsoCode.IT: [
     PhoneMetadataFormat(
       pattern: r'(\d{4,5})',
       nationalPrefixFormattingRule: null,
@@ -2560,9 +2560,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'JE': [],
-  'JM': [],
-  'JO': [
+  IsoCode.JE: [],
+  IsoCode.JM: [],
+  IsoCode.JO: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'($NP$FG)',
@@ -2592,7 +2592,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'JP': [
+  IsoCode.JP: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -2711,7 +2711,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'NA',
     )
   ],
-  'KE': [
+  IsoCode.KE: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{5,7})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2734,7 +2734,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'KG': [
+  IsoCode.KG: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{5})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2757,7 +2757,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'KH': [
+  IsoCode.KH: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2773,8 +2773,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'KI': [],
-  'KM': [
+  IsoCode.KI: [],
+  IsoCode.KM: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -2783,8 +2783,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'KN': [],
-  'KP': [
+  IsoCode.KN: [],
+  IsoCode.KP: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2807,7 +2807,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'KR': [
+  IsoCode.KR: [
     PhoneMetadataFormat(
       pattern: r'(\d{5})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2886,7 +2886,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'NA',
     )
   ],
-  'KW': [
+  IsoCode.KW: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{3,4})',
       nationalPrefixFormattingRule: null,
@@ -2902,9 +2902,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'KY': [],
-  'KZ': [],
-  'LA': [
+  IsoCode.KY: [],
+  IsoCode.KZ: [],
+  IsoCode.LA: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2927,7 +2927,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LB': [
+  IsoCode.LB: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2943,8 +2943,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LC': [],
-  'LI': [
+  IsoCode.LC: [],
+  IsoCode.LI: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -2967,7 +2967,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LK': [
+  IsoCode.LK: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -2983,7 +2983,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LR': [
+  IsoCode.LR: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3006,7 +3006,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LS': [
+  IsoCode.LS: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3015,7 +3015,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LT': [
+  IsoCode.LT: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'($NP-$FG)',
@@ -3045,7 +3045,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LU': [
+  IsoCode.LU: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -3114,7 +3114,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LV': [
+  IsoCode.LV: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -3123,7 +3123,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'LY': [
+  IsoCode.LY: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{7})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3132,7 +3132,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MA': [
+  IsoCode.MA: [
     PhoneMetadataFormat(
       pattern: r'(\d{5})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3172,7 +3172,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MC': [
+  IsoCode.MC: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -3202,7 +3202,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MD': [
+  IsoCode.MD: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{5})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3225,7 +3225,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ME': [
+  IsoCode.ME: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3234,8 +3234,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MF': [],
-  'MG': [
+  IsoCode.MF: [],
+  IsoCode.MG: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{3})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3244,7 +3244,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MH': [
+  IsoCode.MH: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3253,7 +3253,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MK': [
+  IsoCode.MK: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3276,7 +3276,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ML': [
+  IsoCode.ML: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3295,7 +3295,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MM': [
+  IsoCode.MM: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{2})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3362,7 +3362,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MN': [
+  IsoCode.MN: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3402,7 +3402,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MO': [
+  IsoCode.MO: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3411,8 +3411,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MP': [],
-  'MQ': [
+  IsoCode.MP: [],
+  IsoCode.MQ: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3421,7 +3421,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MR': [
+  IsoCode.MR: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -3430,8 +3430,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MS': [],
-  'MT': [
+  IsoCode.MS: [],
+  IsoCode.MT: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3440,7 +3440,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MU': [
+  IsoCode.MU: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3456,7 +3456,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MV': [
+  IsoCode.MV: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3472,7 +3472,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MW': [
+  IsoCode.MW: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3495,7 +3495,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MX': [
+  IsoCode.MX: [
     PhoneMetadataFormat(
       pattern: r'(\d{5})',
       nationalPrefixFormattingRule: null,
@@ -3532,7 +3532,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MY': [
+  IsoCode.MY: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3576,7 +3576,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'MZ': [
+  IsoCode.MZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3,4})',
       nationalPrefixFormattingRule: null,
@@ -3592,7 +3592,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NA': [
+  IsoCode.NA: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3622,7 +3622,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NC': [
+  IsoCode.NC: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -3638,7 +3638,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NE': [
+  IsoCode.NE: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -3654,7 +3654,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NF': [
+  IsoCode.NF: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3670,7 +3670,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NG': [
+  IsoCode.NG: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3714,7 +3714,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NI': [
+  IsoCode.NI: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3723,7 +3723,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NL': [
+  IsoCode.NL: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3781,7 +3781,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NO': [
+  IsoCode.NO: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -3797,7 +3797,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NP': [
+  IsoCode.NP: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{7})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3827,7 +3827,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'NA',
     )
   ],
-  'NR': [
+  IsoCode.NR: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3836,7 +3836,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NU': [
+  IsoCode.NU: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3845,7 +3845,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'NZ': [
+  IsoCode.NZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3,8})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -3889,7 +3889,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'OM': [
+  IsoCode.OM: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4,6})',
       nationalPrefixFormattingRule: null,
@@ -3912,7 +3912,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PA': [
+  IsoCode.PA: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3935,7 +3935,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PE': [
+  IsoCode.PE: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{5})',
       nationalPrefixFormattingRule: r'($NP$FG)',
@@ -3965,7 +3965,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PF': [
+  IsoCode.PF: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -3981,7 +3981,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PG': [
+  IsoCode.PG: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -3997,7 +3997,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PH': [
+  IsoCode.PH: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{5})',
       nationalPrefixFormattingRule: r'($NP$FG)',
@@ -4065,7 +4065,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PK': [
+  IsoCode.PK: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{2,7})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4128,7 +4128,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PL': [
+  IsoCode.PL: [
     PhoneMetadataFormat(
       pattern: r'(\d{5})',
       nationalPrefixFormattingRule: null,
@@ -4182,7 +4182,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PM': [
+  IsoCode.PM: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4191,8 +4191,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PR': [],
-  'PS': [
+  IsoCode.PR: [],
+  IsoCode.PS: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4215,7 +4215,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PT': [
+  IsoCode.PT: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4231,7 +4231,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PW': [
+  IsoCode.PW: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4240,7 +4240,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'PY': [
+  IsoCode.PY: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3,6})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4298,7 +4298,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'QA': [
+  IsoCode.QA: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4314,7 +4314,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'RE': [
+  IsoCode.RE: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4323,7 +4323,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'RO': [
+  IsoCode.RO: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4353,7 +4353,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'RS': [
+  IsoCode.RS: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3,9})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4369,7 +4369,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'RU': [
+  IsoCode.RU: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -4414,7 +4414,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'RW': [
+  IsoCode.RW: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -4437,7 +4437,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SA': [
+  IsoCode.SA: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{5})',
       nationalPrefixFormattingRule: null,
@@ -4474,7 +4474,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SB': [
+  IsoCode.SB: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{5})',
       nationalPrefixFormattingRule: null,
@@ -4483,7 +4483,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SC': [
+  IsoCode.SC: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -4492,7 +4492,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SD': [
+  IsoCode.SD: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4501,7 +4501,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SE': [
+  IsoCode.SE: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2,3})(\d{2})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4591,7 +4591,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'$1 $2 $3 $4 $5',
     )
   ],
-  'SG': [
+  IsoCode.SG: [
     PhoneMetadataFormat(
       pattern: r'(\d{4,5})',
       nationalPrefixFormattingRule: null,
@@ -4628,8 +4628,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SH': [],
-  'SI': [
+  IsoCode.SH: [],
+  IsoCode.SI: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3,6})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4659,8 +4659,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SJ': [],
-  'SK': [
+  IsoCode.SJ: [],
+  IsoCode.SK: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{2})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4704,7 +4704,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SL': [
+  IsoCode.SL: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{6})',
       nationalPrefixFormattingRule: r'($NP$FG)',
@@ -4713,7 +4713,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SM': [
+  IsoCode.SM: [
     PhoneMetadataFormat(
       pattern: r'(\d{6})',
       nationalPrefixFormattingRule: null,
@@ -4736,7 +4736,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SN': [
+  IsoCode.SN: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -4752,7 +4752,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SO': [
+  IsoCode.SO: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4796,7 +4796,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SR': [
+  IsoCode.SR: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -4819,7 +4819,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SS': [
+  IsoCode.SS: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4828,7 +4828,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ST': [
+  IsoCode.ST: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4837,7 +4837,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SV': [
+  IsoCode.SV: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4860,8 +4860,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SX': [],
-  'SY': [
+  IsoCode.SX: [],
+  IsoCode.SY: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4877,7 +4877,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'SZ': [
+  IsoCode.SZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4893,9 +4893,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TA': [],
-  'TC': [],
-  'TD': [
+  IsoCode.TA: [],
+  IsoCode.TC: [],
+  IsoCode.TD: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -4904,7 +4904,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TG': [
+  IsoCode.TG: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -4913,7 +4913,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TH': [
+  IsoCode.TH: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -4936,7 +4936,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TJ': [
+  IsoCode.TJ: [
     PhoneMetadataFormat(
       pattern: r'(\d{6})(\d)(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -4966,8 +4966,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TK': [],
-  'TL': [
+  IsoCode.TK: [],
+  IsoCode.TL: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -4983,7 +4983,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TM': [
+  IsoCode.TM: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'($NP $FG)',
@@ -5006,7 +5006,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TN': [
+  IsoCode.TN: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -5015,7 +5015,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TO': [
+  IsoCode.TO: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -5038,7 +5038,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TR': [
+  IsoCode.TR: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d)(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -5075,8 +5075,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TT': [],
-  'TV': [
+  IsoCode.TT: [],
+  IsoCode.TV: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -5099,7 +5099,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TW': [
+  IsoCode.TW: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d)(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5139,7 +5139,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'TZ': [
+  IsoCode.TZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{2})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5162,7 +5162,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'UA': [
+  IsoCode.UA: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})(\d{3})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5198,7 +5198,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'UG': [
+  IsoCode.UG: [
     PhoneMetadataFormat(
       pattern: r'(\d{4})(\d{5})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5221,7 +5221,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'US': [
+  IsoCode.US: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -5237,7 +5237,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: r'$1-$2-$3',
     )
   ],
-  'UY': [
+  IsoCode.UY: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5267,7 +5267,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'UZ': [
+  IsoCode.UZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: r'$NP $FG',
@@ -5276,9 +5276,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'VA': [],
-  'VC': [],
-  'VE': [
+  IsoCode.VA: [],
+  IsoCode.VC: [],
+  IsoCode.VE: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{7})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5287,9 +5287,9 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'VG': [],
-  'VI': [],
-  'VN': [
+  IsoCode.VG: [],
+  IsoCode.VI: [],
+  IsoCode.VN: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5347,7 +5347,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'VU': [
+  IsoCode.VU: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
@@ -5356,7 +5356,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'WF': [
+  IsoCode.WF: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})',
       nationalPrefixFormattingRule: null,
@@ -5365,7 +5365,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'WS': [
+  IsoCode.WS: [
     PhoneMetadataFormat(
       pattern: r'(\d{5})',
       nationalPrefixFormattingRule: null,
@@ -5388,7 +5388,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'XK': [
+  IsoCode.XK: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{5})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5411,7 +5411,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'YE': [
+  IsoCode.YE: [
     PhoneMetadataFormat(
       pattern: r'(\d)(\d{3})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5427,8 +5427,8 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'YT': [],
-  'ZA': [
+  IsoCode.YT: [],
+  IsoCode.ZA: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{3,4})',
       nationalPrefixFormattingRule: r'$NP$FG',
@@ -5465,7 +5465,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ZM': [
+  IsoCode.ZM: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3})',
       nationalPrefixFormattingRule: null,
@@ -5488,7 +5488,7 @@ const metadataFormatsByIsoCode = <String, PhoneMetadataFormats>{
       intlFormat: null,
     )
   ],
-  'ZW': [
+  IsoCode.ZW: [
     PhoneMetadataFormat(
       pattern: r'(\d{3})(\d{3,5})',
       nationalPrefixFormattingRule: r'$NP$FG',

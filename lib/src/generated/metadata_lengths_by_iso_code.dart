@@ -1,1227 +1,1227 @@
-import '../models/phone_metadata_lengths.dart';
+import 'package:phone_number_metadata/phone_number_metadata.dart';
 
 const metadataLenghtsByIsoCode = {
-  'AC': PhoneMetadataLengths(
+  IsoCode.AC: PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [5],
   ),
-  'AD': PhoneMetadataLengths(
+  IsoCode.AD: PhoneMetadataLengths(
     general: [],
     mobile: [6, 9],
     fixedLine: [6],
   ),
-  'AE': PhoneMetadataLengths(
+  IsoCode.AE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'AF': PhoneMetadataLengths(
+  IsoCode.AF: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'AG': PhoneMetadataLengths(
+  IsoCode.AG: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'AI': PhoneMetadataLengths(
+  IsoCode.AI: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'AL': PhoneMetadataLengths(
+  IsoCode.AL: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'AM': PhoneMetadataLengths(
+  IsoCode.AM: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'AO': PhoneMetadataLengths(
+  IsoCode.AO: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'AR': PhoneMetadataLengths(
+  IsoCode.AR: PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [10],
   ),
-  'AS': PhoneMetadataLengths(
+  IsoCode.AS: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'AT': PhoneMetadataLengths(
+  IsoCode.AT: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8, 9, 10, 11, 12, 13],
     fixedLine: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
   ),
-  'AU': PhoneMetadataLengths(
+  IsoCode.AU: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'AW': PhoneMetadataLengths(
+  IsoCode.AW: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'AX': PhoneMetadataLengths(
+  IsoCode.AX: PhoneMetadataLengths(
     general: [],
     mobile: [6, 7, 8, 9, 10],
     fixedLine: [6, 7, 8, 9],
   ),
-  'AZ': PhoneMetadataLengths(
+  IsoCode.AZ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'BA': PhoneMetadataLengths(
+  IsoCode.BA: PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8],
   ),
-  'BB': PhoneMetadataLengths(
+  IsoCode.BB: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'BD': PhoneMetadataLengths(
+  IsoCode.BD: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [6, 7, 8, 9, 10],
   ),
-  'BE': PhoneMetadataLengths(
+  IsoCode.BE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'BF': PhoneMetadataLengths(
+  IsoCode.BF: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'BG': PhoneMetadataLengths(
+  IsoCode.BG: PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [6, 7, 8],
   ),
-  'BH': PhoneMetadataLengths(
+  IsoCode.BH: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'BI': PhoneMetadataLengths(
+  IsoCode.BI: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'BJ': PhoneMetadataLengths(
+  IsoCode.BJ: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'BL': PhoneMetadataLengths(
+  IsoCode.BL: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'BM': PhoneMetadataLengths(
+  IsoCode.BM: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'BN': PhoneMetadataLengths(
+  IsoCode.BN: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'BO': PhoneMetadataLengths(
+  IsoCode.BO: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'BQ': PhoneMetadataLengths(
+  IsoCode.BQ: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'BR': PhoneMetadataLengths(
+  IsoCode.BR: PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [10],
   ),
-  'BS': PhoneMetadataLengths(
+  IsoCode.BS: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'BT': PhoneMetadataLengths(
+  IsoCode.BT: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7],
   ),
-  'BW': PhoneMetadataLengths(
+  IsoCode.BW: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7],
   ),
-  'BY': PhoneMetadataLengths(
+  IsoCode.BY: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'BZ': PhoneMetadataLengths(
+  IsoCode.BZ: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'CA': PhoneMetadataLengths(
+  IsoCode.CA: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'CC': PhoneMetadataLengths(
+  IsoCode.CC: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'CD': PhoneMetadataLengths(
+  IsoCode.CD: PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [7, 9],
   ),
-  'CF': PhoneMetadataLengths(
+  IsoCode.CF: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'CG': PhoneMetadataLengths(
+  IsoCode.CG: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'CH': PhoneMetadataLengths(
+  IsoCode.CH: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'CI': PhoneMetadataLengths(
+  IsoCode.CI: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'CK': PhoneMetadataLengths(
+  IsoCode.CK: PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [5],
   ),
-  'CL': PhoneMetadataLengths(
+  IsoCode.CL: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'CM': PhoneMetadataLengths(
+  IsoCode.CM: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'CN': PhoneMetadataLengths(
+  IsoCode.CN: PhoneMetadataLengths(
     general: [],
     mobile: [11],
     fixedLine: [7, 8, 9, 10, 11],
   ),
-  'CO': PhoneMetadataLengths(
+  IsoCode.CO: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8],
   ),
-  'CR': PhoneMetadataLengths(
+  IsoCode.CR: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'CU': PhoneMetadataLengths(
+  IsoCode.CU: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [6, 7, 8, 10],
   ),
-  'CV': PhoneMetadataLengths(
+  IsoCode.CV: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'CW': PhoneMetadataLengths(
+  IsoCode.CW: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7, 8],
   ),
-  'CX': PhoneMetadataLengths(
+  IsoCode.CX: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'CY': PhoneMetadataLengths(
+  IsoCode.CY: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'CZ': PhoneMetadataLengths(
+  IsoCode.CZ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'DE': PhoneMetadataLengths(
+  IsoCode.DE: PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
   ),
-  'DJ': PhoneMetadataLengths(
+  IsoCode.DJ: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'DK': PhoneMetadataLengths(
+  IsoCode.DK: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'DM': PhoneMetadataLengths(
+  IsoCode.DM: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'DO': PhoneMetadataLengths(
+  IsoCode.DO: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'DZ': PhoneMetadataLengths(
+  IsoCode.DZ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  'EC': PhoneMetadataLengths(
+  IsoCode.EC: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'EE': PhoneMetadataLengths(
+  IsoCode.EE: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7],
   ),
-  'EG': PhoneMetadataLengths(
+  IsoCode.EG: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8, 9],
   ),
-  'EH': PhoneMetadataLengths(
+  IsoCode.EH: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'ER': PhoneMetadataLengths(
+  IsoCode.ER: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'ES': PhoneMetadataLengths(
+  IsoCode.ES: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'ET': PhoneMetadataLengths(
+  IsoCode.ET: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'FI': PhoneMetadataLengths(
+  IsoCode.FI: PhoneMetadataLengths(
     general: [],
     mobile: [6, 7, 8, 9, 10],
     fixedLine: [5, 6, 7, 8, 9],
   ),
-  'FJ': PhoneMetadataLengths(
+  IsoCode.FJ: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'FK': PhoneMetadataLengths(
+  IsoCode.FK: PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [5],
   ),
-  'FM': PhoneMetadataLengths(
+  IsoCode.FM: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'FO': PhoneMetadataLengths(
+  IsoCode.FO: PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  'FR': PhoneMetadataLengths(
+  IsoCode.FR: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'GA': PhoneMetadataLengths(
+  IsoCode.GA: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [8],
   ),
-  'GB': PhoneMetadataLengths(
+  IsoCode.GB: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [9, 10],
   ),
-  'GD': PhoneMetadataLengths(
+  IsoCode.GD: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'GE': PhoneMetadataLengths(
+  IsoCode.GE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'GF': PhoneMetadataLengths(
+  IsoCode.GF: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'GG': PhoneMetadataLengths(
+  IsoCode.GG: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'GH': PhoneMetadataLengths(
+  IsoCode.GH: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'GI': PhoneMetadataLengths(
+  IsoCode.GI: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'GL': PhoneMetadataLengths(
+  IsoCode.GL: PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  'GM': PhoneMetadataLengths(
+  IsoCode.GM: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'GN': PhoneMetadataLengths(
+  IsoCode.GN: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'GP': PhoneMetadataLengths(
+  IsoCode.GP: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'GQ': PhoneMetadataLengths(
+  IsoCode.GQ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'GR': PhoneMetadataLengths(
+  IsoCode.GR: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'GT': PhoneMetadataLengths(
+  IsoCode.GT: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'GU': PhoneMetadataLengths(
+  IsoCode.GU: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'GW': PhoneMetadataLengths(
+  IsoCode.GW: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'GY': PhoneMetadataLengths(
+  IsoCode.GY: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'HK': PhoneMetadataLengths(
+  IsoCode.HK: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'HN': PhoneMetadataLengths(
+  IsoCode.HN: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'HR': PhoneMetadataLengths(
+  IsoCode.HR: PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8, 9],
   ),
-  'HT': PhoneMetadataLengths(
+  IsoCode.HT: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'HU': PhoneMetadataLengths(
+  IsoCode.HU: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'ID': PhoneMetadataLengths(
+  IsoCode.ID: PhoneMetadataLengths(
     general: [],
     mobile: [9, 10, 11, 12],
     fixedLine: [7, 8, 9, 10, 11],
   ),
-  'IE': PhoneMetadataLengths(
+  IsoCode.IE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9, 10],
   ),
-  'IL': PhoneMetadataLengths(
+  IsoCode.IL: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 11, 12],
   ),
-  'IM': PhoneMetadataLengths(
+  IsoCode.IM: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'IN': PhoneMetadataLengths(
+  IsoCode.IN: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'IO': PhoneMetadataLengths(
+  IsoCode.IO: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'IQ': PhoneMetadataLengths(
+  IsoCode.IQ: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8, 9],
   ),
-  'IR': PhoneMetadataLengths(
+  IsoCode.IR: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [6, 7, 10],
   ),
-  'IS': PhoneMetadataLengths(
+  IsoCode.IS: PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [7],
   ),
-  'IT': PhoneMetadataLengths(
+  IsoCode.IT: PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [6, 7, 8, 9, 10, 11],
   ),
-  'JE': PhoneMetadataLengths(
+  IsoCode.JE: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'JM': PhoneMetadataLengths(
+  IsoCode.JM: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'JO': PhoneMetadataLengths(
+  IsoCode.JO: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'JP': PhoneMetadataLengths(
+  IsoCode.JP: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [9],
   ),
-  'KE': PhoneMetadataLengths(
+  IsoCode.KE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9],
   ),
-  'KG': PhoneMetadataLengths(
+  IsoCode.KG: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'KH': PhoneMetadataLengths(
+  IsoCode.KH: PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8, 9],
   ),
-  'KI': PhoneMetadataLengths(
+  IsoCode.KI: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [5, 8],
   ),
-  'KM': PhoneMetadataLengths(
+  IsoCode.KM: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'KN': PhoneMetadataLengths(
+  IsoCode.KN: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'KP': PhoneMetadataLengths(
+  IsoCode.KP: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8, 10],
   ),
-  'KR': PhoneMetadataLengths(
+  IsoCode.KR: PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [5, 6, 8, 9, 10],
   ),
-  'KW': PhoneMetadataLengths(
+  IsoCode.KW: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'KY': PhoneMetadataLengths(
+  IsoCode.KY: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'KZ': PhoneMetadataLengths(
+  IsoCode.KZ: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'LA': PhoneMetadataLengths(
+  IsoCode.LA: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8],
   ),
-  'LB': PhoneMetadataLengths(
+  IsoCode.LB: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7],
   ),
-  'LC': PhoneMetadataLengths(
+  IsoCode.LC: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'LI': PhoneMetadataLengths(
+  IsoCode.LI: PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [7],
   ),
-  'LK': PhoneMetadataLengths(
+  IsoCode.LK: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'LR': PhoneMetadataLengths(
+  IsoCode.LR: PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
     fixedLine: [8, 9],
   ),
-  'LS': PhoneMetadataLengths(
+  IsoCode.LS: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'LT': PhoneMetadataLengths(
+  IsoCode.LT: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'LU': PhoneMetadataLengths(
+  IsoCode.LU: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [4, 5, 6, 7, 8, 9, 10, 11],
   ),
-  'LV': PhoneMetadataLengths(
+  IsoCode.LV: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'LY': PhoneMetadataLengths(
+  IsoCode.LY: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'MA': PhoneMetadataLengths(
+  IsoCode.MA: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'MC': PhoneMetadataLengths(
+  IsoCode.MC: PhoneMetadataLengths(
     general: [],
     mobile: [8, 9],
     fixedLine: [8],
   ),
-  'MD': PhoneMetadataLengths(
+  IsoCode.MD: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'ME': PhoneMetadataLengths(
+  IsoCode.ME: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'MF': PhoneMetadataLengths(
+  IsoCode.MF: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'MG': PhoneMetadataLengths(
+  IsoCode.MG: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'MH': PhoneMetadataLengths(
+  IsoCode.MH: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'MK': PhoneMetadataLengths(
+  IsoCode.MK: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'ML': PhoneMetadataLengths(
+  IsoCode.ML: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'MM': PhoneMetadataLengths(
+  IsoCode.MM: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8, 9, 10],
     fixedLine: [6, 7, 8, 9],
   ),
-  'MN': PhoneMetadataLengths(
+  IsoCode.MN: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8, 9, 10],
   ),
-  'MO': PhoneMetadataLengths(
+  IsoCode.MO: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'MP': PhoneMetadataLengths(
+  IsoCode.MP: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'MQ': PhoneMetadataLengths(
+  IsoCode.MQ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'MR': PhoneMetadataLengths(
+  IsoCode.MR: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'MS': PhoneMetadataLengths(
+  IsoCode.MS: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'MT': PhoneMetadataLengths(
+  IsoCode.MT: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'MU': PhoneMetadataLengths(
+  IsoCode.MU: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7, 8],
   ),
-  'MV': PhoneMetadataLengths(
+  IsoCode.MV: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'MW': PhoneMetadataLengths(
+  IsoCode.MW: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 9],
   ),
-  'MX': PhoneMetadataLengths(
+  IsoCode.MX: PhoneMetadataLengths(
     general: [],
     mobile: [10, 11],
     fixedLine: [10],
   ),
-  'MY': PhoneMetadataLengths(
+  IsoCode.MY: PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [8, 9],
   ),
-  'MZ': PhoneMetadataLengths(
+  IsoCode.MZ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'NA': PhoneMetadataLengths(
+  IsoCode.NA: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  'NC': PhoneMetadataLengths(
+  IsoCode.NC: PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  'NE': PhoneMetadataLengths(
+  IsoCode.NE: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'NF': PhoneMetadataLengths(
+  IsoCode.NF: PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  'NG': PhoneMetadataLengths(
+  IsoCode.NG: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [7, 8],
   ),
-  'NI': PhoneMetadataLengths(
+  IsoCode.NI: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'NL': PhoneMetadataLengths(
+  IsoCode.NL: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'NO': PhoneMetadataLengths(
+  IsoCode.NO: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'NP': PhoneMetadataLengths(
+  IsoCode.NP: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [8],
   ),
-  'NR': PhoneMetadataLengths(
+  IsoCode.NR: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'NU': PhoneMetadataLengths(
+  IsoCode.NU: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [4],
   ),
-  'NZ': PhoneMetadataLengths(
+  IsoCode.NZ: PhoneMetadataLengths(
     general: [],
     mobile: [8, 9, 10],
     fixedLine: [8],
   ),
-  'OM': PhoneMetadataLengths(
+  IsoCode.OM: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'PA': PhoneMetadataLengths(
+  IsoCode.PA: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8],
     fixedLine: [7],
   ),
-  'PE': PhoneMetadataLengths(
+  IsoCode.PE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'PF': PhoneMetadataLengths(
+  IsoCode.PF: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'PG': PhoneMetadataLengths(
+  IsoCode.PG: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7, 8],
   ),
-  'PH': PhoneMetadataLengths(
+  IsoCode.PH: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [6, 8, 9, 10],
   ),
-  'PK': PhoneMetadataLengths(
+  IsoCode.PK: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [9, 10],
   ),
-  'PL': PhoneMetadataLengths(
+  IsoCode.PL: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 9],
   ),
-  'PM': PhoneMetadataLengths(
+  IsoCode.PM: PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  'PR': PhoneMetadataLengths(
+  IsoCode.PR: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'PS': PhoneMetadataLengths(
+  IsoCode.PS: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'PT': PhoneMetadataLengths(
+  IsoCode.PT: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'PW': PhoneMetadataLengths(
+  IsoCode.PW: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'PY': PhoneMetadataLengths(
+  IsoCode.PY: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9],
   ),
-  'QA': PhoneMetadataLengths(
+  IsoCode.QA: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'RE': PhoneMetadataLengths(
+  IsoCode.RE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'RO': PhoneMetadataLengths(
+  IsoCode.RO: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [6, 9],
   ),
-  'RS': PhoneMetadataLengths(
+  IsoCode.RS: PhoneMetadataLengths(
     general: [],
     mobile: [8, 9, 10],
     fixedLine: [7, 8, 9, 10, 11, 12],
   ),
-  'RU': PhoneMetadataLengths(
+  IsoCode.RU: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'RW': PhoneMetadataLengths(
+  IsoCode.RW: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  'SA': PhoneMetadataLengths(
+  IsoCode.SA: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'SB': PhoneMetadataLengths(
+  IsoCode.SB: PhoneMetadataLengths(
     general: [],
     mobile: [5, 7],
     fixedLine: [5],
   ),
-  'SC': PhoneMetadataLengths(
+  IsoCode.SC: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'SD': PhoneMetadataLengths(
+  IsoCode.SD: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'SE': PhoneMetadataLengths(
+  IsoCode.SE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8, 9],
   ),
-  'SG': PhoneMetadataLengths(
+  IsoCode.SG: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'SH': PhoneMetadataLengths(
+  IsoCode.SH: PhoneMetadataLengths(
     general: [],
     mobile: [5],
     fixedLine: [4, 5],
   ),
-  'SI': PhoneMetadataLengths(
+  IsoCode.SI: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'SJ': PhoneMetadataLengths(
+  IsoCode.SJ: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'SK': PhoneMetadataLengths(
+  IsoCode.SK: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [6, 7, 9],
   ),
-  'SL': PhoneMetadataLengths(
+  IsoCode.SL: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'SM': PhoneMetadataLengths(
+  IsoCode.SM: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [10],
   ),
-  'SN': PhoneMetadataLengths(
+  IsoCode.SN: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'SO': PhoneMetadataLengths(
+  IsoCode.SO: PhoneMetadataLengths(
     general: [],
     mobile: [7, 8, 9],
     fixedLine: [6, 7],
   ),
-  'SR': PhoneMetadataLengths(
+  IsoCode.SR: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [6, 7],
   ),
-  'SS': PhoneMetadataLengths(
+  IsoCode.SS: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'ST': PhoneMetadataLengths(
+  IsoCode.ST: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [7],
   ),
-  'SV': PhoneMetadataLengths(
+  IsoCode.SV: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'SX': PhoneMetadataLengths(
+  IsoCode.SX: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'SY': PhoneMetadataLengths(
+  IsoCode.SY: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  'SZ': PhoneMetadataLengths(
+  IsoCode.SZ: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'TA': PhoneMetadataLengths(
+  IsoCode.TA: PhoneMetadataLengths(
     general: [],
     mobile: [4],
     fixedLine: [4],
   ),
-  'TC': PhoneMetadataLengths(
+  IsoCode.TC: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'TD': PhoneMetadataLengths(
+  IsoCode.TD: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'TG': PhoneMetadataLengths(
+  IsoCode.TG: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'TH': PhoneMetadataLengths(
+  IsoCode.TH: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8],
   ),
-  'TJ': PhoneMetadataLengths(
+  IsoCode.TJ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'TK': PhoneMetadataLengths(
+  IsoCode.TK: PhoneMetadataLengths(
     general: [],
     mobile: [4, 5, 6, 7],
     fixedLine: [4, 5, 6, 7],
   ),
-  'TL': PhoneMetadataLengths(
+  IsoCode.TL: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [7],
   ),
-  'TM': PhoneMetadataLengths(
+  IsoCode.TM: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'TN': PhoneMetadataLengths(
+  IsoCode.TN: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'TO': PhoneMetadataLengths(
+  IsoCode.TO: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [5],
   ),
-  'TR': PhoneMetadataLengths(
+  IsoCode.TR: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'TT': PhoneMetadataLengths(
+  IsoCode.TT: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'TV': PhoneMetadataLengths(
+  IsoCode.TV: PhoneMetadataLengths(
     general: [],
     mobile: [6, 7],
     fixedLine: [5],
   ),
-  'TW': PhoneMetadataLengths(
+  IsoCode.TW: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [8, 9],
   ),
-  'TZ': PhoneMetadataLengths(
+  IsoCode.TZ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'UA': PhoneMetadataLengths(
+  IsoCode.UA: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'UG': PhoneMetadataLengths(
+  IsoCode.UG: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'US': PhoneMetadataLengths(
+  IsoCode.US: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'UY': PhoneMetadataLengths(
+  IsoCode.UY: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8],
   ),
-  'UZ': PhoneMetadataLengths(
+  IsoCode.UZ: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'VA': PhoneMetadataLengths(
+  IsoCode.VA: PhoneMetadataLengths(
     general: [],
     mobile: [9, 10],
     fixedLine: [6, 7, 8, 9, 10, 11],
   ),
-  'VC': PhoneMetadataLengths(
+  IsoCode.VC: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'VE': PhoneMetadataLengths(
+  IsoCode.VE: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'VG': PhoneMetadataLengths(
+  IsoCode.VG: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'VI': PhoneMetadataLengths(
+  IsoCode.VI: PhoneMetadataLengths(
     general: [],
     mobile: [10],
     fixedLine: [10],
   ),
-  'VN': PhoneMetadataLengths(
+  IsoCode.VN: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [10],
   ),
-  'VU': PhoneMetadataLengths(
+  IsoCode.VU: PhoneMetadataLengths(
     general: [],
     mobile: [7],
     fixedLine: [5],
   ),
-  'WF': PhoneMetadataLengths(
+  IsoCode.WF: PhoneMetadataLengths(
     general: [],
     mobile: [6],
     fixedLine: [6],
   ),
-  'WS': PhoneMetadataLengths(
+  IsoCode.WS: PhoneMetadataLengths(
     general: [],
     mobile: [7, 10],
     fixedLine: [5, 6],
   ),
-  'XK': PhoneMetadataLengths(
+  IsoCode.XK: PhoneMetadataLengths(
     general: [],
     mobile: [8],
     fixedLine: [8, 9],
   ),
-  'YE': PhoneMetadataLengths(
+  IsoCode.YE: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [7, 8],
   ),
-  'YT': PhoneMetadataLengths(
+  IsoCode.YT: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'ZA': PhoneMetadataLengths(
+  IsoCode.ZA: PhoneMetadataLengths(
     general: [],
     mobile: [5, 6, 7, 8, 9],
     fixedLine: [9],
   ),
-  'ZM': PhoneMetadataLengths(
+  IsoCode.ZM: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [9],
   ),
-  'ZW': PhoneMetadataLengths(
+  IsoCode.ZW: PhoneMetadataLengths(
     general: [],
     mobile: [9],
     fixedLine: [5, 6, 7, 8, 9, 10],

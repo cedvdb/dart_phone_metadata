@@ -4,10 +4,11 @@ version: 4.0.2
 homepage: https://github.com/cedvdb/dart_phone_metadata
 
 environment:
-  sdk: '>=2.14.0 <3.0.0'
+  sdk: ">=2.14.0 <3.0.0"
 
-# dependencies:
-#   path: ^1.8.0
+dependencies:
+  path: ^1.8.0
+  dart_countries: ^3.0.1
 
 dev_dependencies:
   pedantic: ^1.10.0
