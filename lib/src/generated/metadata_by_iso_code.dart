@@ -1719,7 +1719,7 @@ const metadataByIsoCode = {
     isoCode: IsoCode.TJ,
     leadingDigits: null,
     internationalPrefix: r'810',
-    nationalPrefix: r'8',
+    nationalPrefix: null,
     isMainCountryForDialCode: false,
   ),
   IsoCode.TK: PhoneMetadata(
