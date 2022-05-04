@@ -46,8 +46,14 @@ Map convertTerritory(Map<String, dynamic> territory) {
       'nationalPrefixTransformRule': territory['nationalPrefixTransformRule'],
       'general': getPattern(territory['generalDesc']),
       'fixedLine': getPattern(territory['fixedLine']),
-      // see comments on lengths
+      // see comment on lengths
       'mobile': getPattern(territory['mobile'] ?? territory['fixedLine']),
+    },
+    'examples': {
+      'fixedLine': territory['fixedLine']['exampleNumber'],
+      // see comment on lengths
+      'mobile':
+          (territory['mobile'] ?? territory['fixedLine'])['exampleNumber'],
     },
     'formats': getFormats(territory['availableFormats']?['numberFormat']),
   };

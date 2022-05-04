@@ -44,6 +44,14 @@ Future<Map<IsoCode, PhoneMetadataFormats>> getMetadataFormats() async {
   });
 }
 
+Future<Map<IsoCode, PhoneMetadataExamples>> getMetadataExamples() async {
+  final info = await readMetadataJson();
+  return info.map(
+    (key, value) => MapEntry(IsoCode.values.byName(key.toUpperCase()),
+        PhoneMetadataExamples.fromMap(value['examples'])),
+  );
+}
+
 Future<Map<String, dynamic>> readMetadataJson() async {
   final filePath = 'resources/data_sources/parsed_phone_number_metadata.json';
   final jsonString = await File(filePath).readAsString();

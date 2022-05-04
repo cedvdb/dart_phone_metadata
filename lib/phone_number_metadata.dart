@@ -9,3 +9,4 @@ export 'src/models/phone_metadata.dart';
 export 'src/models/phone_metadata_patterns.dart';
 export 'src/models/phone_metadata_lengths.dart';
 export 'src/models/phone_metadata_formats.dart';
+export 'src/models/phone_metadata_examples.dart';

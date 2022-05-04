@@ -1,4 +1,7 @@
 ## 5.0.1
+- added examples
+
+## 5.0.1
 - updated metadata
 
 ## 5.0.0

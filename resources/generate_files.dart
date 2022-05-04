@@ -1,10 +1,6 @@
 import 'dart:io';
 
 import 'package:phone_number_metadata/phone_number_metadata.dart';
-// import 'package:phone_number_metadata/src/models/phone_metadata.dart';
-// import 'package:phone_number_metadata/src/models/phone_metadata_formats.dart';
-// import 'package:phone_number_metadata/src/models/phone_metadata_lengths.dart';
-// import 'package:phone_number_metadata/src/models/phone_metadata_patterns.dart';
 import 'data_sources/read_metadata.dart';
 import 'utils/map_builder.dart';
 // ignore: avoid_relative_lib_imports
@@ -15,6 +11,7 @@ void main() async {
   final patterns = await getMetadataPatterns();
   final lengths = await getMetadataLengths();
   final formats = await getMetadataFormats();
+  final examples = await getMetadataExamples();
 
   final countryCodeMap = countryCodeToIsoCodeMap(metadatas);
 
@@ -23,6 +20,7 @@ void main() async {
     writePatternsMapFile(patterns),
     writeLenghtsMapFile(lengths),
     writeFormatsMapFile(formats),
+    writeExamplesMapFile(examples),
     writeCountryCodeMap(countryCodeMap),
   ]);
 }
@@ -101,5 +99,22 @@ Future writeFormatsMapFile(Map<IsoCode, PhoneMetadataFormats> metadata) async {
   content = content.replaceFirst('%%', body);
   final file = await File('lib/src/generated/metadata_formats_by_iso_code.dart')
       .create(recursive: true);
+  await file.writeAsString(content);
+}
+
+Future writeExamplesMapFile(
+    Map<IsoCode, PhoneMetadataExamples> metadata) async {
+  var content =
+      'import "package:phone_number_metadata/phone_number_metadata.dart";'
+      'import "../models/phone_metadata_examples.dart";'
+      'const metadataExamplesByIsoCode = {%%};';
+  var body = '';
+  metadata.forEach((key, value) {
+    body += '$key: ${encodeExamples(value)},';
+  });
+  content = content.replaceFirst('%%', body);
+  final file =
+      await File('lib/src/generated/metadata_examples_by_iso_code.dart')
+          .create(recursive: true);
   await file.writeAsString(content);
 }

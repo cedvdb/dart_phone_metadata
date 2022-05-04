@@ -47,6 +47,13 @@ String encodeFormats(PhoneMetadataFormat formats) {
     )''';
 }
 
+String encodeExamples(PhoneMetadataExamples examples) {
+  return '''PhoneMetadataExamples(
+      fixedLine: ${_enc(examples.fixedLine)},
+      mobile: ${_enc(examples.mobile)},
+    )''';
+}
+
 String _enc(v) {
   if (v is String) return 'r"$v"';
   if (v == null) return 'null';
