@@ -1,6 +1,6 @@
 name: phone_number_metadata
 description: phone metadata from lib phone number as dart consts
-version: 5.0.2
+version: 5.0.3
 homepage: https://github.com/cedvdb/dart_phone_metadata
 
 environment:
