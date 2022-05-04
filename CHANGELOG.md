@@ -1,3 +1,6 @@
+## 5.0.1
+- updated metadata
+
 ## 5.0.0
 
 - usage of IsoCode enum
