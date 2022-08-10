@@ -26,6 +26,14 @@ String encodePatterns(PhoneMetadataPatterns metadata) {
       general: ${_enc(metadata.general)}, 
       mobile: ${_enc(metadata.mobile)}, 
       fixedLine: ${_enc(metadata.fixedLine)}, 
+      tollFree: ${_enc(metadata.tollFree)},
+      premiumRate: ${_enc(metadata.premiumRate)},
+      sharedCost: ${_enc(metadata.sharedCost)},
+      pager: ${_enc(metadata.pager)},
+      voicemail: ${_enc(metadata.voicemail)},
+      uan: ${_enc(metadata.uan)},
+      voip: ${_enc(metadata.voip)},
+      noInternationalDialling: ${_enc(metadata.noInternationalDialling)},
     )''';
 }
 
@@ -34,6 +42,14 @@ String encodeLengths(PhoneMetadataLengths lengths) {
       general: ${_enc(lengths.general)}, 
       mobile: ${_enc(lengths.mobile)}, 
       fixedLine: ${_enc(lengths.fixedLine)}, 
+      tollFree: ${_enc(lengths.tollFree)},
+      premiumRate: ${_enc(lengths.premiumRate)},
+      sharedCost: ${_enc(lengths.sharedCost)},
+      pager: ${_enc(lengths.pager)},
+      voicemail: ${_enc(lengths.voicemail)},
+      uan: ${_enc(lengths.uan)},
+      voip: ${_enc(lengths.voip)},
+      noInternationalDialling: ${_enc(lengths.noInternationalDialling)},
     )''';
 }
 

@@ -25,6 +25,42 @@ Future convertPhoneNumberMetadata() async {
 }
 
 Map convertTerritory(Map<String, dynamic> territory) {
+  List<String> numberTypes = [
+      'fixedLine',
+      'mobile',
+      'tollFree',
+      'premiumRate',
+      'sharedCost',
+      'pager',
+      'voicemail',
+      'uan',
+      'voip',
+      'noInternationalDialling'
+  ];
+  Map<String, dynamic> lengths = {};
+  Map<String, dynamic> patterns = {};
+
+  lengths['general'] = getPossibleLengths(territory['generalDesc']);
+  numberTypes.forEach((numType) {
+      if (territory.containsKey(numType)) {
+        var match = getPattern(territory[numType]);
+        if (match != null) {
+            lengths[numType] = getPossibleLengths(territory[numType]);
+        }
+      }
+  });
+  patterns['nationalPrefixForParsing'] = territory['nationalPrefixForParsing'];
+  patterns['nationalPrefixTransformRule'] = territory['nationalPrefixTransformRule'];
+  patterns['general'] = getPattern(territory['generalDesc']);
+  numberTypes.forEach((numType) {
+      if (territory.containsKey(numType)) {
+        var match = getPattern(territory[numType]);
+        if (match != null) {
+            patterns[numType] = match;
+        }
+      }
+  });
+
   return {
     'isoCode': territory['id'],
     'countryCode': territory['countryCode'],
@@ -32,23 +68,8 @@ Map convertTerritory(Map<String, dynamic> territory) {
     'nationalPrefix': territory['nationalPrefix'],
     'leadingDigits': territory['leadingDigits'],
     'isMainCountryForDialCode': territory['mainCountryForCode'] == 'true',
-    'lengths': {
-      'general': getPossibleLengths(territory['generalDesc']),
-      'fixedLine': getPossibleLengths(territory['fixedLine']),
-      // there is one island with 800 people on it that does not have mobile phones,
-      // fixedLine is used for that island. It is called Tristan de Cuhan. They are worth
-      // a read on wikipedia
-      'mobile':
-          getPossibleLengths(territory['mobile'] ?? territory['fixedLine']),
-    },
-    'patterns': {
-      'nationalPrefixForParsing': territory['nationalPrefixForParsing'],
-      'nationalPrefixTransformRule': territory['nationalPrefixTransformRule'],
-      'general': getPattern(territory['generalDesc']),
-      'fixedLine': getPattern(territory['fixedLine']),
-      // see comment on lengths
-      'mobile': getPattern(territory['mobile'] ?? territory['fixedLine']),
-    },
+    'lengths': lengths,
+    'patterns': patterns,
     'examples': {
       'fixedLine': territory['fixedLine']['exampleNumber'],
       // see comment on lengths
