@@ -18,7 +18,7 @@ void main() async {
   await Future.wait([
     writeMetadataMapFile(metadatas),
     writePatternsMapFile(patterns),
-    writeLenghtsMapFile(lengths),
+    writeLengthsMapFile(lengths),
     writeFormatsMapFile(formats),
     writeExamplesMapFile(examples),
     writeCountryCodeMap(countryCodeMap),
@@ -72,11 +72,11 @@ Future writePatternsMapFile(
   await file.writeAsString(content);
 }
 
-Future writeLenghtsMapFile(Map<IsoCode, PhoneMetadataLengths> metadata) async {
+Future writeLengthsMapFile(Map<IsoCode, PhoneMetadataLengths> metadata) async {
   var content =
       'import "package:phone_number_metadata/phone_number_metadata.dart";'
       'import "../models/phone_metadata_lengths.dart";'
-      'const metadataLenghtsByIsoCode = {%%};';
+      'const metadataLengthsByIsoCode = {%%};';
   var body = '';
   metadata.forEach((key, value) {
     body += '$key: ${encodeLengths(value)},';
