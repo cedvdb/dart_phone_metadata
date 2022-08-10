@@ -1,3 +1,6 @@
+## 5.0.4
+- updated metadata
+
 ## 5.0.3
 - export examples
 
