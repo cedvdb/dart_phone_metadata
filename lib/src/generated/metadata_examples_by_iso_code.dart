@@ -190,7 +190,7 @@ const metadataExamplesByIsoCode = {
     mobile: r'13123456789',
   ),
   IsoCode.CO: PhoneMetadataExamples(
-    fixedLine: r'12345678',
+    fixedLine: r'6012345678',
     mobile: r'3211234567',
   ),
   IsoCode.CR: PhoneMetadataExamples(

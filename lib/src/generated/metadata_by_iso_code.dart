@@ -1366,7 +1366,7 @@ const metadataByIsoCode = {
     countryCode: r'51',
     isoCode: IsoCode.PE,
     leadingDigits: null,
-    internationalPrefix: r'19(?:1[124]|77|90)00',
+    internationalPrefix: r'00|19(?:1[124]|77|90)00',
     nationalPrefix: r'0',
     isMainCountryForDialCode: false,
   ),
