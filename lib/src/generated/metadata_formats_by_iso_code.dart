@@ -1426,7 +1426,15 @@ const metadataFormatsByIsoCode = <IsoCode, PhoneMetadataFormats>{
     )
   ],
   IsoCode.DM: [],
-  IsoCode.DO: [],
+  IsoCode.DO: [
+    PhoneMetadataFormat(
+      pattern: r'(\d{3})(\d{4})',
+      nationalPrefixFormattingRule: null,
+      leadingDigits: ['310'],
+      format: r'$1-$2',
+      intlFormat: null,
+    )
+  ],
   IsoCode.DZ: [
     PhoneMetadataFormat(
       pattern: r'(\d{2})(\d{2})(\d{2})(\d{2})',
