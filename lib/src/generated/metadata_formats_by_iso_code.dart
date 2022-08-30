@@ -1431,7 +1431,7 @@ const metadataFormatsByIsoCode = <IsoCode, PhoneMetadataFormats>{
       pattern: r'(\d{3})(\d{4})',
       nationalPrefixFormattingRule: null,
       leadingDigits: ['310'],
-      format: r'$1-$2-$4',
+      format: r'$1-$2-',
       intlFormat: null,
     )
   ],
