@@ -15380,7 +15380,7 @@
               "national": "9"
             },
             "exampleNumber": "712345678",
-            "nationalNumberPattern": "7[0137]\\d{7}"
+            "nationalNumberPattern": "7[01378]\\d{7}"
           }
         },
         {

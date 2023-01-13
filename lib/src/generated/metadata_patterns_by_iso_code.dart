@@ -1880,7 +1880,7 @@ const metadataPatternsByIsoCode = {
     nationalPrefixForParsing: null,
     nationalPrefixTransformRule: null,
     general: r'(?:1|7\d)\d{7}|[1-7]\d{6}',
-    mobile: r'7[0137]\d{7}',
+    mobile: r'7[01378]\d{7}',
     fixedLine:
         r'78[0-7]\d{4}|17\d{6}|(?:[12][2-68]|3[2358]|4[2-58]|5[2-6]|6[3-58]|7[24-6])\d{5}',
   ),
