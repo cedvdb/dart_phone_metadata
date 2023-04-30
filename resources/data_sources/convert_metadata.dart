@@ -8,9 +8,8 @@ void main() async {
 /// reads the phone number metadata from the ios library phoneNumberKit
 /// and applies some changes to it to make it fit the naming here
 Future convertPhoneNumberMetadata() async {
-  final inputFile =
-      'resources/data_sources/original_phone_number_metadata.json';
-  final outputFile = 'resources/data_sources/parsed_phone_number_metadata.json';
+  final inputFile = './original_phone_number_metadata.json';
+  final outputFile = './parsed_phone_number_metadata.json';
   final jsonString = await File(inputFile).readAsString();
   Map<String, dynamic> metadata = jsonDecode(jsonString);
   // remove unnecessary nesting in metadata
@@ -61,6 +60,7 @@ Map convertTerritory(Map<String, dynamic> territory) {
 
 List<int> getPossibleLengths(Map<String, dynamic> validation) {
   var lengths = validation['possibleLengths'];
+  print(lengths);
   lengths = lengths?['national'];
   return _parsePossibleLengths(lengths);
 }
