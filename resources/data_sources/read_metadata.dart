@@ -53,8 +53,7 @@ Future<Map<IsoCode, PhoneMetadataExamples>> getMetadataExamples() async {
 }
 
 Future<Map<String, dynamic>> readMetadataJson() async {
-  final filePath =
-      '/home/sumit/StudioProjects/dart_phone_metadata/resources/data_sources/parsed_phone_number_metadata.json';
+  final filePath = 'resources/data_sources/parsed_phone_number_metadata.json';
   final jsonString = await File(filePath).readAsString();
   return jsonDecode(jsonString);
 }
