@@ -1,4 +1,4 @@
-import 'package:phone_number_metadata/phone_number_metadata.dart';
+import "package:phone_number_metadata/phone_number_metadata.dart";
 
 const countryCodeToIsoCode = {
   '247': [IsoCode.AC],
