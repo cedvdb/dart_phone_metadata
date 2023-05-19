@@ -1,4 +1,4 @@
-import "package:phone_number_metadata/phone_number_metadata.dart";import "../models/phone_metadata_formats.dart";const metadataFormatsByIsoCode = <IsoCode, PhoneMetadataFormats>{IsoCode.AC: [],IsoCode.AD: [PhoneMetadataFormat(
+import "package:phone_number_metadata/phone_number_metadata.dart";const metadataFormatsByIsoCode = <IsoCode, PhoneMetadataFormats>{IsoCode.AC: [],IsoCode.AD: [PhoneMetadataFormat(
       pattern: r"(\d{3})(\d{3})",
       nationalPrefixFormattingRule: null,
       leadingDigits: ["[135-9]"],

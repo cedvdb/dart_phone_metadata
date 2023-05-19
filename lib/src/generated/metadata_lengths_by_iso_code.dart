@@ -1,4 +1,4 @@
-import "package:phone_number_metadata/phone_number_metadata.dart";import "../models/phone_metadata_lengths.dart";const metadataLenghtsByIsoCode = {IsoCode.AC: PhoneMetadataLengths(
+import "package:phone_number_metadata/phone_number_metadata.dart";const metadataLenghtsByIsoCode = {IsoCode.AC: PhoneMetadataLengths(
       general: [], 
       mobile: [5], 
       fixedLine: [5], 

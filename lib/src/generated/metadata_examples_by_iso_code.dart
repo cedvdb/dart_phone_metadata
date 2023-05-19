@@ -1,4 +1,4 @@
-import "package:phone_number_metadata/phone_number_metadata.dart";import "../models/phone_metadata_examples.dart";const metadataExamplesByIsoCode = {IsoCode.AC: PhoneMetadataExamples(
+import "package:phone_number_metadata/phone_number_metadata.dart";const metadataExamplesByIsoCode = {IsoCode.AC: PhoneMetadataExamples(
       fixedLine: r"62889",
       mobile: r"40123",
     ),IsoCode.AD: PhoneMetadataExamples(

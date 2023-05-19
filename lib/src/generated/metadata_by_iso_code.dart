@@ -1,4 +1,4 @@
-import "package:phone_number_metadata/phone_number_metadata.dart";import "../models/phone_metadata.dart";const metadataByIsoCode = {IsoCode.AC: PhoneMetadata(
+import "package:phone_number_metadata/phone_number_metadata.dart";const metadataByIsoCode = {IsoCode.AC: PhoneMetadata(
       countryCode: r"247", 
       isoCode: IsoCode.AC,
       leadingDigits: null,
