@@ -1,13 +1,21 @@
+## 5.0.5
+
+- Update dart sdk to [">=2.19.2 <4.0.0"].
+
 ## 5.0.4
+
 - updated metadata
 
 ## 5.0.3
+
 - export examples
 
 ## 5.0.2
+
 - added examples
 
 ## 5.0.1
+
 - updated metadata
 
 ## 5.0.0
