@@ -7,6 +7,6 @@ The metadata is splitted in 3 classes:
   - Patterns
   - Formats
 
-How to contribute:
+## How to contribute:
 
 This repository uses the metadata from marmelroy/PhoneNumberKit repository. To update the metadata here [read the following](resources/README.md)
