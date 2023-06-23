@@ -6,3 +6,6 @@ The metadata is splitted in 3 classes:
   - Lengths
   - Patterns
   - Formats
+
+How to contribute:
+  - 

@@ -4,11 +4,11 @@ version: 5.0.4
 homepage: https://github.com/cedvdb/dart_phone_metadata
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  path: ^1.8.2
-  dart_countries: ^3.0.1
+  path: ^1.8.3
+  dart_countries: ^3.0.3
 
 dev_dependencies:
   flutter_lints: ^2.0.1
